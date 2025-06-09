@@ -1,0 +1,42 @@
+#menu-container {
+  position: absolute;
+  z-index: 9999;
+}
+
+.menu {
+  background: #6c2eb7; /* Morado */
+  border-radius: 12px;
+  min-width: 140px;
+  max-width: 180px;
+  padding: 20px 0;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.menu > div {
+  color: #fff;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 24px;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.2s;
+  border-radius: 6px;
+}
+
+.menu > div:hover {
+  background: rgba(255,255,255,0.12);
+}
+
+.menu > .informar-de-un-problema {
+  text-align: center;
+  color: #ffe066;
+  font-size: 13px;
+  margin-top: 8px;
+  padding: 8px 24px;
+  background: none;
+  cursor: pointer;
+}

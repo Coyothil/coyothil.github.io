@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS-LOGIN/style-create.css">
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+       -webkit-font-smoothing: antialiased;
+   }
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="create-account">
+    <img class="image-21" src="./Assets/imagenes/image-210.png" />
+    <div class="rectangle-9636"></div>
+    <div class="astra-index">Astra Index</div>
+    <img class="frame-1" src="./Assets/imagenes/frame-10.png" />
+    <div class="frame-14">
+      <div class="frame-13">
+        <div class="frame-2">
+          <div class="create-account2">Create account</div>
+        </div>
+        <div class="frame-12">
+          <img class="image-2" src="./Assets/imagenes/image-20.png" />
+          <div class="continue-with-google">Continue with Google</div>
+        </div>
+      </div>
+      <div class="or-sign-in-with-email">
+        <span>
+          <span class="or-sign-in-with-email-span">-------------</span>
+          <span class="or-sign-in-with-email-span2">or Sign in with Email</span>
+          <span class="or-sign-in-with-email-span">-------------</span>
+        </span>
+      </div>
+      <form class="frame-122">
+        <div class="frame-5">
+          <label class="name" for="name">Name</label>
+          <div class="frame-3">
+            <input type="text" id="name" class="mail-abc-com" placeholder="Your name" required />
+          </div>
+        </div>
+        <div class="frame-11">
+          <div class="frame-5">
+            <label class="email" for="email">Email</label>
+            <div class="frame-3">
+              <input type="email" id="email" class="mail-abc-com" placeholder="mail@abc.com" required />
+            </div>
+          </div>
+          <div class="frame-9">
+            <div class="frame-6">
+              <label class="password" for="password">Password</label>
+              <div class="frame-4">
+                <input type="password" id="password" class="div" placeholder="*************" required />
+              </div>
+            </div>
+            <div class="frame-8">
+              <div class="checkbox">
+                <input type="checkbox" id="remember" class="check" />
+                <label for="remember" class="remember-me">Remember Me</label>
+              </div>
+              <a class="forgot-password" href="Password.html">Forgot Password?</a>
+            </div>
+          </div>
+        </div>
+        <div class="frame-7">
+          <button type="submit" class="get-started">Get Started</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script>
+    document.querySelector('.frame-122').addEventListener('submit', function(e) {
+      e.preventDefault();
+      window.location.href = 'index.html';
+    });
+  </script>
+</body>
+</html>
