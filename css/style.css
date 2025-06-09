@@ -1583,3 +1583,596 @@
   width: 59px;
   height: 43px;
 }
+
+/*================*/
+/*Buscador*/
+/*================*/
+
+.buscador,
+.buscador * {
+  box-sizing: border-box;
+}
+.buscador {
+  background: #121217;
+  height: 1024px;
+  position: relative;
+}
+.rectangle-8 {
+  background: #292b38;
+  border-radius: 12px;
+  width: 103px;
+  height: 32px;
+  position: absolute;
+  left: 1013px;
+  top: 379px;
+}
+.rectangle-15 {
+  background: #292b38;
+  border-radius: 12px;
+  width: 103px;
+  height: 32px;
+  position: absolute;
+  left: 1013px;
+  top: 423px;
+}
+.rectangle-9 {
+  background: #292b38;
+  border-radius: 12px;
+  width: 103px;
+  height: 32px;
+  position: absolute;
+  left: 1013px;
+  top: 335px;
+}
+.rectangle-10 {
+  background: #292b38;
+  border-radius: 12px;
+  width: 155px;
+  height: 32px;
+  position: absolute;
+  left: 1015px;
+  top: 209px;
+}
+.rectangle-13 {
+  background: #292b38;
+  border-radius: 12px;
+  width: 155px;
+  height: 32px;
+  position: absolute;
+  left: 1015px;
+  top: 209px;
+}
+.rectangle-14 {
+  background: #292b38;
+  border-radius: 12px;
+  width: 107px;
+  height: 32px;
+  position: absolute;
+  left: 1013px;
+  top: 294px;
+}
+.rectangle-19 {
+  background: #292b38;
+  border-radius: 12px;
+  width: 56px;
+  height: 32px;
+  position: absolute;
+  left: 1125px;
+  top: 422px;
+}
+.rectangle-20 {
+  background: #292b38;
+  border-radius: 12px;
+  width: 138px;
+  height: 32px;
+  position: absolute;
+  left: 1156px;
+  top: 253px;
+}
+.rectangle-21 {
+  background: #292b38;
+  border-radius: 12px;
+  width: 133px;
+  height: 32px;
+  position: absolute;
+  left: 1187px;
+  top: 209px;
+}
+.rectangle-17 {
+  background: #292b38;
+  border-radius: 12px;
+  width: 107px;
+  height: 32px;
+  position: absolute;
+  left: 1131px;
+  top: 335px;
+}
+.rectangle-18 {
+  background: #292b38;
+  border-radius: 12px;
+  width: 107px;
+  height: 32px;
+  position: absolute;
+  left: 1129px;
+  top: 378px;
+}
+.rectangle-16 {
+  background: #292b38;
+  border-radius: 12px;
+  width: 133px;
+  height: 32px;
+  position: absolute;
+  left: 1139px;
+  top: 294px;
+}
+.rectangle-12 {
+  background: #292b38;
+  border-radius: 12px;
+  width: 124px;
+  height: 30px;
+  position: absolute;
+  left: 1015px;
+  top: 253px;
+}
+.trending-topics {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  position: absolute;
+  left: 1019px;
+  top: 157px;
+  width: 328px;
+}
+.luna {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1136px;
+  top: 428px;
+  width: 67px;
+}
+.n-bulosas {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1023px;
+  top: 428px;
+  width: 85px;
+}
+.supernovas {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1139px;
+  top: 383px;
+  width: 88px;
+}
+.astrobiolog-a {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1019px;
+  top: 384px;
+  width: 99px;
+}
+.galaxias {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1150px;
+  top: 340px;
+  width: 69px;
+}
+.exoplanetas {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1023px;
+  top: 340px;
+  width: 87px;
+}
+.misiones-a-marte {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1152px;
+  top: 299px;
+  width: 120px;
+}
+.cosmolog-a {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1026px;
+  top: 299px;
+  width: 99px;
+}
+.astronom-a-b-sica {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1165px;
+  top: 259px;
+  width: 129px;
+}
+.agujeros-negros {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1023px;
+  top: 258px;
+  width: 127px;
+}
+.astrofototgraf-a {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1200px;
+  top: 215px;
+  width: 132px;
+}
+.exploraci-n-espacial {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1026px;
+  top: 215px;
+  width: 155px;
+}
+.rectangle-7 {
+  background: #292b38;
+  border-radius: 12px;
+  width: 448px;
+  height: 56px;
+  position: absolute;
+  left: 74px;
+  top: 268px;
+}
+.buscar {
+  color: #9ea3b8;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 90px;
+  top: 284px;
+  width: 146px;
+}
+.line-2 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 868px;
+  height: 0px;
+  position: absolute;
+  left: 74px;
+  top: 640.19px;
+  transform-origin: 0 0;
+  transform: rotate(-0.013deg) scale(1, 1);
+}
+.line-3 {
+  width: 868px;
+  height: 0px;
+  position: absolute;
+  left: 74px;
+  top: 566px;
+  overflow: visible;
+}
+.line-4 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 868px;
+  height: 0px;
+  position: absolute;
+  left: 74px;
+  top: 490px;
+}
+.line-5 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 868px;
+  height: 0px;
+  position: absolute;
+  left: 74px;
+  top: 422px;
+}
+.fecha-de-publicaci-n {
+  color: #9ea3b8;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 74px;
+  top: 517px;
+}
+.popularidad {
+  color: #9ea3b8;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 74px;
+  top: 445px;
+}
+.todas {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 369px;
+  top: 517px;
+}
+.desde-siempre {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 369px;
+  top: 445px;
+}
+.todos-los-lenguajes {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 369px;
+  top: 582px;
+}
+.lenguaje {
+  color: #9ea3b8;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 74px;
+  top: 582px;
+}
+.l-mite-de-popularidad {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 74px;
+  top: 734px;
+}
+.l-mite-de-relevancia {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 74px;
+  top: 804px;
+}
+.rectangle-6 {
+  background: #362645;
+  border-radius: 20px;
+  width: 84px;
+  height: 40px;
+  position: absolute;
+  left: 826px;
+  top: 870px;
+}
+.buscar2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: absolute;
+  left: 843.5px;
+  top: 879.5px;
+}
+.b-squeda-avanzada {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 30px;
+  line-height: 28px;
+  font-weight: 700;
+  position: absolute;
+  left: 74px;
+  top: 140px;
+  width: 836px;
+}
+.depth-4-frame-3 {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1362px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.vector-4 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 1156px;
+  top: 29px;
+  overflow: visible;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.astra-index {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  position: absolute;
+  left: 72px;
+  top: 20.5px;
+  width: 148px;
+}
+.frame-1 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 31px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image-1 {
+  width: 17px;
+  height: 20px;
+  position: absolute;
+  left: 1207px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 17/20;
+}
+.image-2 {
+  width: 21px;
+  height: 20px;
+  position: absolute;
+  left: 1252px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 21/20;
+}
+.image-3 {
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  left: 1301px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 19/20;
+}
+.art-culos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1065px;
+  top: 29px;
+  width: 65px;
+}
+.live {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1009px;
+  top: 29px;
+  width: 34px;
+  height: 22px;
+}
+.destacados {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 899px;
+  top: 29px;
+  width: 82px;
+  height: 43px;
+}
+.explorar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 812px;
+  top: 29px;
+  width: 59px;
+  height: 43px;
+}
+
