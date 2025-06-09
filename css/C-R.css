@@ -1,0 +1,381 @@
+.comentarios-pc,
+.comentarios-pc * {
+  box-sizing: border-box;
+}
+.comentarios-pc {
+  background: #121217;
+  height: 1024px;
+  position: relative;
+}
+.rectangle-25 {
+  background: #261c33;
+  border-radius: 12px;
+  width: 357px;
+  height: 737px;
+  position: absolute;
+  left: 577px;
+  top: 117px;
+}
+.image-8 {
+  width: 354px;
+  height: 704px;
+  position: absolute;
+  left: 577px;
+  top: 134px;
+  object-fit: cover;
+}
+.la-b-squeda-por-vida-extraterrestre {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 598px;
+  top: 744px;
+}
+.por-dr-sarah-rugheimer {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 598px;
+  top: 777px;
+}
+.depth-4-frame-3 {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1362px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.vector-4 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 1156px;
+  top: 29px;
+  overflow: visible;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.astra-index {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  position: absolute;
+  left: 72px;
+  top: 20.5px;
+  width: 148px;
+}
+.frame-1 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 31px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image-1 {
+  width: 17px;
+  height: 20px;
+  position: absolute;
+  left: 1207px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 17/20;
+}
+.image-2 {
+  width: 21px;
+  height: 20px;
+  position: absolute;
+  left: 1252px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 21/20;
+}
+.image-3 {
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  left: 1301px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 19/20;
+}
+.depth-4-frame-2 {
+  border-radius: 100px;
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  left: 220px;
+  top: 117px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.katherine {
+  color: #ffffff;
+  text-align: center;
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  position: absolute;
+  left: 232px;
+  top: 279px;
+}
+.astrof-sica-el-cielo-de-la-noche-cienca-los-angeles-ca {
+  color: #a1824a;
+  text-align: left;
+  font-family: "PlusJakartaSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 133px;
+  top: 324px;
+}
+.vector-1 {
+  width: 28px;
+  height: 26px;
+  position: absolute;
+  left: 955px;
+  top: 591px;
+  overflow: visible;
+}
+.ellipse-1 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 955px;
+  top: 658px;
+}
+.vector-2 {
+  width: 8.5px;
+  height: 7.5px;
+  position: absolute;
+  left: 975px;
+  top: 678px;
+  overflow: visible;
+}
+.vector-3 {
+  width: 30.5px;
+  height: 32px;
+  position: absolute;
+  left: 1007px;
+  top: 662px;
+  overflow: visible;
+}
+.group-5 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-26 {
+  background: #362645;
+  border-radius: 24px;
+  width: 281px;
+  height: 591px;
+  position: absolute;
+  left: 1029px;
+  top: 117px;
+}
+.user-199856678 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1104px;
+  top: 569px;
+  width: 183px;
+}
+.espero-que-hables-m-s-sobre-el-tema {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1104px;
+  top: 605px;
+  width: 183px;
+}
+.image-7 {
+  width: 79px;
+  height: 48px;
+  position: absolute;
+  left: 1038px;
+  top: 557px;
+  object-fit: cover;
+  aspect-ratio: 79/48;
+}
+.gran-video {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1104px;
+  top: 191px;
+  width: 183px;
+}
+.user-20021033 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1104px;
+  top: 157px;
+  width: 183px;
+}
+.user-20063345 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1104px;
+  top: 245px;
+  width: 183px;
+}
+.user-201189341 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1104px;
+  top: 360px;
+  width: 183px;
+}
+.que-buena-edici-n-del-video {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1104px;
+  top: 283px;
+  width: 183px;
+}
+.de-verdad-que-estoy-sorprendido-no-sabia-todo-el-esfuerzo-que-se-habia-llevado-a-cabo-en-busca-de-otra-forma-de-vida-diferente {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 1105px;
+  top: 394px;
+  width: 183px;
+}
+.image-4 {
+  width: 79px;
+  height: 48px;
+  position: absolute;
+  left: 1038px;
+  top: 147px;
+  object-fit: cover;
+  aspect-ratio: 79/48;
+}
+.image-5 {
+  width: 79px;
+  height: 48px;
+  position: absolute;
+  left: 1038px;
+  top: 233px;
+  object-fit: cover;
+  aspect-ratio: 79/48;
+}
+.image-6 {
+  width: 79px;
+  height: 48px;
+  position: absolute;
+  left: 1038px;
+  top: 348px;
+  object-fit: cover;
+  aspect-ratio: 79/48;
+}
+.art-culos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1058px;
+  top: 29px;
+  width: 65px;
+}
+.live {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1002px;
+  top: 29px;
+  width: 34px;
+  height: 22px;
+}
+.destacados {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 892px;
+  top: 29px;
+  width: 82px;
+  height: 43px;
+}
+.explorar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 805px;
+  top: 29px;
+  width: 59px;
+  height: 43px;
+}
