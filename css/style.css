@@ -1,6 +1,6 @@
-/================/
-/Inicio/
-/================/
+/*================*/
+/*Inicio*/
+/*================*/
 
 .inicio,
 .inicio * {
@@ -613,9 +613,9 @@
   overflow: visible;
 }
 
-/================/
-/perfil-de-usuario-menciones/
-/================/
+/*================*/
+/*perfil-de-usuario-menciones*/
+/*================*/
 
 .perfil-de-usuario-menciones,
 .perfil-de-usuario-menciones * {
@@ -1051,6 +1051,534 @@
   font-weight: 500;
   position: absolute;
   left: 812px;
+  top: 29px;
+  width: 59px;
+  height: 43px;
+}
+
+/*================*/
+/*perfil-de-usuario-reels*/
+/*================*/
+
+.perfil-de-usuario-reels,
+.perfil-de-usuario-reels * {
+  box-sizing: border-box;
+}
+.perfil-de-usuario-reels {
+  background: #121217;
+  height: 1024px;
+  position: relative;
+}
+.feed {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: absolute;
+  left: 236px;
+  top: 289px;
+}
+.reels {
+  color: #a1824a;
+  text-align: left;
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: absolute;
+  left: 304px;
+  top: 289px;
+}
+.art-culos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: absolute;
+  left: 374px;
+  top: 289px;
+}
+.menciones {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: absolute;
+  left: 469px;
+  top: 289px;
+}
+.line-1 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 906px;
+  height: 0px;
+  position: absolute;
+  left: 221px;
+  top: 327px;
+  transform-origin: 0 0;
+  transform: rotate(0.126deg) scale(1, 1);
+}
+.rectangle-5 {
+  background: #d9d9d9;
+  width: 34px;
+  height: 4px;
+  position: absolute;
+  left: 305px;
+  top: 323px;
+}
+.group-124 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-24 {
+  background: #261c33;
+  border-radius: 12px;
+  width: 357px;
+  height: 383px;
+  position: absolute;
+  left: 541px;
+  top: 438px;
+}
+.boton-de-ver {
+  width: 84px;
+  height: 32px;
+  position: static;
+}
+.rectangle-20 {
+  background: #362645;
+  border-radius: 16px;
+  width: 84px;
+  height: 32px;
+  position: absolute;
+  left: 677px;
+  top: 754px;
+}
+.ver {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 707.5px;
+  top: 759.5px;
+}
+.depth-6-frame-1 {
+  border-radius: 12px;
+  width: 309px;
+  height: 165px;
+  position: absolute;
+  left: 565px;
+  top: 455px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.como-fotografiar-la-v-a-l-ctea {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 565px;
+  top: 637px;
+}
+.por-mark-gee {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 565px;
+  top: 674px;
+}
+.group-4 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-25 {
+  background: #261c33;
+  border-radius: 12px;
+  width: 357px;
+  height: 383px;
+  position: absolute;
+  left: 929px;
+  top: 438px;
+}
+.rectangle-202 {
+  background: #362645;
+  border-radius: 16px;
+  width: 84px;
+  height: 32px;
+  position: absolute;
+  left: 1065px;
+  top: 754px;
+}
+.ver2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1095.5px;
+  top: 759.5px;
+}
+.depth-6-frame-12 {
+  border-radius: 12px;
+  width: 309px;
+  height: 165px;
+  position: absolute;
+  left: 953px;
+  top: 455px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.la-b-squeda-por-vida-extraterrestre {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 953px;
+  top: 637px;
+}
+.por-dr-sarah-rugheimer {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 953px;
+  top: 674px;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-23 {
+  background: #261c33;
+  border-radius: 12px;
+  width: 357px;
+  height: 383px;
+  position: absolute;
+  left: 153px;
+  top: 438px;
+}
+.depth-6-frame-13 {
+  border-radius: 12px;
+  width: 309px;
+  height: 165px;
+  position: absolute;
+  left: 177px;
+  top: 455px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.la-antig-edad-de-la-luna {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 177px;
+  top: 637px;
+}
+.por-dr-james-o-donoghue {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 177px;
+  top: 674px;
+}
+.rectangle-203 {
+  background: #362645;
+  border-radius: 16px;
+  width: 84px;
+  height: 32px;
+  position: absolute;
+  left: 289px;
+  top: 754px;
+}
+.ver3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 319.5px;
+  top: 759.5px;
+}
+.ltimos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 210px;
+  top: 343px;
+  width: 928px;
+}
+.group-123 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-6 {
+  background: #333f48;
+  border-radius: 20px;
+  width: 480px;
+  height: 40px;
+  position: absolute;
+  left: 479px;
+  top: 898px;
+}
+.cargar-m-s {
+  color: #ffffff;
+  text-align: center;
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: absolute;
+  left: 679.5px;
+  top: 907.5px;
+}
+.depth-4-frame-3 {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1362px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.vector-4 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 1156px;
+  top: 29px;
+  overflow: visible;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.astra-index {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  position: absolute;
+  left: 72px;
+  top: 20.5px;
+  width: 148px;
+}
+.frame-1 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 31px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image-1 {
+  width: 17px;
+  height: 20px;
+  position: absolute;
+  left: 1207px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 17/20;
+}
+.image-2 {
+  width: 21px;
+  height: 20px;
+  position: absolute;
+  left: 1252px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 21/20;
+}
+.image-3 {
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  left: 1301px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 19/20;
+}
+.depth-4-frame-2 {
+  border-radius: 100px;
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  left: 220px;
+  top: 117px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.katherine {
+  color: #ffffff;
+  text-align: center;
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  position: absolute;
+  left: 382px;
+  top: 141px;
+}
+.astrof-sica-el-cielo-de-la-noche-cienca-los-angeles-ca {
+  color: #a1824a;
+  text-align: left;
+  font-family: "PlusJakartaSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 382px;
+  top: 181px;
+}
+.rectangle-2 {
+  background: #362645;
+  border-radius: 20px;
+  width: 234px;
+  height: 40px;
+  position: absolute;
+  left: 532px;
+  top: 135px;
+}
+.nueva-publicacion {
+  color: #ffffff;
+  text-align: center;
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: absolute;
+  left: 585.5px;
+  top: 144.5px;
+}
+.seguidores {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 932px;
+  top: 177px;
+}
+.publicaciones {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 1175px;
+  top: 176px;
+}
+._255-mil {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 834px;
+  top: 176px;
+}
+._20 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 1132px;
+  top: 176px;
+}
+.art-culos2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1070px;
+  top: 29px;
+  width: 65px;
+}
+.live {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1014px;
+  top: 29px;
+  width: 34px;
+  height: 22px;
+}
+.destacados {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 904px;
+  top: 29px;
+  width: 82px;
+  height: 43px;
+}
+.explorar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 817px;
   top: 29px;
   width: 59px;
   height: 43px;
