@@ -1,11 +1,8 @@
-/================/
-/Articulos/
-/================/
-.perfil-de-usuario-articulos,
-.perfil-de-usuario-articulos * {
+.perfil-de-usuario-reels,
+.perfil-de-usuario-reels * {
   box-sizing: border-box;
 }
-.perfil-de-usuario-articulos {
+.perfil-de-usuario-reels {
   background: #121217;
   height: 1024px;
   position: relative;
@@ -22,7 +19,7 @@
   top: 289px;
 }
 .reels {
-  color: #ffffff;
+  color: #a1824a;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
   font-size: 14px;
@@ -32,8 +29,8 @@
   left: 304px;
   top: 289px;
 }
-.articulos {
-  color: #a1824a;
+.art-culos {
+  color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
   font-size: 14px;
@@ -72,73 +69,37 @@
   width: 34px;
   height: 4px;
   position: absolute;
-  left: 388px;
+  left: 305px;
   top: 323px;
 }
-.depth-6-frame-1 {
-  border-radius: 12px;
-  width: 303px;
-  height: 161px;
+.group-124 {
   position: absolute;
-  left: 855px;
-  top: 574px;
-  overflow: hidden;
-  object-fit: cover;
+  inset: 0;
 }
-.depth-6-frame-12 {
+.rectangle-24 {
+  background: #261c33;
   border-radius: 12px;
-  width: 303px;
-  height: 161px;
+  width: 357px;
+  height: 383px;
   position: absolute;
-  left: 855px;
-  top: 362px;
-  overflow: hidden;
-  object-fit: cover;
+  left: 541px;
+  top: 438px;
 }
-.rectangle-28 {
+.boton-de-ver {
+  width: 84px;
+  height: 32px;
+  position: static;
+}
+.rectangle-20 {
   background: #362645;
   border-radius: 16px;
-  width: 141px;
+  width: 84px;
   height: 32px;
   position: absolute;
-  left: 282px;
-  top: 470px;
+  left: 677px;
+  top: 754px;
 }
-.radiogalaxias-con-jets-que-est-n-desalineados-con-sus-galaxias-anfitrionas {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  position: absolute;
-  left: 282px;
-  top: 387px;
-  width: 573px;
-}
-.por-astra-index-astrof-sica-10-minutos {
-  color: #ad94c7;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 400;
-  position: absolute;
-  left: 282px;
-  top: 433px;
-}
-.astronomia {
-  color: #ad94c7;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 400;
-  position: absolute;
-  left: 282px;
-  top: 362px;
-}
-.leer-articulo {
+.ver {
   color: #ffffff;
   text-align: center;
   font-family: "Inter-Medium", sans-serif;
@@ -146,22 +107,20 @@
   line-height: 21px;
   font-weight: 500;
   position: absolute;
-  left: 289px;
-  top: 474px;
-  width: 126px;
+  left: 707.5px;
+  top: 759.5px;
 }
-.astronomia2 {
-  color: #ad94c7;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 400;
+.depth-6-frame-1 {
+  border-radius: 12px;
+  width: 309px;
+  height: 165px;
   position: absolute;
-  left: 282px;
-  top: 574px;
+  left: 565px;
+  top: 455px;
+  overflow: hidden;
+  object-fit: cover;
 }
-.el-telescopio-espacial-the-hubble-ha-descubierto-un-exoplaneta-con-cielo-azul {
+.como-fotografiar-la-v-a-l-ctea {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Bold", sans-serif;
@@ -169,11 +128,10 @@
   line-height: 20px;
   font-weight: 700;
   position: absolute;
-  left: 282px;
-  top: 599px;
-  width: 573px;
+  left: 565px;
+  top: 637px;
 }
-.por-astra-index-astrof-sica-2-meses {
+.por-mark-gee {
   color: #ad94c7;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
@@ -181,38 +139,163 @@
   line-height: 21px;
   font-weight: 400;
   position: absolute;
-  left: 282px;
-  top: 643px;
+  left: 565px;
+  top: 674px;
 }
-.rectangle-27 {
+.group-4 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-25 {
+  background: #261c33;
+  border-radius: 12px;
+  width: 357px;
+  height: 383px;
+  position: absolute;
+  left: 929px;
+  top: 438px;
+}
+.rectangle-202 {
   background: #362645;
   border-radius: 16px;
-  width: 141px;
+  width: 84px;
   height: 32px;
   position: absolute;
-  left: 282px;
-  top: 680px;
+  left: 1065px;
+  top: 754px;
 }
-.rectangle-26 {
+.ver2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1095.5px;
+  top: 759.5px;
+}
+.depth-6-frame-12 {
+  border-radius: 12px;
+  width: 309px;
+  height: 165px;
+  position: absolute;
+  left: 953px;
+  top: 455px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.la-b-squeda-por-vida-extraterrestre {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 953px;
+  top: 637px;
+}
+.por-dr-sarah-rugheimer {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 953px;
+  top: 674px;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-23 {
+  background: #261c33;
+  border-radius: 12px;
+  width: 357px;
+  height: 383px;
+  position: absolute;
+  left: 153px;
+  top: 438px;
+}
+.depth-6-frame-13 {
+  border-radius: 12px;
+  width: 309px;
+  height: 165px;
+  position: absolute;
+  left: 177px;
+  top: 455px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.la-antig-edad-de-la-luna {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 177px;
+  top: 637px;
+}
+.por-dr-james-o-donoghue {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 177px;
+  top: 674px;
+}
+.rectangle-203 {
+  background: #362645;
+  border-radius: 16px;
+  width: 84px;
+  height: 32px;
+  position: absolute;
+  left: 289px;
+  top: 754px;
+}
+.ver3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 319.5px;
+  top: 759.5px;
+}
+.ltimos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 210px;
+  top: 343px;
+  width: 928px;
+}
+.group-123 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-6 {
   background: #333f48;
   border-radius: 20px;
   width: 480px;
   height: 40px;
   position: absolute;
-  left: 556px;
-  top: 889px;
-}
-.leer-articulo2 {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Inter-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 500;
-  position: absolute;
-  left: 289px;
-  top: 685px;
-  width: 126px;
+  left: 479px;
+  top: 898px;
 }
 .cargar-m-s {
   color: #ffffff;
@@ -222,8 +305,8 @@
   line-height: 21px;
   font-weight: 700;
   position: absolute;
-  left: 756.5px;
-  top: 898.5px;
+  left: 679.5px;
+  top: 907.5px;
 }
 .depth-4-frame-3 {
   border-radius: 20px;
@@ -387,7 +470,7 @@
   left: 1132px;
   top: 176px;
 }
-.art-culos {
+.art-culos2 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
@@ -395,7 +478,7 @@
   line-height: 21px;
   font-weight: 500;
   position: absolute;
-  left: 1061px;
+  left: 1070px;
   top: 29px;
   width: 65px;
 }
@@ -407,7 +490,7 @@
   line-height: 21px;
   font-weight: 500;
   position: absolute;
-  left: 1005px;
+  left: 1014px;
   top: 29px;
   width: 34px;
   height: 22px;
@@ -420,7 +503,7 @@
   line-height: 21px;
   font-weight: 500;
   position: absolute;
-  left: 895px;
+  left: 904px;
   top: 29px;
   width: 82px;
   height: 43px;
@@ -433,7 +516,7 @@
   line-height: 21px;
   font-weight: 500;
   position: absolute;
-  left: 808px;
+  left: 817px;
   top: 29px;
   width: 59px;
   height: 43px;
