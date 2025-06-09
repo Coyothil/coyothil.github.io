@@ -1,0 +1,374 @@
+.mejorar-a-premium,
+.mejorar-a-premium * {
+  box-sizing: border-box;
+}
+.mejorar-a-premium {
+  background: #121217;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-46 {
+  background: #362645;
+  border-radius: 20px;
+  width: 276px;
+  height: 579px;
+  position: absolute;
+  left: 858px;
+  top: 133px;
+}
+.mayor-alcanze-de-publico {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 892px;
+  top: 356px;
+}
+.rectangle-52 {
+  background: #d9d9d9;
+  border-radius: 20px 20px 0px 0px;
+  width: 276px;
+  height: 41px;
+  position: absolute;
+  left: 858px;
+  top: 133px;
+}
+.acceso-a-los-cursos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 892px;
+  top: 239px;
+}
+.depth-4-frame-3 {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1362px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.vector-4 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 1156px;
+  top: 29px;
+  overflow: visible;
+}
+.asteroides {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1041px;
+  top: 28px;
+  width: 74px;
+}
+.n-bulas {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 958px;
+  top: 28.5px;
+  width: 55px;
+}
+.estrellas {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 874px;
+  top: 28px;
+  width: 60px;
+  height: 43px;
+}
+.planetas {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 785px;
+  top: 28px;
+  width: 65px;
+  height: 43px;
+}
+.explorar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 701px;
+  top: 27px;
+  width: 59px;
+  height: 43px;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.astra-index {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  position: absolute;
+  left: 72px;
+  top: 20.5px;
+  width: 148px;
+}
+.frame-1 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 31px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image-1 {
+  width: 17px;
+  height: 20px;
+  position: absolute;
+  left: 1207px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 17/20;
+}
+.image-2 {
+  width: 21px;
+  height: 20px;
+  position: absolute;
+  left: 1252px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 21/20;
+}
+.image-3 {
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  left: 1301px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 19/20;
+}
+.rectangle-47 {
+  background: #362645;
+  border-radius: 20px;
+  width: 276px;
+  height: 543px;
+  position: absolute;
+  left: 306px;
+  top: 169px;
+}
+.motor-de-arranque {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  position: absolute;
+  left: 352px;
+  top: 192px;
+}
+.pro {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  position: absolute;
+  left: 979px;
+  top: 192px;
+}
+.acceso-a-los-cursos2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 340px;
+  top: 239px;
+}
+.group-110 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-51 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 208px;
+  height: 43px;
+  position: absolute;
+  left: 340px;
+  top: 624px;
+}
+.unirse-como-miembro {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 381px;
+  top: 638px;
+}
+.group-112 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-512 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 208px;
+  height: 43px;
+  position: absolute;
+  left: 892px;
+  top: 624px;
+}
+.unirse-como-miembro2 {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 933px;
+  top: 638px;
+}
+.verificacion {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 340px;
+  top: 278px;
+}
+.verificacion2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 892px;
+  top: 278px;
+}
+.acceso-anticipado-a-nuevos-articulos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 892px;
+  top: 434px;
+}
+.monetizacion-de-contenido {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 340px;
+  top: 317px;
+}
+.monetizacion-de-contenido2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 892px;
+  top: 317px;
+}
+.m-s-popular {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 953px;
+  top: 153px;
+  width: 87px;
+  height: 15px;
+}
+.ai-para-los-cursos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 892px;
+  top: 395px;
+}
+.mayor-alcanze-de-publico2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 340px;
+  top: 356px;
+}
+.s-50 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  position: absolute;
+  left: 372px;
+  top: 522px;
+  width: 144px;
+  height: 69px;
+}
+.s-100 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  position: absolute;
+  left: 920px;
+  top: 522px;
+  width: 153px;
+  height: 69px;
+}
