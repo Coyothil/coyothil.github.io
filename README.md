@@ -1,5 +1,5 @@
 Astra Index Web Site
 Formato
-Carpeta:<Nombre del Feature>(Imagenes)
+Carpeta:Nombre del Feature(Imagenes)
 Carpeta: css
-HTML: <Nombre del Feature>
+HTML: Nombre del Feature
