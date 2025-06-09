@@ -3480,7 +3480,7 @@
   letter-spacing: var(--m3-title-medium-letter-spacing, 0.15px);
   font-weight: var(--m3-title-medium-font-weight, 500);
   position: absolute;
-  left: calc(50% - -225px);
+  left: 945px;
   top: 330px;
 }
 .line-6 {
