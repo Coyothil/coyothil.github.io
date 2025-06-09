@@ -1,0 +1,829 @@
+.landing-page,
+.landing-page * {
+  box-sizing: border-box;
+}
+.landing-page {
+  background: #121217;
+  height: 2272px;
+  position: relative;
+}
+.destacado {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  position: absolute;
+  left: 262px;
+  top: 709px;
+}
+.image-7 {
+  width: 1440.51px;
+  height: 1102px;
+  position: absolute;
+  left: 0px;
+  top: 84px;
+  object-fit: cover;
+  aspect-ratio: 1440.51/1102;
+}
+.group-107 {
+  position: absolute;
+  inset: 0;
+}
+.sube-videos-textos-e-im-genes-y-conecta-con-tus-suscriptores-f-cilmente {
+  color: #fffdfd;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14.875px;
+  line-height: 25.6px;
+  font-weight: 400;
+  position: absolute;
+  left: 458px;
+  top: 335px;
+}
+.group-108 {
+  position: absolute;
+  inset: 0;
+}
+.depth-6-frame-0 {
+  border-radius: 12px;
+  width: 485px;
+  height: 286px;
+  position: absolute;
+  left: 80px;
+  top: 1248px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.bienvenido-a-astra-index {
+  color: #ffffff;
+  text-align: center;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2px;
+  font-weight: 700;
+  position: absolute;
+  left: 463px;
+  top: 275px;
+}
+.beneficios-exclusivos {
+  color: #ffffff;
+  text-align: center;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 36px;
+  line-height: 60px;
+  letter-spacing: -2px;
+  font-weight: 700;
+  position: absolute;
+  left: 835px;
+  top: 1248px;
+}
+.planes-y-precios {
+  color: #ffffff;
+  text-align: center;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 36px;
+  line-height: 60px;
+  letter-spacing: -2px;
+  font-weight: 700;
+  position: absolute;
+  left: 587px;
+  top: 1596px;
+}
+.depth-4-frame-3 {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1362px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.vector-4 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 1156px;
+  top: 29px;
+  overflow: visible;
+}
+.art-culos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1069px;
+  top: 29px;
+  width: 65px;
+}
+.live {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1001px;
+  top: 29px;
+  width: 34px;
+  height: 22px;
+}
+.destacados {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 885px;
+  top: 29px;
+  width: 82px;
+  height: 43px;
+}
+.explorar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 793px;
+  top: 29px;
+  width: 59px;
+  height: 43px;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.astra-index {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  position: absolute;
+  left: 72px;
+  top: 20.5px;
+  width: 148px;
+}
+.frame-1 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 31px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image-1 {
+  width: 17.06px;
+  height: 20px;
+  position: absolute;
+  left: 1207px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 17.06/20;
+}
+.image-2 {
+  width: 21px;
+  height: 20px;
+  position: absolute;
+  left: 1252px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 21/20;
+}
+.image-3 {
+  width: 19.44px;
+  height: 20px;
+  position: absolute;
+  left: 1301px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 19.44/20;
+}
+.rectangle-47 {
+  background: #362645;
+  border-radius: 20px;
+  width: 276px;
+  height: 240px;
+  position: absolute;
+  left: 181px;
+  top: 440px;
+}
+.rectangle-48 {
+  background: #362645;
+  border-radius: 20px;
+  width: 276px;
+  height: 240px;
+  position: absolute;
+  left: 588px;
+  top: 440px;
+}
+.rectangle-49 {
+  background: #362645;
+  border-radius: 20px;
+  width: 276px;
+  height: 240px;
+  position: absolute;
+  left: 1018px;
+  top: 440px;
+}
+.david-contreras {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 14.875px;
+  line-height: 25.6px;
+  font-weight: 900;
+  position: absolute;
+  left: 206px;
+  top: 468px;
+}
+.omar-acu-a {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 14.875px;
+  line-height: 25.6px;
+  font-weight: 900;
+  position: absolute;
+  left: 620px;
+  top: 463px;
+}
+.ricardo-ambrosio {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 14.875px;
+  line-height: 25.6px;
+  font-weight: 900;
+  position: absolute;
+  left: 1051px;
+  top: 463px;
+}
+.ceo-and-founder {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14.875px;
+  line-height: 25.6px;
+  font-weight: 400;
+  position: absolute;
+  left: 206px;
+  top: 494px;
+  width: 124px;
+  height: 24px;
+}
+.estudiante-de-la-carrera-de-ciencias-de-la-computaci-n-y-manejo-los-lenguajes-de-programaci-n-c-y-python {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 206px;
+  top: 548px;
+  width: 212px;
+  height: 62px;
+}
+.director-of-operations {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14.875px;
+  line-height: 25.6px;
+  font-weight: 400;
+  position: absolute;
+  left: 620px;
+  top: 494px;
+  width: 160px;
+  height: 24px;
+}
+.senior-seo-specialist {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14.875px;
+  line-height: 25.6px;
+  font-weight: 400;
+  position: absolute;
+  left: 1051px;
+  top: 494px;
+  width: 160px;
+  height: 24px;
+}
+.line-9 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #a1824a;
+  border-width: 1px 0 0 0;
+  width: 213px;
+  height: 0px;
+  position: absolute;
+  left: 206px;
+  top: 538px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-10 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #a1824a;
+  border-width: 1px 0 0 0;
+  width: 213px;
+  height: 0px;
+  position: absolute;
+  left: 620px;
+  top: 538px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-11 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #a1824a;
+  border-width: 1px 0 0 0;
+  width: 213px;
+  height: 0px;
+  position: absolute;
+  left: 1050px;
+  top: 538px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.rectangle-50 {
+  background: #362645;
+  border-radius: 20px;
+  width: 276px;
+  height: 240px;
+  position: absolute;
+  left: 377px;
+  top: 737px;
+}
+.line-12 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #a1824a;
+  border-width: 1px 0 0 0;
+  width: 213px;
+  height: 0px;
+  position: absolute;
+  left: 409px;
+  top: 835px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.rectangle-51 {
+  background: #362645;
+  border-radius: 20px;
+  width: 276px;
+  height: 240px;
+  position: absolute;
+  left: 793px;
+  top: 737px;
+}
+.rectangle-52 {
+  background: #362645;
+  border-radius: 20px;
+  width: 242px;
+  height: 163px;
+  position: absolute;
+  left: 873px;
+  top: 1330px;
+}
+.rectangle-53 {
+  background: #362645;
+  border-radius: 20px;
+  width: 242px;
+  height: 163px;
+  position: absolute;
+  left: 605px;
+  top: 1330px;
+}
+.rectangle-54 {
+  background: #362645;
+  border-radius: 20px;
+  width: 242px;
+  height: 163px;
+  position: absolute;
+  left: 1142px;
+  top: 1330px;
+}
+.line-13 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #a1824a;
+  border-width: 1px 0 0 0;
+  width: 213px;
+  height: 0px;
+  position: absolute;
+  left: 825px;
+  top: 835px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.c-sar-avalos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 14.875px;
+  line-height: 25.6px;
+  font-weight: 900;
+  position: absolute;
+  left: 408px;
+  top: 770px;
+}
+.ppc-manager {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14.875px;
+  line-height: 25.6px;
+  font-weight: 400;
+  position: absolute;
+  left: 408px;
+  top: 796px;
+}
+.m-s-interactivo {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 14.875px;
+  line-height: 25.6px;
+  font-weight: 900;
+  position: absolute;
+  left: 665px;
+  top: 1357px;
+}
+.r-pida-monetizaci-n {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 14.875px;
+  line-height: 25.6px;
+  font-weight: 900;
+  position: absolute;
+  left: 916px;
+  top: 1357px;
+}
+.interfaz-intuitiva {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 14.875px;
+  line-height: 25.6px;
+  font-weight: 900;
+  position: absolute;
+  left: 1201px;
+  top: 1357px;
+}
+.estudiante-de-la-upc-de-la-carrera-de-ciencias-de-la-computaci-n-voy-en-mi-quinto-ciclo-y-manejo-los-lenguajes-de-programaci-n-c-python-sql-y-r {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 410px;
+  top: 848px;
+  width: 210px;
+}
+.conecta-con-tu-audiencia-con-nuestros-distintos-modelos-de-publicaciones-nuestro-modelo-de-comentariso-y-de-chat-en-vivo {
+  color: #ffffff;
+  text-align: center;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 620px;
+  top: 1391px;
+  width: 210px;
+}
+.navega-por-nuestra-p-gina-web-con-gran-fluidez-incluso-si-es-tu-primera-vez-visitandonos {
+  color: #ffffff;
+  text-align: center;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 1158px;
+  top: 1391px;
+  width: 210px;
+}
+.gana-dinero-de-manera-r-pida-divertida-y-eficiente-con-nuestro-sistema-de-monetizaci-n-a-los-creadores-de-contenido {
+  color: #ffffff;
+  text-align: center;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 889px;
+  top: 1391px;
+  width: 210px;
+}
+.estudiante-de-la-carrera-de-ciencias-de-la-computaci-n-hoy-en-d-a-domino-los-lenguajes-de-programaci-n-c-sql-y-python-una-de-mis-habilidades-es-poder-liderar-grupos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 620px;
+  top: 548px;
+  width: 203px;
+}
+.estudiante-de-la-carrera-de-ciencias-de-la-computaci-n-actualmente-cursando-el-cuarto-ciclo-de-la-carrera-y-manejo-diversas-aptitudes-para-trabajar-en-equipo-tanto-como-comunicativas-y-de-trabajo {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 1051px;
+  top: 548px;
+  width: 212px;
+}
+.estudiante-de-la-carrera-de-ingenier-a-en-sistemas-computacionales-en-la-uvm-en-m-rida-yucat-n-m-xico-y-voy-en-mi-cuarto-semestre-y-manejo-los-lenguajes-de-programaci-n-c-r-y-html {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 823px;
+  top: 844px;
+  width: 215px;
+}
+.content-creator {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14.875px;
+  line-height: 25.6px;
+  font-weight: 400;
+  position: absolute;
+  left: 825px;
+  top: 796px;
+}
+.yat-fernando-pat {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 14.875px;
+  line-height: 25.6px;
+  font-weight: 900;
+  position: absolute;
+  left: 823px;
+  top: 770px;
+}
+.rectangle-56 {
+  background: #362645;
+  border-radius: 20px;
+  width: 276px;
+  height: 443px;
+  position: absolute;
+  left: 394px;
+  top: 1723px;
+}
+.motor-de-arranque {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  position: absolute;
+  left: 440px;
+  top: 1746px;
+}
+.acceso-a-los-cursos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 428px;
+  top: 1793px;
+}
+.group-110 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-512 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 208px;
+  height: 43px;
+  position: absolute;
+  left: 428px;
+  top: 2077px;
+}
+.unirse-como-miembro {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 469px;
+  top: 2091px;
+}
+.verificacion {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 428px;
+  top: 1821px;
+}
+.monetizacion-de-contenido {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 428px;
+  top: 1851px;
+}
+.mayor-alcanze-de-publico {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 428px;
+  top: 1879px;
+}
+.s-50 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  position: absolute;
+  left: 459px;
+  top: 1995px;
+  width: 144px;
+  height: 69px;
+}
+.rectangle-46 {
+  background: #362645;
+  border-radius: 20px;
+  width: 276px;
+  height: 463px;
+  position: absolute;
+  left: 783px;
+  top: 1703px;
+}
+.mayor-alcanze-de-publico2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 817px;
+  top: 1874px;
+}
+.rectangle-55 {
+  background: #d9d9d9;
+  border-radius: 20px 20px 0px 0px;
+  width: 276px;
+  height: 41px;
+  position: absolute;
+  left: 783px;
+  top: 1682px;
+}
+.acceso-a-los-cursos2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 817px;
+  top: 1788px;
+}
+.pro {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  position: absolute;
+  left: 904px;
+  top: 1741px;
+}
+.group-112 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-513 {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 208px;
+  height: 43px;
+  position: absolute;
+  left: 822px;
+  top: 2068px;
+}
+.unirse-como-miembro2 {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 863px;
+  top: 2082px;
+}
+.verificacion2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 817px;
+  top: 1817px;
+}
+.acceso-anticipado-a-nuevos-articulos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 817px;
+  top: 1938px;
+}
+.monetizacion-de-contenido2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 817px;
+  top: 1844px;
+}
+.m-s-popular {
+  color: #000000;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 878px;
+  top: 1702px;
+  width: 87px;
+  height: 15px;
+}
+.ai-para-los-cursos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 818px;
+  top: 1906px;
+}
+.s-100 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  position: absolute;
+  left: 846px;
+  top: 1995px;
+  width: 153px;
+  height: 69px;
+}
