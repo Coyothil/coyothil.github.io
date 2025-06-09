@@ -1,0 +1,498 @@
+.articulos,
+.articulos * {
+  box-sizing: border-box;
+}
+.articulos {
+  background: #121217;
+  height: 1024px;
+  position: relative;
+}
+.depth-4-frame-3 {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1362px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.vector-4 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 1156px;
+  top: 29px;
+  overflow: visible;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.astra-index {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  position: absolute;
+  left: 72px;
+  top: 20.5px;
+  width: 148px;
+}
+.frame-1 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 31px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image-1 {
+  width: 17px;
+  height: 20px;
+  position: absolute;
+  left: 1207px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 17/20;
+}
+.image-2 {
+  width: 21px;
+  height: 20px;
+  position: absolute;
+  left: 1252px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 21/20;
+}
+.image-3 {
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  left: 1301px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 19/20;
+}
+.line-8 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 885px;
+  height: 0px;
+  position: absolute;
+  left: 1084px;
+  top: 997px;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, 1);
+}
+.add-circle {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 43px;
+  top: 849px;
+  overflow: visible;
+}
+.art-culos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1063px;
+  top: 29px;
+  width: 65px;
+}
+.live {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1007px;
+  top: 29px;
+  width: 34px;
+  height: 22px;
+}
+.destacados {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 897px;
+  top: 29px;
+  width: 82px;
+  height: 43px;
+}
+.explorar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 810px;
+  top: 29px;
+  width: 59px;
+  height: 43px;
+}
+.depth-6-frame-2 {
+  border-radius: 12px;
+  width: 303px;
+  height: 161px;
+  position: absolute;
+  left: 738px;
+  top: 646px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.depth-6-frame-3 {
+  border-radius: 12px;
+  width: 303px;
+  height: 161px;
+  position: absolute;
+  left: 738px;
+  top: 260px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.depth-6-frame-1 {
+  border-radius: 12px;
+  width: 303px;
+  height: 161px;
+  position: absolute;
+  left: 738px;
+  top: 453px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.astronom-a {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 43px;
+  top: 465px;
+}
+.los-astr-nomos-han-descubierto-un-nuevo-tipo-de-estrella-que-pulsa-como-una-variable-cefeida {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 43px;
+  top: 490px;
+  width: 573px;
+}
+.por-astra-index {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 43px;
+  top: 534px;
+}
+.rectangle-55 {
+  background: #362645;
+  border-radius: 16px;
+  width: 123px;
+  height: 32px;
+  position: absolute;
+  left: 31px;
+  top: 571px;
+}
+.ver-publicaci-n {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 40px;
+  top: 576.5px;
+}
+.astronom-a2 {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 43px;
+  top: 272px;
+}
+.por-astra-index2 {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 43px;
+  top: 341px;
+}
+.un-nuevo-estudio-sugiere-que-la-v-a-l-ctea-podr-a-ser-m-s-grande-de-lo-que-se-pensaba-anteriormente {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 43px;
+  top: 297px;
+  width: 573px;
+}
+.rectangle-54 {
+  background: #362645;
+  border-radius: 16px;
+  width: 123px;
+  height: 32px;
+  position: absolute;
+  left: 31px;
+  top: 378px;
+}
+.ver-publicaci-n2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 40px;
+  top: 383.5px;
+}
+.astronom-a3 {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 43px;
+  top: 658px;
+}
+.el-telescopio-espacial-james-webb-se-lanzar-el-18-de-diciembre-de-2021 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 43px;
+  top: 683px;
+  width: 559px;
+}
+.por-astra-index3 {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 43px;
+  top: 728px;
+}
+.rectangle-53 {
+  background: #362645;
+  border-radius: 16px;
+  width: 123px;
+  height: 32px;
+  position: absolute;
+  left: 31px;
+  top: 765px;
+}
+.ver-publicaci-n3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 40px;
+  top: 770.5px;
+}
+.art-culos2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  position: absolute;
+  left: 43px;
+  top: 143px;
+}
+.autores {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  position: absolute;
+  left: 1110px;
+  top: 143px;
+}
+.group-123 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-4 {
+  background: #333f48;
+  border-radius: 20px;
+  width: 480px;
+  height: 40px;
+  position: absolute;
+  left: 241px;
+  top: 899px;
+}
+.cargar-m-s {
+  color: #ffffff;
+  text-align: center;
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: absolute;
+  left: 441.5px;
+  top: 908.5px;
+}
+.avatar-block {
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-300, 12px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 172px;
+  position: absolute;
+  left: 1123px;
+  top: 411px;
+}
+.avatar {
+  border-radius: var(--var-sds-size-radius-full, 9999px);
+  flex-shrink: 0;
+  width: var(--var-sds-size-icon-large, 40px);
+  height: var(--var-sds-size-icon-large, 40px);
+  position: relative;
+  overflow: hidden;
+}
+.shape {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  object-fit: cover;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.title {
+  color: var(--var-sds-color-text-default-secondary, #757575);
+  text-align: left;
+  font-family: var(--body-strong-font-family, "Inter-SemiBold", sans-serif);
+  font-size: var(--body-strong-font-size, 16px);
+  line-height: var(--body-strong-line-height, 140%);
+  font-weight: var(--body-strong-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.description {
+  color: var(--var-sds-color-text-default-tertiary, #b3b3b3);
+  text-align: left;
+  font-family: var(--body-base-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--body-base-font-size, 16px);
+  line-height: var(--body-base-line-height, 140%);
+  font-weight: var(--body-base-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.avatar-block2 {
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-300, 12px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 172px;
+  position: absolute;
+  left: 1123px;
+  top: 486px;
+}
+.avatar2 {
+  border-radius: var(--var-sds-size-radius-full, 9999px);
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  flex-shrink: 0;
+  width: var(--var-sds-size-icon-large, 40px);
+  height: var(--var-sds-size-icon-large, 40px);
+  position: relative;
+  overflow: hidden;
+}
+.avatar-block3 {
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-300, 12px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 172px;
+  position: absolute;
+  left: 1123px;
+  top: 256px;
+}
+.avatar-block4 {
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-300, 12px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 172px;
+  position: absolute;
+  left: 1123px;
+  top: 331px;
+}
