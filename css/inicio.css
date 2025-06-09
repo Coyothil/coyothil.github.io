@@ -611,5 +611,7 @@
   position: relative;
   overflow: visible;
 }
-
+.destacados, .live, .art-culos, .astra-index {
+  cursor: pointer;
+}
 
