@@ -47,7 +47,7 @@
     <div class="rectangle-37"></div>
     <div class="search2">Search</div>
     <div class="busca-sobre-el-espacio">Busca sobre el espacio</div>
-    <div class="destacado">Destacado</div>
+    <div class="destacado" id="destacado">Destacado</div>
     <img class="depth-7-frame-0" src="./Pagina Inicio/depth-7-frame-00.png" alt="Destacado 1" />
     <div class="marte">Marte</div>
     <img class="depth-7-frame-02" src="./Pagina Inicio/depth-7-frame-01.png" alt="Marte" />
@@ -56,7 +56,7 @@
     <div class="saturno">Saturno</div>
     <img class="depth-7-frame-04" src="./Pagina Inicio/depth-7-frame-03.png" alt="Saturno" />
     <div class="la-luna">La Luna</div>
-    <div class="stream-en-vivo">Stream en vivo</div>
+    <div class="stream-en-vivo" id="stream-en-vivo">Stream en vivo</div>
     <img class="depth-6-frame-02" src="./Pagina Inicio/depth-6-frame-01.png" alt="Stream en vivo" />
     <div class="explorando-marte-junto-a-la-nasa">
       Explorando Marte junto a la NASA
@@ -69,7 +69,7 @@
       <div class="depth-8-frame-1"></div>
       <div class="ver-ahora">Ver ahora</div>
     </div>
-    <div class="articulo">Articulo</div>
+    <div class="articulo" id="articulo">Articulo</div>
     <img class="depth-7-frame-05" src="./Pagina Inicio/depth-7-frame-04.png" alt="Artículo 1" />
     <div class="porque-las-estrellas-brillan">Porque las estrellas brillan</div>
     <div class="lectura-de-3-minutos">Lectura de 3 minutos</div>
@@ -144,6 +144,22 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
     menuContainer.innerHTML = '';
   }
 });
+</script>
+</body>
+</html>
+<script>
+  document.querySelector('.astra-index').addEventListener('click', function() {
+    window.location.href = 'index.html';
+  });
+  document.querySelector('.destacados').addEventListener('click', function() {
+    window.location.href = 'index.html#destacado';
+  });
+  document.querySelector('.live').addEventListener('click', function() {
+    window.location.href = 'index.html#stream-en-vivo';
+  });
+  document.querySelector('.art-culos').addEventListener('click', function() {
+    window.location.href = 'index.html#articulo';
+  });
 </script>
 </body>
 </html>

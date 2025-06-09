@@ -64,7 +64,7 @@
   top: 29px;
   overflow: visible;
 }
-.asteroides {
+.art-culos {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
@@ -72,47 +72,38 @@
   line-height: 21px;
   font-weight: 500;
   position: absolute;
-  left: 1041px;
-  top: 28px;
-  width: 74px;
-}
-.n-bulas {
-  color: #ffffff;
-  text-align: left;
-  font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 500;
-  position: absolute;
-  left: 958px;
-  top: 28.5px;
-  width: 55px;
-}
-.estrellas {
-  color: #ffffff;
-  text-align: left;
-  font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 500;
-  position: absolute;
-  left: 874px;
-  top: 28px;
-  width: 60px;
-  height: 43px;
-}
-.planetas {
-  color: #ffffff;
-  text-align: left;
-  font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 500;
-  position: absolute;
-  left: 785px;
-  top: 28px;
+  left: 1058px;
+  top: 29px;
   width: 65px;
+  cursor: pointer;
+}
+.live {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1002px;
+  top: 29px;
+  width: 34px;
+  height: 22px;
+  cursor: pointer;
+}
+.destacados {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 892px;
+  top: 29px;
+  width: 82px;
   height: 43px;
+  cursor: pointer;
 }
 .explorar {
   color: #ffffff;
@@ -122,10 +113,11 @@
   line-height: 21px;
   font-weight: 500;
   position: absolute;
-  left: 701px;
-  top: 27px;
+  left: 805px;
+  top: 29px;
   width: 59px;
   height: 43px;
+  cursor: pointer;
 }
 .group-1 {
   position: absolute;
@@ -142,6 +134,7 @@
   left: 72px;
   top: 20.5px;
   width: 148px;
+  cursor: pointer;
 }
 .frame-1 {
   width: 25px;
