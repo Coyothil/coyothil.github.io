@@ -1,0 +1,358 @@
+.guardado,
+.guardado * {
+  box-sizing: border-box;
+}
+.guardado {
+  background: #121217;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.depth-6-frame-1 {
+  border-radius: 12px;
+  width: 303px;
+  height: 161px;
+  position: absolute;
+  left: 855px;
+  top: 624px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.depth-6-frame-12 {
+  border-radius: 12px;
+  width: 303px;
+  height: 161px;
+  position: absolute;
+  left: 855px;
+  top: 238px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.depth-6-frame-13 {
+  border-radius: 12px;
+  width: 303px;
+  height: 161px;
+  position: absolute;
+  left: 855px;
+  top: 431px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.astronom-a {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 282px;
+  top: 431px;
+}
+.los-astr-nomos-han-descubierto-un-nuevo-tipo-de-estrella-que-pulsa-como-una-variable-cefeida {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 282px;
+  top: 456px;
+  width: 573px;
+}
+.por-astra-index-40-m {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 282px;
+  top: 500px;
+}
+.rectangle-55 {
+  background: #362645;
+  border-radius: 16px;
+  width: 123px;
+  height: 32px;
+  position: absolute;
+  left: 270px;
+  top: 537px;
+}
+.ver-publicaci-n {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 279px;
+  top: 542.5px;
+}
+.astronom-a2 {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 282px;
+  top: 238px;
+}
+.por-astra-index-30-m {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 282px;
+  top: 307px;
+}
+.un-nuevo-estudio-sugiere-que-la-v-a-l-ctea-podr-a-ser-m-s-grande-de-lo-que-se-pensaba-anteriormente {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 282px;
+  top: 263px;
+  width: 573px;
+}
+.rectangle-54 {
+  background: #362645;
+  border-radius: 16px;
+  width: 123px;
+  height: 32px;
+  position: absolute;
+  left: 270px;
+  top: 344px;
+}
+.ver-publicaci-n2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 279px;
+  top: 349.5px;
+}
+.astronom-a3 {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 282px;
+  top: 624px;
+}
+.el-telescopio-espacial-james-webb-se-lanzar-el-18-de-diciembre-de-2021 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 282px;
+  top: 649px;
+}
+.por-astra-index-50-m {
+  color: #ad94c7;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  position: absolute;
+  left: 282px;
+  top: 673px;
+}
+.rectangle-53 {
+  background: #362645;
+  border-radius: 16px;
+  width: 123px;
+  height: 32px;
+  position: absolute;
+  left: 270px;
+  top: 710px;
+}
+.ver-publicaci-n3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 279px;
+  top: 715.5px;
+}
+.guardados {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  position: absolute;
+  left: 282px;
+  top: 109px;
+}
+.depth-4-frame-3 {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1362px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.vector-4 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 1156px;
+  top: 29px;
+  overflow: visible;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.astra-index {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  position: absolute;
+  left: 72px;
+  top: 20.5px;
+  width: 148px;
+}
+.frame-1 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 31px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image-1 {
+  width: 17px;
+  height: 20px;
+  position: absolute;
+  left: 1207px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 17/20;
+}
+.image-2 {
+  width: 21px;
+  height: 20px;
+  position: absolute;
+  left: 1252px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 21/20;
+}
+.image-3 {
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  left: 1301px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 19/20;
+}
+.art-culos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1067px;
+  top: 29px;
+  width: 65px;
+}
+.live {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1011px;
+  top: 29px;
+  width: 34px;
+  height: 22px;
+}
+.destacados {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 901px;
+  top: 29px;
+  width: 82px;
+  height: 43px;
+}
+.explorar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 814px;
+  top: 29px;
+  width: 59px;
+  height: 43px;
+}
+.group-123 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-4 {
+  background: #333f48;
+  border-radius: 20px;
+  width: 480px;
+  height: 40px;
+  position: absolute;
+  left: 480px;
+  top: 865px;
+}
+.cargar-m-s {
+  color: #ffffff;
+  text-align: center;
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: absolute;
+  left: 680.5px;
+  top: 874.5px;
+}
