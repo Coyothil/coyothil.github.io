@@ -81,21 +81,25 @@
     <div class="cargar-m-s">Cargar más</div>
     <img class="depth-4-frame-3" src="Perfil de Usuario - Menciones Imagenes/depth-4-frame-30.png" alt="Logo Astra Index" id="menu-trigger" />
     <div id="menu-container"></div>
-    <img class="vector-4" src="Perfil de Usuario - Menciones Imagenes/vector-40.svg" />
+     <a href="./Buscador.html"><img class="vector-4" src="Perfil de Usuario - Menciones Imagenes/vector-40.svg" /></a>
     <div class="astra-index">Astra Index</div>
     <img class="frame-1" src="Perfil de Usuario - Menciones Imagenes/frame-10.png" />
-    <img class="image-1" src="Perfil de Usuario - Menciones Imagenes/image-10.png" />
+    <a href="./Guardado.html"><img class="image-1" src="Perfil de Usuario - Menciones Imagenes/image-10.png" /></a>
     <img class="image-2" src="Perfil de Usuario - Menciones Imagenes/image-20.png" />
     <img class="image-3" src="Perfil de Usuario - Menciones Imagenes/image-30.png" />
     <img class="depth-4-frame-2" src="Perfil de Usuario - Menciones Imagenes/depth-4-frame-20.png" />
     <div class="katherine">Katherine</div>
-    <div class="astrof-sica-el-cielo-de-la-noche-cienca-los-angeles-ca">
-      Astrofísica | El cielo de la noche | Cienca
+     <div class="astrof-sica-el-cielo-de-la-noche-cienca-los-angeles-ca">
+      Doctora en astrofísica | El cielo de la noche | Cientifica
       <br />
       Los Angeles, CA
     </div>
+    <a href="./NuevoPost.html">
     <div class="rectangle-2"></div>
-    <div class="nueva-publicacion">Nueva Publicacion</div>
+    <div class="nueva-publicacion">
+        <font color="white">Nueva Publicacion</font>
+    </div>
+</a>
     <div class="seguidores">Seguidores</div>
     <div class="publicaciones">Publicaciones</div>
     <div class="_255-mil">255 Mil</div>
@@ -107,7 +111,7 @@
     <div class="explorar">Explorar</div>
   </div>
   <script>
-document.getElementById('menu-trigger').addEventListener('click', function() {
+  document.getElementById('menu-trigger').addEventListener('click', function() {
   const menuTrigger = document.getElementById('menu-trigger');
   const menuContainer = document.getElementById('menu-container');
   if (menuContainer.innerHTML.trim() === "") {
@@ -124,7 +128,7 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
           // Posiciona el menú debajo del trigger
           const rect = menuTrigger.getBoundingClientRect();
           menuContainer.style.left = (rect.left + window.scrollX - 150) + 'px';
-          menuContainer.style.top = (rect.bottom + window.scrollY  ) + 'px';
+          menuContainer.style.top = (rect.bottom + window.scrollY +5 ) + 'px';
 
           // Evento para "Mejorar a Premium"
           const premiumBtn = menuContainer.querySelector('.mejorar-a-premium');
@@ -141,6 +145,27 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
               window.location.href = 'Perfil de Usuario PP.html';
             });
           }
+          const herramientasCre = menuContainer.querySelector('.herramientas-de-creador');
+          if (herramientasCre) {
+            herramientasCre.style.cursor = 'pointer';
+            herramientasCre.addEventListener('click', function() {
+              window.location.href = 'HerramientasDelCreadorReels.html';
+            });
+          }
+          const cursos = menuContainer.querySelector('.mis-cursos');
+          if (cursos) {
+            cursos.style.cursor = 'pointer';
+            cursos.addEventListener('click', function() {
+              window.location.href = 'Cursos.html';
+            });
+          }
+          const cerrarSesion = menuContainer.querySelector('.cerrar-sesion');
+          if (cerrarSesion) {
+            cerrarSesion.style.cursor = 'pointer';
+            cerrarSesion.addEventListener('click', function() {
+              window.location.href = 'Login.html';
+            });
+          }
         }
       });
   } else {
@@ -148,6 +173,8 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
   }
 });
 </script>
+</body>
+</html>
 <script>
   document.querySelector('.astra-index').addEventListener('click', function() {
     window.location.href = 'index.html';
@@ -156,7 +183,7 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
     window.location.href = 'index.html#destacado';
   });
   document.querySelector('.live').addEventListener('click', function() {
-    window.location.href = 'index.html#stream-en-vivo';
+    window.location.href = 'Streaming.html';
   });
   document.querySelector('.art-culos').addEventListener('click', function() {
     window.location.href = 'index.html#articulo';
