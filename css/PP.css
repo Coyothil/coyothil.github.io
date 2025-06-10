@@ -51,7 +51,16 @@
   left: 469px;
   top: 289px;
 }
-.group-114 {
+.estadisticas {
+  position: absolute;
+  color: #fff;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+  cursor: pointer;
+  left: 570px;
+  top: 289px;
+}p-114 {
   position: absolute;
   inset: 0;
 }
