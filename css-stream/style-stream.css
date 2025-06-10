@@ -1,0 +1,438 @@
+.streaming,
+.streaming * {
+  box-sizing: border-box;
+}
+.streaming {
+  background: #121217;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.streaming2 {
+  background: #121217;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 1px;
+  width: 1440px;
+  height: 1024px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-49 {
+  background: #232222;
+  border-radius: 43px;
+  width: 427px;
+  height: 455px;
+  position: absolute;
+  left: 975px;
+  top: 143px;
+}
+.depth-6-frame-0 {
+  border-radius: 12px;
+  width: 872px;
+  height: 455px;
+  position: absolute;
+  left: 43px;
+  top: 143px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.depth-4-frame-3 {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1362px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.depth-4-frame-4 {
+  border-radius: 20px;
+  width: 79px;
+  height: 75px;
+  position: absolute;
+  left: 43px;
+  top: 630px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.vector-4 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 1156px;
+  top: 29px;
+  overflow: visible;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.astra-index {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  position: absolute;
+  left: 72px;
+  top: 20.5px;
+  width: 148px;
+}
+.frame-1 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 31px;
+  top: 19px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image-1 {
+  width: 17px;
+  height: 20px;
+  position: absolute;
+  left: 1207px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 17/20;
+}
+.image-2 {
+  width: 21px;
+  height: 20px;
+  position: absolute;
+  left: 1252px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 21/20;
+}
+.image-3 {
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  left: 1301px;
+  top: 29px;
+  object-fit: cover;
+  aspect-ratio: 19/20;
+}
+.articulos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1069px;
+  top: 29px;
+  width: 65px;
+}
+.live {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 1013px;
+  top: 29px;
+  width: 34px;
+  height: 22px;
+}
+.destacados {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 903px;
+  top: 29px;
+  width: 82px;
+  height: 43px;
+}
+.explorar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  position: absolute;
+  left: 816px;
+  top: 29px;
+  width: 59px;
+  height: 43px;
+}
+.group-61 {
+  width: 6.1%;
+  height: 8.6%;
+  position: absolute;
+  right: 63.69%;
+  left: 30.21%;
+  bottom: 59.47%;
+  top: 31.93%;
+  overflow: visible;
+}
+.group-90 {
+  position: absolute;
+  inset: 0;
+}
+.group-83 {
+  width: 677px;
+  height: 33px;
+  position: static;
+}
+.explorando-martes-con-la-nasa {
+  color: var(--ffffff, #ffffff);
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 38px;
+  line-height: 48px;
+  letter-spacing: -0.015em;
+  font-weight: 700;
+  position: absolute;
+  right: 42.85%;
+  left: 10.14%;
+  width: 47.01%;
+  bottom: 33.98%;
+  top: 62.79%;
+  height: 3.22%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-17 {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  left: 1175px;
+  top: 660px;
+}
+.group-81 {
+  flex-shrink: 0;
+  width: 61px;
+  height: 54.03px;
+  position: static;
+}
+.frame-18 {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 22px;
+  top: 0px;
+}
+.group-88 {
+  position: absolute;
+  inset: 0;
+}
+.group-89 {
+  width: 18.38px;
+  height: 14px;
+  position: static;
+}
+.group-86 {
+  width: 12.97px;
+  height: 10.14px;
+  position: static;
+}
+.rectangle-43 {
+  background: var(--black-color-737174, #807e81);
+  border-radius: 2px;
+  width: 12.97px;
+  height: 1.5px;
+  position: absolute;
+  left: 0px;
+  top: 3.03px;
+}
+.rectangle-44 {
+  background: var(--black-color-737174, #807e81);
+  border-radius: 2px;
+  width: 12.97px;
+  height: 1.5px;
+  position: absolute;
+  left: 0px;
+  top: 7.35px;
+}
+.rectangle-45 {
+  background: var(--black-color-737174, #807e81);
+  border-radius: 2px;
+  width: 8.65px;
+  height: 1.5px;
+  position: absolute;
+  left: 0px;
+  top: 11.67px;
+}
+.group-85 {
+  width: 7.78px;
+  height: 7.78px;
+  position: static;
+}
+.group-84 {
+  width: 7.78px;
+  height: 7.78px;
+  position: static;
+}
+.rectangle-46 {
+  background: var(--black-color-737174, #807e81);
+  border-radius: 2px;
+  width: 7.78px;
+  height: 1.5px;
+  position: absolute;
+  left: 10.59px;
+  top: 12.36px;
+}
+.rectangle-47 {
+  background: var(--black-color-737174, #807e81);
+  border-radius: 2px;
+  width: 7.78px;
+  height: 1.5px;
+  position: absolute;
+  left: 15.26px;
+  top: 9.25px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.watchlist {
+  color: var(--black-color-737174, #807e81);
+  text-align: left;
+  font-family: "GilroyMedium-☞", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 34.03px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-82 {
+  flex-shrink: 0;
+  width: 38px;
+  height: 54px;
+  position: static;
+}
+.frame {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 114px;
+  top: 0.03px;
+  overflow: visible;
+}
+.share {
+  color: var(--black-color-737174, #807e81);
+  text-align: center;
+  font-family: "GilroyMedium-☞", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 109px;
+  top: 34.03px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-91 {
+  position: absolute;
+  inset: 0;
+}
+.descripci-n {
+  color: var(--ffffff, #ffffff);
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  position: absolute;
+  left: 43px;
+  top: 733px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bizli-is-a-2018-bangladeshi-superhero-film-directed-by-iftakar-chowdhury-and-produced-by-bobstar-films-it-stars-bobby-as-the-protagonist-and-indian-actress-satabdi-roy-as-the-antagonist-the-film-was-released-countrywide-on-t-is-a-long-established-fact-that-a-reader-will-be-distracted-by-the-readable-content-of-a-page-when-looking-at-its-layout-the-point-of-using-lorem-ipsum-is-that-it-has-a-more-or-less-normal-distribution-of-letters {
+  color: var(--black-color-737174, #807e81);
+  text-align: left;
+  font-family: var(--p1-font-family, "GilroyRegular-☞", sans-serif);
+  font-size: var(--p1-font-size, 16px);
+  line-height: var(--p1-line-height, 24px);
+  font-weight: var(--p1-font-weight, 400);
+  position: absolute;
+  right: 8.19%;
+  left: 2.99%;
+  width: 88.82%;
+  bottom: 16.21%;
+  top: 76.46%;
+  height: 7.32%;
+}
+.group-57 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-32 {
+  background: #304fe8;
+  border-radius: 0px 3px 3px 0px;
+  width: 138.01px;
+  height: 62px;
+  position: absolute;
+  left: 985px;
+  top: 643px;
+}
+.suscribete {
+  color: var(--ffffff, #ffffff);
+  text-align: center;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 1014px;
+  top: 663px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.depth-8-frame-2 {
+  background: #59595b;
+  border-radius: 12px;
+  padding: 0px 16px 0px 16px;
+  width: 321px;
+  height: 37px;
+  position: absolute;
+  left: 999px;
+  top: 536px;
+  overflow: hidden;
+}
+.chatear {
+  color: rgba(251, 246, 246, 0.71);
+  text-align: center;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 28px;
+  top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.send {
+  width: 32px;
+  height: 30px;
+  position: absolute;
+  left: 1346px;
+  top: 540px;
+  overflow: visible;
+}
