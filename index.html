@@ -127,8 +127,8 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
 
           // Posiciona el menú debajo del trigger
           const rect = menuTrigger.getBoundingClientRect();
-          menuContainer.style.left = (rect.left + window.scrollX) + 'px';
-          menuContainer.style.top = rect.bottom + window.scrollY + 'px';
+          menuContainer.style.left = (rect.left + window.scrollX - 150) + 'px';
+          menuContainer.style.top = (rect.bottom + window.scrollY -40 ) + 'px';
 
           // Evento para "Mejorar a Premium"
           const premiumBtn = menuContainer.querySelector('.mejorar-a-premium');
@@ -136,6 +136,13 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
             premiumBtn.style.cursor = 'pointer';
             premiumBtn.addEventListener('click', function() {
               window.location.href = 'MejorarAPremium.html';
+            });
+          }
+          const miPerfilBtn = menuContainer.querySelector('.mi-perfil');
+          if (miPerfilBtn) {
+            miPerfilBtn.style.cursor = 'pointer';
+            miPerfilBtn.addEventListener('click', function() {
+              window.location.href = 'Perfil de Usuario PP.html';
             });
           }
         }

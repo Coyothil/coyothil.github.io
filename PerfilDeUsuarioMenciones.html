@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/vars.css">
   <link rel="stylesheet" href="./css/PPM.css">
-  
+  <link rel="stylesheet" href="./css/styleMenu.css">
   
   <style>
    a,
@@ -39,9 +39,21 @@
 </head>
 <body>
   <div class="perfil-de-usuario-menciones">
-    <div class="feed">Feed</div>
-    <div class="reels">Reels</div>
-    <div class="articulos">Articulos</div>
+    <div class="feed">
+      <a href="./Perfil de Usuario PP.html">
+        <font color="white">Feed</font>
+    </a>
+    </div>
+    <div class="reels">
+      <a href="./Perfil de Usuario - Reels.html">
+        <font color="white">Reels</font>
+    </a>
+    </div>
+    <div class="articulos">
+      <a href="./Perfil de Usuario Articulos.html">
+        <font color="white">Artículos</font>
+    </a>
+    </div>
     <div class="menciones">Menciones</div>
     <div class="line-1"></div>
     <div class="rectangle-5"></div>
@@ -67,7 +79,8 @@
     <div class="rectangle-26"></div>
     <div class="ver-publicaci-n2">Ver Publicación</div>
     <div class="cargar-m-s">Cargar más</div>
-    <img class="depth-4-frame-3" src="Perfil de Usuario - Menciones Imagenes/depth-4-frame-30.png" />
+    <img class="depth-4-frame-3" src="Perfil de Usuario - Menciones Imagenes/depth-4-frame-30.png" alt="Logo Astra Index" id="menu-trigger" />
+    <div id="menu-container"></div>
     <img class="vector-4" src="Perfil de Usuario - Menciones Imagenes/vector-40.svg" />
     <div class="astra-index">Astra Index</div>
     <img class="frame-1" src="Perfil de Usuario - Menciones Imagenes/frame-10.png" />
@@ -93,6 +106,61 @@
     <div class="destacados">Destacados</div>
     <div class="explorar">Explorar</div>
   </div>
-  
+  <script>
+document.getElementById('menu-trigger').addEventListener('click', function() {
+  const menuTrigger = document.getElementById('menu-trigger');
+  const menuContainer = document.getElementById('menu-container');
+  if (menuContainer.innerHTML.trim() === "") {
+    fetch('Menu.html')
+      .then(response => response.text())
+      .then(html => {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        const menuDiv = tempDiv.querySelector('.menu');
+        if (menuDiv) {
+          menuContainer.innerHTML = '';
+          menuContainer.appendChild(menuDiv.cloneNode(true));
+
+          // Posiciona el menú debajo del trigger
+          const rect = menuTrigger.getBoundingClientRect();
+          menuContainer.style.left = (rect.left + window.scrollX - 150) + 'px';
+          menuContainer.style.top = (rect.bottom + window.scrollY  ) + 'px';
+
+          // Evento para "Mejorar a Premium"
+          const premiumBtn = menuContainer.querySelector('.mejorar-a-premium');
+          if (premiumBtn) {
+            premiumBtn.style.cursor = 'pointer';
+            premiumBtn.addEventListener('click', function() {
+              window.location.href = 'MejorarAPremium.html';
+            });
+          }
+          const miPerfilBtn = menuContainer.querySelector('.mi-perfil');
+          if (miPerfilBtn) {
+            miPerfilBtn.style.cursor = 'pointer';
+            miPerfilBtn.addEventListener('click', function() {
+              window.location.href = 'Perfil de Usuario PP.html';
+            });
+          }
+        }
+      });
+  } else {
+    menuContainer.innerHTML = '';
+  }
+});
+</script>
+<script>
+  document.querySelector('.astra-index').addEventListener('click', function() {
+    window.location.href = 'index.html';
+  });
+  document.querySelector('.destacados').addEventListener('click', function() {
+    window.location.href = 'index.html#destacado';
+  });
+  document.querySelector('.live').addEventListener('click', function() {
+    window.location.href = 'index.html#stream-en-vivo';
+  });
+  document.querySelector('.art-culos').addEventListener('click', function() {
+    window.location.href = 'index.html#articulo';
+  });
+</script>
 </body>
 </html>
