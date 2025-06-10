@@ -154,6 +154,13 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
               window.location.href = 'HerramientasDelCreadorReels.html';
             });
           }
+          const cerrarSe = menuContainer.querySelector('.cerrar-sesion');
+          if (cerrarSe) {
+            cerrarSe.style.cursor = 'pointer';
+            cerrarSe.addEventListener('click', function() {
+              window.location.href = 'Login.html';
+            });
+          }
         }
       });
   } else {
