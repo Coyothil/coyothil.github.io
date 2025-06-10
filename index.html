@@ -33,6 +33,8 @@
    }
    #menu-container {
      margin-top: 10px;
+     max-width: 300px;
+     max-height: 700px;
      z-index: 1000;
      position: relative;
    }
@@ -143,6 +145,13 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
             miPerfilBtn.style.cursor = 'pointer';
             miPerfilBtn.addEventListener('click', function() {
               window.location.href = 'Perfil de Usuario PP.html';
+            });
+          }
+          const herramientasCre = menuContainer.querySelector('.herramientas-de-creador');
+          if (herramientasCre) {
+            herramientasCre.style.cursor = 'pointer';
+            herramientasCre.addEventListener('click', function() {
+              window.location.href = 'HerramientasDelCreadorReels.html';
             });
           }
         }
