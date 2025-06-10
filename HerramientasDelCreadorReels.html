@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style_hreels.css">
-  
+  <link rel="stylesheet" href="./css/styleMenu.css">
   
   <style>
    a,
@@ -33,15 +33,22 @@
        margin: 0;
        padding: 0;
    }
+    #menu-container {
+     max-width: 300px;
+     max-height: 700px;
+     z-index: 1000;
+     position: relative;
+   }
    </style>
   <title>Document</title>
 </head>
 <body>
   <div class="herramientas-del-creador-reels">
     <img class="image-20" src="HerramientasDelCreadorReels_Imagenes/cielo_noc.png" />
-    <a href="./Perfil de Usuario - Reels.html"><img class="depth-4-frame-3" src="HerramientasDelCreadorReels_Imagenes/katherine.png" /></a>
+    <img class="depth-4-frame-3" src="HerramientasDelCreadorReels_Imagenes/katherine.png" id="menu-trigger"/>
+    <div id="menu-container"></div>
     <a href="./Buscador.html"><img class="vector-4" src="HerramientasDelCreadorReels_Imagenes/buscar.png" /></a>
-    <div class="astra-index">Astra Index</div>
+    <a href="./index.html"><div class="astra-index">Astra Index</div></a>
     <a href="./index.html"><img class="frame-1" src="HerramientasDelCreadorReels_Imagenes/logo.png" /></a>
     <a href="./Guardado.html"><img class="image-1" src="HerramientasDelCreadorReels_Imagenes/guardado.png" /></a>
     <img class="image-2" src="HerramientasDelCreadorReels_Imagenes/chat.png" />
@@ -103,9 +110,57 @@
     </div>
     <a href="./Articulos.html"><div class="art-culos2">Artículos</div></a>
     <a href="./Streaming.html"><div class="live">Live</div></a>
-    <div class="destacados">Destacados</div>
+    <a href="./index.html"><div class="destacados">Destacados</div></a>
     <a href="./Buscador.html"><div class="explorar">Explorar</div></a>
   </div>
-  
+<script>
+  document.getElementById('menu-trigger').addEventListener('click', function() {
+  const menuTrigger = document.getElementById('menu-trigger');
+  const menuContainer = document.getElementById('menu-container');
+  if (menuContainer.innerHTML.trim() === "") {
+    fetch('Menu.html')
+      .then(response => response.text())
+      .then(html => {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        const menuDiv = tempDiv.querySelector('.menu');
+        if (menuDiv) {
+          menuContainer.innerHTML = '';
+          menuContainer.appendChild(menuDiv.cloneNode(true));
+
+          // Posiciona el menú debajo del trigger
+          const rect = menuTrigger.getBoundingClientRect();
+          menuContainer.style.left = (rect.left + window.scrollX - 150) + 'px';
+          menuContainer.style.top = (rect.bottom + window.scrollY +5 ) + 'px';
+
+          // Evento para "Mejorar a Premium"
+          const premiumBtn = menuContainer.querySelector('.mejorar-a-premium');
+          if (premiumBtn) {
+            premiumBtn.style.cursor = 'pointer';
+            premiumBtn.addEventListener('click', function() {
+              window.location.href = 'MejorarAPremium.html';
+            });
+          }
+          const miPerfilBtn = menuContainer.querySelector('.mi-perfil');
+          if (miPerfilBtn) {
+            miPerfilBtn.style.cursor = 'pointer';
+            miPerfilBtn.addEventListener('click', function() {
+              window.location.href = 'Perfil de Usuario PP.html';
+            });
+          }
+          const herramientasCre = menuContainer.querySelector('.herramientas-de-creador');
+          if (herramientasCre) {
+            herramientasCre.style.cursor = 'pointer';
+            herramientasCre.addEventListener('click', function() {
+              window.location.href = 'HerramientasDelCreadorReels.html';
+            });
+          }
+        }
+      });
+  } else {
+    menuContainer.innerHTML = '';
+  }
+});
+</script>
 </body>
 </html>
