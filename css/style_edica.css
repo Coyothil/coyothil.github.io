@@ -290,7 +290,7 @@
   border-radius: 12px;
   width: 133px;
   height: 32px;
-  position: absolute;
+  position: relative;
   left: 920px;
   top: 287px;
 }
@@ -439,4 +439,19 @@
   position: absolute;
   left: 1239.5px;
   top: 916px;
+}
+
+.btn{
+
+  background: #304fe8;
+  color:white;
+  border-radius: 12px;
+  width: 94px;
+  height: 42px;
+  
+}
+
+
+.input{
+  color:white;
 }
