@@ -17,6 +17,7 @@
   position: absolute;
   left: 262px;
   top: 709px;
+  cursor: pointer;
 }
 .image-7 {
   width: 1440.51px;
@@ -121,6 +122,7 @@
   left: 1069px;
   top: 29px;
   width: 65px;
+  cursor: pointer;
 }
 .live {
   color: #ffffff;
@@ -134,6 +136,7 @@
   top: 29px;
   width: 34px;
   height: 22px;
+  cursor: pointer;
 }
 .destacados {
   color: #ffffff;
@@ -147,6 +150,7 @@
   top: 29px;
   width: 82px;
   height: 43px;
+  cursor: pointer;
 }
 .explorar {
   color: #ffffff;
@@ -160,6 +164,7 @@
   top: 29px;
   width: 59px;
   height: 43px;
+  cursor: pointer;
 }
 .group-1 {
   position: absolute;
