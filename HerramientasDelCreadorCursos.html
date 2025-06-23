@@ -89,7 +89,6 @@
           menuContainer.innerHTML = '';
           menuContainer.appendChild(menuDiv.cloneNode(true));
 
-          // Posiciona el menú debajo del trigger
           const rect = menuTrigger.getBoundingClientRect();
           menuContainer.style.left = (rect.left + window.scrollX - 150) + 'px';
           menuContainer.style.top = (rect.bottom + window.scrollY +5 ) + 'px';
