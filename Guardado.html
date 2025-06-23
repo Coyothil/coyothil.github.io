@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vars.css">
   <link rel="stylesheet" href="css/styleGuardado.css">
+  <link rel="stylesheet" href="./css/styleMenu.css">
   
   
   <style>
@@ -72,7 +72,8 @@
     <div class="rectangle-53"></div>
     <div class="ver-publicaci-n3">Ver publicación</div>
     <div class="guardados">Guardados</div>
-    <img class="depth-4-frame-3" src="Guardado-Assets/depth-4-frame-30.png" />
+    <img class="depth-4-frame-3" src="Guardado-Assets/depth-4-frame-30.png" id="menu-trigger"/>
+    <div id="menu-container"></div>
     <img class="vector-4" src="Guardado-Assets/vector-40.svg" />
     <div class="astra-index">Astra Index</div>
     <img class="frame-1" src="Guardado-Assets/frame-10.png" />
@@ -86,6 +87,61 @@
     <div class="rectangle-4"></div>
     <div class="cargar-m-s">Cargar más</div>
   </div>
-  
+  <script>
+document.getElementById('menu-trigger').addEventListener('click', function() {
+  const menuTrigger = document.getElementById('menu-trigger');
+  const menuContainer = document.getElementById('menu-container');
+  if (menuContainer.innerHTML.trim() === "") {
+    fetch('Menu.html')
+      .then(response => response.text())
+      .then(html => {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        const menuDiv = tempDiv.querySelector('.menu');
+        if (menuDiv) {
+          menuContainer.innerHTML = '';
+          menuContainer.appendChild(menuDiv.cloneNode(true));
+
+          // Posiciona el menú debajo del trigger
+          const rect = menuTrigger.getBoundingClientRect();
+          menuContainer.style.left = (rect.left + window.scrollX - 150) + 'px';
+          menuContainer.style.top = (rect.bottom + window.scrollY - 40) + 'px';
+
+          // Evento para "Mejorar a Premium"
+          const premiumBtn = menuContainer.querySelector('.menu-mejorar-a-premium');
+          if (premiumBtn) {
+            premiumBtn.style.cursor = 'pointer';
+            premiumBtn.addEventListener('click', function() {
+              window.location.href = 'MejorarAPremium.html';
+            });
+          }
+          const miPerfilBtn = menuContainer.querySelector('.mi-perfil');
+          if (miPerfilBtn) {
+            miPerfilBtn.style.cursor = 'pointer';
+            miPerfilBtn.addEventListener('click', function() {
+              window.location.href = 'Perfil de Usuario PP.html';
+            });
+          }
+          const herramientasCre = menuContainer.querySelector('.herramientas-de-creador');
+          if (herramientasCre) {
+            herramientasCre.style.cursor = 'pointer';
+            herramientasCre.addEventListener('click', function() {
+              window.location.href = 'HerramientasDelCreadorReels.html';
+            });
+          }
+          const cerrarSe = menuContainer.querySelector('.cerrar-sesion');
+          if (cerrarSe) {
+            cerrarSe.style.cursor = 'pointer';
+            cerrarSe.addEventListener('click', function() {
+              window.location.href = 'Login.html';
+            });
+          }
+        }
+      });
+  } else {
+    menuContainer.innerHTML = '';
+  }
+});
+</script>
 </body>
 </html>
