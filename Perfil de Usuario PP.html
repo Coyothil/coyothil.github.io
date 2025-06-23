@@ -202,5 +202,27 @@
     window.location.href = 'index.html#articulo';
   });
 </script>
+
+<script>
+  const boton = document.querySelector('.nueva-publicacion');
+
+  boton.addEventListener('mouseenter', () => {
+    boton.style.transform = 'scale(1.05)';
+    boton.style.backgroundColor = '#555';
+  });
+
+  boton.addEventListener('mouseleave', () => {
+    boton.style.transform = 'scale(1)';
+    boton.style.backgroundColor = '#333';
+  });
+</script>
+
+
+
+
+
+
+
+
 </body>
 </html>
