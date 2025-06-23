@@ -1,0 +1,130 @@
+.chat-elon,
+.chat-elon * {
+  box-sizing: border-box;
+}
+.chat-elon {
+  background: #362645;
+  width: 318px;
+  height: 340px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-57 {
+  background: #121217;
+  width: 318px;
+  height: 35px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-58 {
+  background: #121217;
+  width: 318px;
+  height: 35px;
+  position: absolute;
+  left: 0px;
+  top: 305px;
+}
+.rectangle-56 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 318px;
+  height: 340px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  filter: blur(1px);
+}
+.elon-musk2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Bold", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+}
+.chat-bubble {
+  width: 160px;
+  height: 80px;
+  position: absolute;
+  left: 7px;
+  top: 46px;
+  overflow: visible;
+}
+.chat-bubble2 {
+  width: 160px;
+  height: 80px;
+  position: absolute;
+  left: 314px;
+  top: 103px;
+  transform: translate(-160px, 0px);
+  overflow: visible;
+}
+.chat-bubble3 {
+  width: 160px;
+  height: 80px;
+  position: absolute;
+  left: 7px;
+  top: 170px;
+  overflow: visible;
+}
+.i-would-like-to-hire-you-for-my-company-would-you-be-insterested {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 8px;
+  line-height: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 35px;
+  top: 62px;
+  width: 118px;
+  height: 12px;
+}
+.yes-i-m-interested-in-joining-you-company {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 8px;
+  line-height: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 178px;
+  top: 119px;
+  width: 118px;
+  height: 12px;
+}
+.great-i-will-send-you-a-formal-e-mail-for-your-employment-later-this-day {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 8px;
+  line-height: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 35px;
+  top: 186px;
+  width: 118px;
+  height: 12px;
+}
+.rectangle-7 {
+  background: #292b38;
+  border-radius: 12px;
+  width: 250px;
+  height: 22px;
+  position: absolute;
+  left: 35px;
+  top: 311px;
+}
+.send {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 42px;
+  top: 310px;
+  overflow: visible;
+}
