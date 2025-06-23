@@ -38,6 +38,12 @@
      z-index: 1000;
      position: relative;
    }
+   body{
+    background-size: cover;
+    background: #121217;
+    width:100vw;
+    height:100vh ;
+   }
   </style>
   <title>Document</title>
 </head>
@@ -67,10 +73,8 @@
       Unete a nosotros a ver los ultimos descubrimientos sobre el planeta rojo.
     </div>
     <div class="_15-minutos-restantes">15 minutos restantes</div>
-    <div class="group-97">
-      <div class="depth-8-frame-1"></div>
-      <div class="ver-ahora">Ver ahora</div>
-    </div>
+    <div class="depth-8-frame-1"></div>
+    <div class="ver-ahora">Ver ahora</div>
     <div class="articulo" id="articulo">Articulo</div>
     <img class="depth-7-frame-05" src="./Pagina Inicio/depth-7-frame-04.png" alt="Artículo 1" />
     <div class="porque-las-estrellas-brillan">Porque las estrellas brillan</div>
@@ -94,9 +98,9 @@
     <div class="live">Live</div>
     <a href="LandingPage.html"><div class="destacados">Destacados</div></a>
     <script>
-function changeText(id) {
-  id.innerHTML = "Ooops!";
-}
+      function changeText(id) {
+      id.innerHTML = "Ooops!";
+      }
       </script>
     <div class="explorar"><h2 onclick="changeText(this)">Explorar</div></h2>
     <div class="astra-index">Astra Index</div>
@@ -117,67 +121,67 @@ function changeText(id) {
       <a href="Streaming.html"><img class="svgexport-43" src="./Pagina Inicio/svgexport-42.svg" alt="Ver todo 3" /></a>
     </div>
   </div>
-<script>
-document.getElementById('menu-trigger').addEventListener('click', function() {
-  const menuTrigger = document.getElementById('menu-trigger');
-  const menuContainer = document.getElementById('menu-container');
-  if (menuContainer.innerHTML.trim() === "") {
-    fetch('Menu.html')
-      .then(response => response.text())
-      .then(html => {
-        const tempDiv = document.createElement('div');
-        tempDiv.innerHTML = html;
-        const menuDiv = tempDiv.querySelector('.menu');
-        if (menuDiv) {
-          menuContainer.innerHTML = '';
-          menuContainer.appendChild(menuDiv.cloneNode(true));
+  <script>
+  document.getElementById('menu-trigger').addEventListener('click', function() {
+    const menuTrigger = document.getElementById('menu-trigger');
+    const menuContainer = document.getElementById('menu-container');
+    if (menuContainer.innerHTML.trim() === "") {
+      fetch('Menu.html')
+        .then(response => response.text())
+        .then(html => {
+          const tempDiv = document.createElement('div');
+          tempDiv.innerHTML = html;
+          const menuDiv = tempDiv.querySelector('.menu');
+          if (menuDiv) {
+            menuContainer.innerHTML = '';
+            menuContainer.appendChild(menuDiv.cloneNode(true));
 
-          // Posiciona el menú debajo del trigger
-          const rect = menuTrigger.getBoundingClientRect();
-          menuContainer.style.left = (rect.left + window.scrollX - 150) + 'px';
-          menuContainer.style.top = (rect.bottom + window.scrollY -40 ) + 'px';
+            // Posiciona el menú debajo del trigger
+            const rect = menuTrigger.getBoundingClientRect();
+            menuContainer.style.left = (rect.left + window.scrollX - 150) + 'px';
+            menuContainer.style.top = (rect.bottom + window.scrollY -40 ) + 'px';
 
-          // Evento para "Mejorar a Premium"
-          const premiumBtn = menuContainer.querySelector('.menu-mejorar-a-premium');
-          if (premiumBtn) {
-            premiumBtn.style.cursor = 'pointer';
-            premiumBtn.addEventListener('click', function() {
-              window.location.href = 'MejorarAPremium.html';
-            });
+            // Evento para "Mejorar a Premium"
+            const premiumBtn = menuContainer.querySelector('.menu-mejorar-a-premium');
+            if (premiumBtn) {
+              premiumBtn.style.cursor = 'pointer';
+              premiumBtn.addEventListener('click', function() {
+                window.location.href = 'MejorarAPremium.html';
+              });
+            }
+            const miPerfilBtn = menuContainer.querySelector('.mi-perfil');
+            if (miPerfilBtn) {
+              miPerfilBtn.style.cursor = 'pointer';
+              miPerfilBtn.addEventListener('click', function() {
+                window.location.href = 'Perfil de Usuario PP.html';
+              });
+            }
+            const herramientasCre = menuContainer.querySelector('.herramientas-de-creador');
+            if (herramientasCre) {
+              herramientasCre.style.cursor = 'pointer';
+              herramientasCre.addEventListener('click', function() {
+                window.location.href = 'HerramientasDelCreadorReels.html';
+              });
+            }
+            const cerrarSe = menuContainer.querySelector('.cerrar-sesion');
+            if (cerrarSe) {
+              cerrarSe.style.cursor = 'pointer';
+              cerrarSe.addEventListener('click', function() {
+                window.location.href = 'Login.html';
+              });
+            }
           }
-          const miPerfilBtn = menuContainer.querySelector('.mi-perfil');
-          if (miPerfilBtn) {
-            miPerfilBtn.style.cursor = 'pointer';
-            miPerfilBtn.addEventListener('click', function() {
-              window.location.href = 'Perfil de Usuario PP.html';
-            });
-          }
-          const herramientasCre = menuContainer.querySelector('.herramientas-de-creador');
-          if (herramientasCre) {
-            herramientasCre.style.cursor = 'pointer';
-            herramientasCre.addEventListener('click', function() {
-              window.location.href = 'HerramientasDelCreadorReels.html';
-            });
-          }
-          const cerrarSe = menuContainer.querySelector('.cerrar-sesion');
-          if (cerrarSe) {
-            cerrarSe.style.cursor = 'pointer';
-            cerrarSe.addEventListener('click', function() {
-              window.location.href = 'Login.html';
-            });
-          }
-        }
-      });
-  } else {
-    menuContainer.innerHTML = '';
-  }
-});
+        });
+    } else {
+      menuContainer.innerHTML = '';
+    }
+  });
 
-// Evento para "Ver ahora"
-document.querySelector('.ver-ahora').addEventListener('click', function() {
-  window.location.href = 'Streaming.html';
-});
-</script>
+  // Evento para "Ver ahora"
+  document.querySelector('.ver-ahora').addEventListener('click', function() {
+    window.location.href = 'Streaming.html';
+  });
+  </script>
 </body>
 </html>
 <script>
