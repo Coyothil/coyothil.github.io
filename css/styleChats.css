@@ -9,6 +9,14 @@
   position: relative;
   overflow: hidden;
 }
+.trigger-elon {
+  position: relative;
+  cursor: pointer;
+  width: 220px;
+  height: 60px;
+  background: rgba(0,0,0,0);
+  z-index: 2;
+}
 .chats2 {
   color: #ffffff;
   text-align: left;
@@ -36,7 +44,7 @@
   object-fit: cover;
   aspect-ratio: 32/33;
 }
-.elon-musk {
+.elon-musk1 {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Medium", sans-serif;
