@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="./css/vars.css">
   <link rel="stylesheet" href="./css/buscador.css">
   <link rel="stylesheet" href="./css/styleMenu.css">
-  
+  <link rel="stylesheet" href="./css/styleChats.css">
+  <link rel="stylesheet" href="./css/styleChatEjemplo.css">
+
   <style>
    a,
    button,
@@ -95,7 +97,8 @@
      <a href="index.html"><div class="astra-index">Astra Index</div></a>
     <img class="frame-1" src="./Buscador/frame-10.png" />
     <a href="Guardado.html"><img class="image-1" src="./Buscador/image-10.png" /></a>
-    <img class="image-2" src="./Buscador/image-20.png" />
+    <img class="image-2" src="PP-Estadisticas/image-20.png" alt="Imagen 2"  id="Chat-trigger" />
+    <div id="chat-container" style="position:absolute; z-index:9998;"></div>
     <img class="image-3" src="./Buscador/image-30.png" />
     <a href="Articulos.html"><div class="art-culos">Artículos</div></a>
     <a href="Streaming.html"><div class="live">Live</div></a>
@@ -148,6 +151,61 @@
       });
   } else {
     menuContainer.innerHTML = '';
+  }
+});
+</script>
+<script>
+document.getElementById('Chat-trigger').addEventListener('click', function() {
+  const chatTrigger = document.getElementById('Chat-trigger');
+  const chatContainer = document.getElementById('chat-container');
+  if (chatContainer.innerHTML.trim() === "") {
+    fetch('Chats.html')
+      .then(response => response.text())
+      .then(html => {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        const chatDiv = tempDiv.querySelector('.chats');
+        if (chatDiv) {
+          const rect = chatTrigger.getBoundingClientRect();
+          chatDiv.style.position = 'fixed';
+          chatDiv.style.left = (rect.left + window.scrollX) + 'px';
+          chatDiv.style.top = (rect.bottom + window.scrollY + 5) + 'px';
+          chatDiv.style.zIndex = '10000';
+          chatDiv.style.boxShadow = '0 4px 16px rgba(0,0,0,0.18)';
+          chatDiv.style.borderRadius = '12px';
+
+          chatContainer.innerHTML = '';
+          chatContainer.appendChild(chatDiv);
+
+const triggerElon = chatDiv.querySelector('.trigger-elon');
+if (triggerElon) {
+  triggerElon.style.cursor = 'pointer';
+  triggerElon.onclick = function() {
+    fetch('ChatEjemplo.html')
+      .then(resp => resp.text())
+      .then(chatHtml => {
+        const tempChat = document.createElement('div');
+        tempChat.innerHTML = chatHtml;
+        const chatEjemploDiv = tempChat.querySelector('.chat-elon');
+        if (chatEjemploDiv) {
+          chatEjemploDiv.style.position = 'fixed';
+          chatEjemploDiv.style.left = (chatDiv.offsetLeft + chatDiv.offsetWidth + 24) + 'px';
+          chatEjemploDiv.style.top = chatDiv.offsetTop + 'px';
+          chatEjemploDiv.style.zIndex = '10001';
+          chatEjemploDiv.style.boxShadow = '0 4px 16px rgba(0,0,0,0.18)';
+          chatEjemploDiv.style.borderRadius = '12px';
+          const chatContainer = document.getElementById('chat-container');
+          const oldEjemplo = chatContainer.querySelector('.chat-elon');
+          if (oldEjemplo) oldEjemplo.remove();
+          chatContainer.appendChild(chatEjemploDiv);
+        }
+      });
+  };
+}
+        }
+      });
+  } else {
+    chatContainer.innerHTML = '';
   }
 });
 </script>
