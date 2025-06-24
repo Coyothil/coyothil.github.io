@@ -6,145 +6,149 @@
   background: #121217;
   height: 100vh;
   width: 100vw;
-  min-height: 1240px;
-  min-width: 1640px;
   position: relative;
+}
+body{
+    background-size: cover;
+    background: #121217;
+    width:100vw;
+    height:100vh ;
 }
 .nueva-publicaci-n {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 2.22vw;
+  line-height: 3.91vh;
   font-weight: 700;
   position: absolute;
-  left: 146px;
-  top: 220px;
+  left: 10.14vw;
+  top: 21.48vh;
 }
 .rectangle-18 {
   background: #1c1f26;
   border-style: solid;
   border-color: #3d4054;
-  border-width: 1px;
-  width: 605px;
-  height: 58px;
+  border-width: 0.07vw;
+  width: 42.01vw;
+  height: 5.66vh;
   position: absolute;
-  left: 146px;
-  top: 302px;
+  left: 10.14vw;
+  top: 29.49vh;
 }
 .titulo {
   color: #9ea3b8;
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.11vw;
+  line-height: 2.34vh;
   font-weight: 400;
   position: absolute;
-  left: 168px;
-  top: 317px;
-  width: 66px;
-  height: 43px;
+  left: 11.67vw;
+  top: 30.96vh;
+  width: 4.58vw;
+  height: 4.20vh;
 }
 .rectangle-17 {
   background: #1c1f26;
   border-radius: 12px;
   border-style: solid;
   border-color: #3d4054;
-  border-width: 1px;
-  width: 605px;
-  height: 258px;
+  border-width: 0.07vw;
+  width: 42.01vw;
+  height: 25.20vh;
   position: absolute;
-  left: 146px;
-  top: 432px;
+  left: 10.14vw;
+  top: 42.19vh;
 }
 .rectangle-16 {
   background: #362645;
   border-radius: 12px;
-  width: 155px;
-  height: 40px;
+  width: 10.76vw;
+  height: 3.91vh;
   position: absolute;
-  left: 1029px;
-  top: 650px;
+  left: 71.46vw;
+  top: 63.48vh;
 }
 .publicar {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 1078px;
-  top: 659.5px;
+  left: 74.86vw;
+  top: 64.40vh;
 }
 .depth-4-frame-3 {
-  border-radius: 20px;
-  width: 40px;
-  height: 40px;
+  border-radius: 50%;
+  width: auto;
+  height: 3.91vh;
   position: absolute;
-  left: 1362px;
-  top: 19px;
+  left: 94.58vw;
+  top: 1.86vh;
   overflow: hidden;
   object-fit: cover;
 }
 .vector-4 {
-  width: 20px;
-  height: 20px;
+  width: 1.39vw;
+  height: 1.95vh;
   position: absolute;
-  left: 1156px;
-  top: 29px;
+  left: 80.28vw;
+  top: 2.83vh;
   overflow: visible;
 }
 .art-culos {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 1060px;
-  top: 29px;
-  width: 65px;
+  left: 73.61vw;
+  top: 2.83vh;
+  width: 4.51vw;
 }
 .live {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 1004px;
-  top: 29px;
-  width: 34px;
-  height: 22px;
+  left: 69.72vw;
+  top: 2.83vh;
+  width: 2.36vw;
+  height: 2.15vh;
 }
 .destacados {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 894px;
-  top: 29px;
-  width: 82px;
-  height: 43px;
+  left: 62.08vw;
+  top: 2.83vh;
+  width: 5.69vw;
+  height: 4.20vh;
 }
 .explorar {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 807px;
-  top: 29px;
-  width: 59px;
-  height: 43px;
+  left: 56.04vw;
+  top: 2.83vh;
+  width: 4.10vw;
+  height: 4.20vh;
 }
 .group-1 {
   position: absolute;
@@ -154,195 +158,195 @@
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
   font-weight: 700;
   position: absolute;
-  left: 72px;
-  top: 20.5px;
-  width: 148px;
+  left: 5.00vw;
+  top: 2.83vh;
+  width: 10.28vw;
 }
 .frame-1 {
-  width: 25px;
-  height: 25px;
+  width: auto;
+  height: 2.44vh;
   position: absolute;
-  left: 31px;
-  top: 19px;
+  left: 2.15vw;
+  top: 2.83vh;
   overflow: hidden;
   object-fit: cover;
 }
 .image-1 {
-  width: 17px;
-  height: 20px;
+  width: auto;
+  height: 1.95vh;
   position: absolute;
-  left: 1207px;
-  top: 29px;
+  left: 83.82vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 17/20;
 }
 .image-2 {
-  width: 21px;
-  height: 20px;
+  width:auto;
+  height: 1.95vh;
   position: absolute;
-  left: 1252px;
-  top: 29px;
+  left: 86.94vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 21/20;
 }
 .image-3 {
-  width: 19px;
-  height: 20px;
+  width:auto;
+  height: 1.95vh;
   position: absolute;
-  left: 1301px;
-  top: 29px;
+  left: 90.35vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 19/20;
 }
 .rectangle-21 {
   background: #292b38;
   border-radius: 12px;
-  width: 100px;
-  height: 32px;
+  width: 6.94vw;
+  height: 3.12vh;
   position: absolute;
-  left: 146px;
-  top: 480px;
+  left: 10.14vw;
+  top: 46.88vh;
 }
 .reel {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left:163px;
-  top: 485px;
-  width: 66px;
+  left: 11.32vw;
+  top: 47.36vh;
+  width: 4.58vw;
 }
 .rectangle-24 {
   background: #292b38;
   border-radius: 12px;
-  width: 100px;
-  height: 32px;
+  width: 6.94vw;
+  height: 3.12vh;
   position: absolute;
-  left: 146px;
-  top: 620px;
+  left: 10.14vw;
+  top: 60.55vh;
 }
 .oculto {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left:163px;
-  top: 625px;
-  width: 66px;
+  left: 11.32vw;
+  top: 61.04vh;
+  width: 4.58vw;
 }
 .rectangle-25 {
   background: #292b38;
   border-radius: 12px;
-  width: 100px;
-  height: 32px;
+  width: 6.94vw;
+  height: 3.12vh;
   position: absolute;
-  left: 260px;
-  top: 620px;
+  left: 18.06vw;
+  top: 60.55vh;
 }
 .privado {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 277px;
-  top: 625px;
-  width: 66px;
+  left: 19.24vw;
+  top: 61.04vh;
+  width: 4.58vw;
 }
 .rectangle-26 {
   background: #292b38;
   border-radius: 12px;
-  width: 100px;
-  height: 32px;
+  width: 6.94vw;
+  height: 3.12vh;
   position: absolute;
-  left: 374px;
-  top: 620px;
+  left: 25.97vw;
+  top: 60.55vh;
 }
 .p-blico {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left:  391px;
-  top: 625px;
-  width: 66px;
+  left: 27.15vw;
+  top: 61.04vh;
+  width: 4.58vw;
 }
 .rectangle-22 {
   background: #292b38;
   border-radius: 12px;
-  width: 100px;
-  height: 32px;
+  width: 6.94vw;
+  height: 3.12vh;
   position: absolute;
-  left: 260px;
-  top: 480px;
+  left: 18.06vw;
+  top: 46.88vh;
 }
 .art-culo {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 391px;
-  top: 485px;
-  width: 66px;
+  left: 27.15vw;
+  top: 47.36vh;
+  width: 4.58vw;
 }
 .rectangle-23 {
   background: #292b38;
   border-radius: 12px;
-  width: 100px;
-  height: 32px;
+  width: 6.94vw;
+  height: 3.12vh;
   position: absolute;
-  left: 374px;
-  top: 480px;
+  left: 25.97vw;
+  top: 46.88vh;
 }
 .curso {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 277px;
-  top: 485px;
-  width: 66px;
+  left: 19.24vw;
+  top: 47.36vh;
+  width: 4.58vw;
 }
 .tipo-de-publicaci-n {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 1.67vw;
+  line-height: 3.91vh;
   font-weight: 700;
   position: absolute;
-  left: 146px;
-  top: 419px;
+  left: 10.14vw;
+  top: 40.92vh;
 }
 .visibilidad {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 1.67vw;
+  line-height: 3.91vh;
   font-weight: 700;
   position: absolute;
-  left: 147px;
-  top: 554px;
+  left: 10.21vw;
+  top: 54.10vh;
 }

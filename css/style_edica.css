@@ -7,80 +7,84 @@
       padding: 0;
       border: none;
       background: none;
-      width: 16px;
-      height: 20px;
+      width: 1.11vw;
+      height: 1.95vh;
     }
+body{
+    background-size: cover;
+    background: #121217;
+    width:100vw;
+    height:100vh ;
+}
 .edici-n-art-culo {
   background: #121217;
   height: 100vh;
   width: 100vw;
-  min-height: 1240px;
-  min-width: 1640px;
   position: relative;
 }
 .depth-4-frame-3 {
-  border-radius: 20px;
-  width: 40px;
-  height: 40px;
+  border-radius: 50%;
+  width:auto;
+  height: 3.91vh;
   position: absolute;
-  left: 1362px;
-  top: 19px;
+  left: 94vw;
+  top: 1.86vh;
   overflow: hidden;
   object-fit: cover;
 }
 .vector-4 {
-  width: 20px;
-  height: 20px;
+  width: auto;
+  height: 1.95vh;
   position: absolute;
-  left: 1156px;
-  top: 29px;
+  left: 80.28vw;
+  top: 2.83vh;
   overflow: visible;
 }
 .astra-index {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
   font-weight: 700;
   position: absolute;
-  left: 72px;
-  top: 20.5px;
-  width: 148px;
+  left: 5.00vw;
+  top: 2.00vh;
+  width: 10.28vw;
 }
 .frame-1 {
-  width: 25px;
-  height: 25px;
+  width: auto;
+  height: 2.44vh;
   position: absolute;
-  left: 31px;
-  top: 19px;
+  left: 2.15vw;
+  top: 1.86vh;
   overflow: hidden;
   object-fit: cover;
 }
 .image-1 {
-  width: 17px;
-  height: 20px;
+  width: auto;
+  height: 1.95vh;
   position: absolute;
-  left: 1207px;
-  top: 29px;
+  left: 83.82vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 17/20;
 }
 .image-2 {
-  width: 21px;
-  height: 20px;
+  width:auto;
+  height: 1.95vh;
   position: absolute;
-  left: 1252px;
-  top: 29px;
+  left: 86.94vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 21/20;
 }
 .image-3 {
-  width: 19px;
-  height: 20px;
+  width:auto;
+  height: 1.95vh;
   position: absolute;
-  left: 1301px;
-  top: 29px;
+  left: 90.35vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 19/20;
 }
@@ -88,82 +92,82 @@
   color: #ad94c7;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 400;
   position: absolute;
-  left: 48px;
-  top: 176px;
+  left: 3.33vw;
+  top: 17.19vh;
 }
 .rectangle-50 {
   background: #59595b;
   border-radius: 10px;
-  width: 484px;
-  height: 160px;
+  width: 33.61vw;
+  height: 15.62vh;
   position: absolute;
-  left: 44px;
-  top: 434px;
+  left: 3.06vw;
+  top: 51.38vh;
 }
 .c-mo-encontrar-constelaciones-en-el-cielo-nocturno {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Bold", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1.11vw;
+  line-height: 1.95vh;
   font-weight: 700;
   position: absolute;
-  left: 59.3px;
-  top: 132px;
-  width: 272.65px;
-  height: 44px;
+  left: 4.12vw;
+  top: 12.89vh;
+  width: 18.93vw;
+  height: 4.30vh;
 }
 .edit {
-  width: 16px;
-  height: 16px;
+  width: auto;
+  height: 1.56vh;
   position: absolute;
-  left: 514px;
-  top: 126px;
+  left: 35.69vw;
+  top: 12.30vh;
   overflow: visible;
   aspect-ratio: 1;
 }
 .rectangle-502 {
   background: #59595b;
-  width: 484px;
-  height: 160px;
+  width: 33.61vw;
+  height: 15.62vh;
   position: absolute;
-  left: 48px;
-  top: 581px;
+  left: 3.33vw;
+  top: 56.74vh;
 }
 .edit2 {
-    width: 16px;
-    height: 16px;
+    width: auto;
+    height: 1.56vh;
     cursor: pointer;
 }
 .edit3 {
-    width: 16px;
-    height: 16px;
+    width: auto;
+    height: 1.56vh;
     cursor: pointer;
 }
 
 .line-8 {
-  margin-top: -1px;
+  
   border-style: solid;
   border-color: #ffffff;
-  border-width: 1px 0 0 0;
-  width: 885px;
-  height: 0px;
+  border-width: 0.07vw 0 0 0;
+  width: 70.46vh;
+  height: 0.00vh;
   position: absolute;
-  left: 872px;
-  top: 977px;
+  left: 60.56vw;
+  top: 95.41vh;
   transform-origin: 0 0;
   transform: rotate(-90deg) scale(1, 1);
 }
 .add-circle {
-  width: 24px;
-  height: 24px;
+  width: 1.67vw;
+  height: 2.34vh;
   position: absolute;
-  left: 640px;
-  top: 105px;
+  left: 44.44vw;
+  top: 10.25vh;
   overflow: visible;
 }
 .group-95 {
@@ -172,32 +176,32 @@
 }
 .rectangle-503 {
   background: #59595b;
-  width: 487px;
-  height: 155.4px;
+  width: 33.82vw;
+  height: 15.18vh;
   position: absolute;
-  left: 43px;
-  top: 209px;
+  left: 2.99vw;
+  top: 20.41vh;
 }
 
 .emb-rcate-en-un-viaje-celestial-para-descubrir-las-maravillas-de-las-constelaciones-esta-gu-a-proporciona-t-cnicas-esenciales-para-identificar-constelaciones-desde-mapas-estelares-b-sicos-hasta-m-todos-avanzados-de-navegaci-n-aprende-a-usar-las-coordenadas-celestes-a-comprender-los-cambios-estacionales-y-a-usar-aplicaciones-para-cartografiar-el-cielo-en-tiempo-real-con-instrucciones-claras-y-ayudas-visuales-podr-s-localizar-constelaciones-como-ori-n-la-osa-mayor-y-casiopea-con-facilidad {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 11px;
-  line-height: 20px;
+  font-size: 0.76vw;
+  line-height: 1.95vh;
   font-weight: 700;
   position: absolute;
-  left: 47px;
-  top: 221px;
-  width: 481px;
-  height: 157px;
+  left: 3.26vw;
+  top: 21.58vh;
+  width: 33.40vw;
+  height: 15.33vh;
 }
 .depth-6-frame-0 {
-  width: 184px;
-  height: 122px;
+  width: 12.78vw;
+  height: 11.91vh;
   position: absolute;
-  left: 179px;
-  top: 454px;
+  left: 12.43vw;
+  top: 53.25vh;
   overflow: hidden;
   object-fit: cover;
 }
@@ -205,130 +209,121 @@
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 1063px;
-  top: 29px;
-  width: 65px;
+  left: 73.82vw;
+  top: 2.83vh;
+  width: 4.51vw;
 }
 .live {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 1007px;
-  top: 29px;
-  width: 34px;
-  height: 22px;
+  left: 69.93vw;
+  top: 2.83vh;
+  width: 2.36vw;
+  height: 2.15vh;
 }
 .destacados {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 897px;
-  top: 29px;
-  width: 82px;
-  height: 43px;
+  left: 62.29vw;
+  top: 2.83vh;
+  width: 5.69vw;
+  height: 4.20vh;
 }
 .explorar {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 810px;
-  top: 29px;
-  width: 59px;
-  height: 43px;
+  left: 56.25vw;
+  top: 2.83vh;
+  width: 4.10vw;
+  height: 4.20vh;
 }
 .rectangle-7 {
   background: #292b38;
   border-radius: 12px;
-  width: 448px;
-  height: 56px;
-  position: absolute;
-  left: 920px;
-  top: 197px;
+  width:0px;
+  height: 0px;
+  left: 64.79vw;
+  top: 15vh;
+  
 }
 .agregar {
   color: #9ea3b8;
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.11vw;
+  line-height: 2.34vh;
   font-weight: 400;
   position: absolute;
-  left: 938px;
-  top: 213px;
-  width: 146px;
+  left: 65.14vw;
+  top: 20.80vh;
+  width: 10.14vw;
 }
 .agregar-topic {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 1.53vw;
+  line-height: 2.73vh;
   font-weight: 700;
   position: absolute;
-  left: 920px;
-  top: 146px;
-  width: 328px;
+  left: 63.89vw;
+  top: 14.26vh;
+  width: 22.78vw;
 }
-.rectangle-21 {
-  background: #292b38;
-  border-radius: 12px;
-  width: 133px;
-  height: 32px;
-  position: relative;
-  left: 920px;
-  top: 287px;
-}
+
 .stargazing {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 933px;
-  top: 293px;
-  width: 132px;
+  left: 64.79vw;
+  top: 28.61vh;
+  width: 9.17vw;
 }
 
 .editor {
-    background-color:  #59595b;
-      padding: 10px;
-      min-height: 50px;
-      width: 500px;
-      font-size: 16px;
-      top:126px;
-      left:43px;
-      border-radius: 10px;
+      background-color:  #59595b;
+
+      height: 4vh;
+      width: 34.72vw;
+      font-size: 1.11vw;
+      top: 12.30vh;
+      left: 2.99vw;
+      border-radius:  0.9vh;
       font-family: Arial, sans-serif;
       outline: none;
       position:absolute;
 }
 .editor2 {
       background-color:  #59595b;
-      padding: 10px;
-      min-height: 150px;
-      width: 500px;
-      font-size: 16px;
-      top:209px;
-      left:43px;
-      border-radius: 10px;
+      height: auto;
+      width: 34.72vw;
+      font-size: 1.11vw;
+      top: 20.41vh;
+      left: 2.99vw;
+      border-radius: 0.9vh;
       font-family: Arial, sans-serif;
       outline: none;
       position:absolute;
@@ -340,10 +335,10 @@
 
 .opciones {
       position: absolute;
-      top: 110px;
-      left: 550px;
+      top: 10.74vh;
+      left: 38.19vw;
       margin: 0;
-      padding: 15px;
+
       display: flex;
       flex-direction: column;
       gap: 42px;
@@ -356,8 +351,10 @@
   .opciones li {
       list-style: none;
       position: relative;
-      padding: 10px 20px;
+      padding: 1.5vh 1.95vw;
       background-color: #304FE8;
+      width: auto;
+      height: 6vh;
       border-radius: 10px;
       cursor: pointer;
       transition: background-color 0.3s ease;
@@ -382,7 +379,7 @@
       padding: 10px 0;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       z-index: 10;
-      min-width: 150px;
+      min-width: 10.42vw;
     }
 
   .opciones ul li {
@@ -397,48 +394,48 @@
     }
 
   .extra-gap {
-  margin-top: 145px; 
+  margin-top: 14.16vh; 
   }
 
   .rectangle-39 {
   background: #304fe8;
   border-radius: 12px;
-  width: 94px;
-  height: 42px;
+  width: 6.53vw;
+  height: 4.10vh;
   position: absolute;
-  left: 959px;
-  top: 907px;
+  left: 66.60vw;
+  top: 88.57vh;
 }
 .guardar {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.11vw;
+  line-height: 2.34vh;
   font-weight: 700;
   position: absolute;
-  left: 975.5px;
-  top: 916px;
+  left: 67.74vw;
+  top: 89.45vh;
 }
 .rectangle-51 {
   background: #304fe8;
   border-radius: 12px;
-  width: 94px;
-  height: 42px;
+  width: 6.53vw;
+  height: 4.10vh;
   position: absolute;
-  left: 1226px;
-  top: 907px;
+  left: 85.14vw;
+  top: 88.57vh;
 }
 .cancelar {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.11vw;
+  line-height: 2.34vh;
   font-weight: 700;
   position: absolute;
-  left: 1239.5px;
-  top: 916px;
+  left: 86.08vw;
+  top: 89.45vh;
 }
 
 .btn{
@@ -446,12 +443,24 @@
   background: #304fe8;
   color:white;
   border-radius: 12px;
-  width: 94px;
-  height: 42px;
+  font-size: 1.11vw;
+  line-height: 2.34vh;
+  width: 6.53vw;
+  height: 4.10vh;
+  top:21.75vh;
+  left: 88vw;
+  position: absolute;
   
 }
 
 
 .input{
   color:white;
+  background: #292b38;
+  border-radius: 12px;
+  width: 31.11vw;
+  height: 5.47vh;
+  left: 64.79vw;
+  top:21vh;
+  position: absolute;
 }
