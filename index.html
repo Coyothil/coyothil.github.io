@@ -109,6 +109,7 @@
     <img class="frame-1" src="./Pagina Inicio/frame-10.png" alt="Frame 1" />
     <a href="Guardado.html"><img class="image-1" src="./Pagina Inicio/image-10.png" alt="Imagen 1" /></a>
     <img class="image-2" src="./Pagina Inicio/image-20.png" alt="Imagen 2"  id="Chat-trigger" />
+    <div id="chat-container" style="position:absolute; z-index:9998;"></div>
     <img class="image-3" src="./Pagina Inicio/image-30.png" alt="Imagen 3" />
     <div class="group-53">
       <div class="see-all">See all</div>
@@ -236,7 +237,7 @@ if (triggerElon) {
         if (chatEjemploDiv) {
           chatEjemploDiv.style.position = 'fixed';
           // Posición a la derecha del chat principal
-          chatEjemploDiv.style.left = (chatDiv.offsetLeft + chatDiv.offsetWidth + 24) + 'px';
+          chatEjemploDiv.style.left = (chatDiv.offsetLeft - chatDiv.offsetWidth - 120) + 'px';
           chatEjemploDiv.style.top = chatDiv.offsetTop + 'px';
           chatEjemploDiv.style.zIndex = '10001';
           chatEjemploDiv.style.boxShadow = '0 4px 16px rgba(0,0,0,0.18)';
