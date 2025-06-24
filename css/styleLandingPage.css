@@ -601,14 +601,16 @@
   left: 823px;
   top: 770px;
 }
-.rectangle-56 {
+.landing-rectangle-56 {
   background: #362645;
   border-radius: 20px;
   width: 276px;
   height: 443px;
-  position: absolute;
-  left: 394px;
-  top: 1723px;
+  position: fixed;
+  left: 100px;
+  top: 100px;
+  z-index: 1000;
+  border: 2px solid red; /* solo para depuración */
 }
 .motor-de-arranque {
   color: #ffffff;

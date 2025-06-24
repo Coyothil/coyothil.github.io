@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="./css/vars.css">
   <link rel="stylesheet" href="./css/inicio.css">
   <link rel="stylesheet" href="./css/styleMenu.css">
+  <link rel="stylesheet" href="./css/styleChats.css">
+    <link rel="stylesheet" href="./css/styleChatEjemplo.css">
   <style>
    a,
    button,
@@ -79,7 +81,7 @@
     <img class="depth-7-frame-05" src="./Pagina Inicio/depth-7-frame-04.png" alt="Artículo 1" />
     <div class="porque-las-estrellas-brillan">Porque las estrellas brillan</div>
     <div class="lectura-de-3-minutos">Lectura de 3 minutos</div>
-    <img class="depth-7-frame-06" src="./Pagina Inicio/depth-7-frame-05.png" alt="Artículo 2" />
+    <img class="depth-7-frame-06" src="./Pagina Inicio/depth-7-frame-05.png" alt="Artículo 2"/>
     <div class="el-misterio-de-jupiter-y-su-gran-punto-rojo">
       El misterio de Jupiter y su gran punto Rojo
     </div>
@@ -106,7 +108,7 @@
     <div class="astra-index">Astra Index</div>
     <img class="frame-1" src="./Pagina Inicio/frame-10.png" alt="Frame 1" />
     <a href="Guardado.html"><img class="image-1" src="./Pagina Inicio/image-10.png" alt="Imagen 1" /></a>
-    <img class="image-2" src="./Pagina Inicio/image-20.png" alt="Imagen 2" />
+    <img class="image-2" src="./Pagina Inicio/image-20.png" alt="Imagen 2"  id="Chat-trigger" />
     <img class="image-3" src="./Pagina Inicio/image-30.png" alt="Imagen 3" />
     <div class="group-53">
       <div class="see-all">See all</div>
@@ -116,11 +118,14 @@
      <a href="Articulos.html"> <div class="see-all">See all</div></a>
      <a href="Articulos.html"> <img class="svgexport-42" src="./Pagina Inicio/svgexport-41.svg" alt="Ver todo 2" /></a>
     </div>
+    <a href="Articulos.html"><div class="art-culos">Artículos</div></a>
+    <a href="Streaming.html"><div class="live">Live</div></a>
     <a href="Streaming.html"><div class="group-55"></a>
       <a href="Streaming.html"><div class="see-all">See all</div></a>
       <a href="Streaming.html"><img class="svgexport-43" src="./Pagina Inicio/svgexport-42.svg" alt="Ver todo 3" /></a>
     </div>
   </div>
+
   <script>
   document.getElementById('menu-trigger').addEventListener('click', function() {
     const menuTrigger = document.getElementById('menu-trigger');
@@ -135,6 +140,7 @@
           if (menuDiv) {
             menuContainer.innerHTML = '';
             menuContainer.appendChild(menuDiv.cloneNode(true));
+
 
             // Posiciona el menú debajo del trigger
             const rect = menuTrigger.getBoundingClientRect();
@@ -177,26 +183,79 @@
     }
   });
 
+
   // Evento para "Ver ahora"
   document.querySelector('.ver-ahora').addEventListener('click', function() {
     window.location.href = 'Streaming.html';
   });
   </script>
+
 </body>
 </html>
 <script>
   document.querySelector('.astra-index').addEventListener('click', function() {
     window.location.href = 'index.html';
   });
-  document.querySelector('.destacados').addEventListener('click', function() {
-    window.location.href = 'index.html#destacado';
-  });
-  document.querySelector('.live').addEventListener('click', function() {
-    window.location.href = 'index.html#stream-en-vivo';
-  });
-  document.querySelector('.art-culos').addEventListener('click', function() {
-    window.location.href = 'index.html#articulo';
-  });
+</script>
+
+
+<script>
+document.getElementById('Chat-trigger').addEventListener('click', function() {
+  const chatTrigger = document.getElementById('Chat-trigger');
+  const chatContainer = document.getElementById('chat-container');
+  if (chatContainer.innerHTML.trim() === "") {
+    fetch('Chats.html')
+      .then(response => response.text())
+      .then(html => {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        const chatDiv = tempDiv.querySelector('.chats');
+        if (chatDiv) {
+          const rect = chatTrigger.getBoundingClientRect();
+          chatDiv.style.position = 'fixed';
+          chatDiv.style.left = (rect.left + window.scrollX) + 'px';
+          chatDiv.style.top = (rect.bottom + window.scrollY + 5) + 'px';
+          chatDiv.style.zIndex = '10000';
+          chatDiv.style.boxShadow = '0 4px 16px rgba(0,0,0,0.18)';
+          chatDiv.style.borderRadius = '12px';
+
+          chatContainer.innerHTML = '';
+          chatContainer.appendChild(chatDiv);
+
+          // Supón que ya cargaste el chat principal y tienes chatDiv:
+const triggerElon = chatDiv.querySelector('.trigger-elon');
+if (triggerElon) {
+  triggerElon.style.cursor = 'pointer';
+  triggerElon.onclick = function() {
+    fetch('ChatEjemplo.html')
+      .then(resp => resp.text())
+      .then(chatHtml => {
+        const tempChat = document.createElement('div');
+        tempChat.innerHTML = chatHtml;
+        const chatEjemploDiv = tempChat.querySelector('.chat-elon');
+        if (chatEjemploDiv) {
+          chatEjemploDiv.style.position = 'fixed';
+          // Posición a la derecha del chat principal
+          chatEjemploDiv.style.left = (chatDiv.offsetLeft + chatDiv.offsetWidth + 24) + 'px';
+          chatEjemploDiv.style.top = chatDiv.offsetTop + 'px';
+          chatEjemploDiv.style.zIndex = '10001';
+          chatEjemploDiv.style.boxShadow = '0 4px 16px rgba(0,0,0,0.18)';
+          chatEjemploDiv.style.borderRadius = '12px';
+          // Elimina cualquier chat-elon anterior SOLO dentro de chat-container
+          const chatContainer = document.getElementById('chat-container');
+          const oldEjemplo = chatContainer.querySelector('.chat-elon');
+          if (oldEjemplo) oldEjemplo.remove();
+          chatContainer.appendChild(chatEjemploDiv);
+        }
+      });
+  };
+}
+        }
+      });
+  } else {
+    chatContainer.innerHTML = '';
+  }
+});
 </script>
 </body>
 </html>
