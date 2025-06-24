@@ -474,10 +474,6 @@ body{
   top: 13.67vh;
   width: 58.06vw;
 }
-.group-1 {
-  position: absolute;
-  inset: 0;
-}
 .depth-4-frame-3 {
   border-radius: 50%;
   width: auto;
@@ -488,7 +484,10 @@ body{
   overflow: hidden;
   object-fit: cover;
 }
-
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
 .vector-4 {
   width: auto;
   height: 1.39vh;
