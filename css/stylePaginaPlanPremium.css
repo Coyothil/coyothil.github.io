@@ -4,119 +4,119 @@
 }
 .mejorar-a-premium {
   background: #121217;
-  height: 1024px;
+  height: 100.00vh;
   position: relative;
   overflow: hidden;
 }
 .rectangle-46 {
   background: #362645;
   border-radius: 20px;
-  width: 276px;
-  height: 579px;
+  width: 19.17vw;
+  height: 56.54vh;
   position: absolute;
-  left: 858px;
-  top: 133px;
+  left: 59.58vw;
+  top: 12.99vh;
 }
 .mayor-alcanze-de-publico {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 892px;
-  top: 356px;
+  left: 61.94vw;
+  top: 34.77vh;
 }
 .rectangle-52 {
   background: #d9d9d9;
   border-radius: 20px 20px 0px 0px;
-  width: 276px;
-  height: 41px;
+  width: 19.17vw;
+  height: 4.00vh;
   position: absolute;
-  left: 858px;
-  top: 133px;
+  left: 59.58vw;
+  top: 12.99vh;
 }
 .acceso-a-los-cursos {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 892px;
-  top: 239px;
+  left: 61.94vw;
+  top: 23.34vh;
 }
 .depth-4-frame-3 {
   border-radius: 20px;
-  width: 40px;
-  height: 40px;
+  width: 2.78vw;
+  height: 3.91vh;
   position: absolute;
-  left: 1362px;
-  top: 19px;
+  left: 94.58vw;
+  top: 1.86vh;
   overflow: hidden;
   object-fit: cover;
 }
 .vector-4 {
-  width: 20px;
-  height: 20px;
+  width: 1.39vw;
+  height: 1.95vh;
   position: absolute;
-  left: 1156px;
-  top: 29px;
+  left: 80.28vw;
+  top: 2.83vh;
   overflow: visible;
 }
 .art-culos {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 1058px;
-  top: 29px;
-  width: 65px;
+  left: 73.47vw;
+  top: 2.83vh;
+  width: 4.51vw;
   cursor: pointer;
 }
 .live {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 1002px;
-  top: 29px;
-  width: 34px;
-  height: 22px;
+  left: 69.58vw;
+  top: 2.83vh;
+  width: 2.36vw;
+  height: 2.15vh;
   cursor: pointer;
 }
 .destacados {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 892px;
-  top: 29px;
-  width: 82px;
-  height: 43px;
+  left: 61.94vw;
+  top: 2.83vh;
+  width: 5.69vw;
+  height: 4.20vh;
   cursor: pointer;
 }
 .explorar {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 805px;
-  top: 29px;
-  width: 59px;
-  height: 43px;
+  left: 55.90vw;
+  top: 2.83vh;
+  width: 4.10vw;
+  height: 4.20vh;
   cursor: pointer;
 }
 .group-1 {
@@ -127,91 +127,91 @@
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
   font-weight: 700;
   position: absolute;
-  left: 72px;
-  top: 20.5px;
-  width: 148px;
+  left: 5.00vw;
+  top: 2.00vh;
+  width: 10.28vw;
   cursor: pointer;
 }
 .frame-1 {
-  width: 25px;
-  height: 25px;
+  width: 1.74vw;
+  height: 2.44vh;
   position: absolute;
-  left: 31px;
-  top: 19px;
+  left: 2.15vw;
+  top: 1.86vh;
   overflow: hidden;
   object-fit: cover;
 }
 .image-1 {
-  width: 17px;
-  height: 20px;
+  width: 1.18vw;
+  height: 1.95vh;
   position: absolute;
-  left: 1207px;
-  top: 29px;
+  left: 83.82vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 17/20;
 }
 .image-2 {
-  width: 21px;
-  height: 20px;
+  width: 1.46vw;
+  height: 1.95vh;
   position: absolute;
-  left: 1252px;
-  top: 29px;
+  left: 86.94vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 21/20;
 }
 .image-3 {
-  width: 19px;
-  height: 20px;
+  width: 1.32vw;
+  height: 1.95vh;
   position: absolute;
-  left: 1301px;
-  top: 29px;
+  left: 90.35vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 19/20;
 }
 .rectangle-47 {
   background: #362645;
   border-radius: 20px;
-  width: 276px;
-  height: 543px;
+  width: 19.17vw;
+  height: 53.03vh;
   position: absolute;
-  left: 306px;
-  top: 169px;
+  left: 21.25vw;
+  top: 16.50vh;
 }
 .motor-de-arranque {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
   font-weight: 500;
   position: absolute;
-  left: 352px;
-  top: 192px;
+  left: 24.44vw;
+  top: 18.75vh;
 }
 .pro {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
   font-weight: 500;
   position: absolute;
-  left: 979px;
-  top: 192px;
+  left: 67.99vw;
+  top: 18.75vh;
 }
 .acceso-a-los-cursos2 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 340px;
-  top: 239px;
+  left: 23.61vw;
+  top: 23.34vh;
 }
 .group-110 {
   position: absolute;
@@ -220,21 +220,21 @@
 .rectangle-51 {
   background: #ffffff;
   border-radius: 20px;
-  width: 208px;
-  height: 43px;
+  width: 14.44vw;
+  height: 4.20vh;
   position: absolute;
-  left: 340px;
-  top: 624px;
+  left: 23.61vw;
+  top: 60.94vh;
 }
 .unirse-como-miembro {
   color: #000000;
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 400;
   position: absolute;
-  left: 381px;
-  top: 638px;
+  left: 26.46vw;
+  top: 62.30vh;
 }
 .group-112 {
   position: absolute;
@@ -243,125 +243,125 @@
 .rectangle-512 {
   background: #ffffff;
   border-radius: 20px;
-  width: 208px;
-  height: 43px;
+  width: 14.44vw;
+  height: 4.20vh;
   position: absolute;
-  left: 892px;
-  top: 624px;
+  left: 61.94vw;
+  top: 60.94vh;
 }
 .unirse-como-miembro2 {
   color: #000000;
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 400;
   position: absolute;
-  left: 933px;
-  top: 638px;
+  left: 64.79vw;
+  top: 62.30vh;
 }
 .verificacion {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 340px;
-  top: 278px;
+  left: 23.61vw;
+  top: 27.15vh;
 }
 .verificacion2 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 892px;
-  top: 278px;
+  left: 61.94vw;
+  top: 27.15vh;
 }
 .acceso-anticipado-a-nuevos-articulos {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 892px;
-  top: 434px;
+  left: 61.94vw;
+  top: 42.38vh;
 }
 .monetizacion-de-contenido {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 340px;
-  top: 317px;
+  left: 23.61vw;
+  top: 30.96vh;
 }
 .monetizacion-de-contenido2 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 892px;
-  top: 317px;
+  left: 61.94vw;
+  top: 30.96vh;
 }
 .m-s-popular {
   color: #000000;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 953px;
-  top: 153px;
-  width: 87px;
-  height: 15px;
+  left: 66.18vw;
+  top: 14.94vh;
+  width: 6.04vw;
+  height: 1.46vh;
 }
 .ai-para-los-cursos {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 892px;
-  top: 395px;
+  left: 61.94vw;
+  top: 38.57vh;
 }
 .mayor-alcanze-de-publico2 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 340px;
-  top: 356px;
+  left: 23.61vw;
+  top: 34.77vh;
 }
 .s-50 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 50px;
+  font-size: 3.47vw;
   font-weight: 500;
   position: absolute;
-  left: 372px;
-  top: 522px;
-  width: 144px;
-  height: 69px;
+  left: 25.83vw;
+  top: 50.98vh;
+  width: 10.00vw;
+  height: 6.74vh;
 }
 .s-100 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 50px;
+  font-size: 3.47vw;
   font-weight: 500;
   position: absolute;
-  left: 920px;
-  top: 522px;
-  width: 153px;
-  height: 69px;
+  left: 63.89vw;
+  top: 50.98vh;
+  width: 10.62vw;
+  height: 6.74vh;
 }
