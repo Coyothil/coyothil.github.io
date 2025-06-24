@@ -153,17 +153,21 @@
     <a href="./Streaming.html"><div class="live">Live</div></a>
     <a href="./index.html"><div class="destacados">Destacados</div></a>
     <a href="./Buscador.html"><div class="explorar">Explorar</div></a>
-    <div class="rectangle-7"></div>
-    <div class="agregar">Agregar ...</div>
+
+    <div class="rectangle-7">
+    <input class="input" id="tag">
+    <button class="btn" type="button" onclick="tags()">Agregar</button>
+    </div>
     <div class="agregar-topic">Agregar Topic</div>
-    <div class="rectangle-21"></div>
-    <div class="stargazing">Stargazing</div>
+    <div class="stargazing">
+      <p id="text-tag"><div class="rectangle-21"></div></p>
+    </div>
     <a href="./HerramientasDelCreadorArticulos.html"><div class="rectangle-39"></div></a>
     <a href="./HerramientasDelCreadorArticulos.html"><div class="guardar">Guardar</div></a>
     <a href="./HerramientasDelCreadorArticulos.html"><div  class="rectangle-51"></div></a>
     <a href="./HerramientasDelCreadorArticulos.html"><div class="cancelar">Cancelar</div></a>
   </div>
-  
+</body>
   <script>
 
     function setupEditor(editorId, colorPickerId, fontSizeId, fontSelectId) {
@@ -236,7 +240,15 @@
     menuContainer.innerHTML = '';
   }
 });
+
+function tags() {
+
+  let text = document.getElementById("tag").value;
+  
+   document.getElementById("text-tag").innerHTML+=  text + "<br><br>"  ;
+}
 </script>
+
 <script>
 document.getElementById('Chat-trigger').addEventListener('click', function() {
   const chatTrigger = document.getElementById('Chat-trigger');
@@ -293,4 +305,5 @@ if (triggerElon) {
 });
 </script>
 </body>
+
 </html>
