@@ -4,250 +4,250 @@
 }
 .perfil-de-usuario-articulos {
   background: #121217;
-  height: 1024px;
+  height: 100.00vh;
   position: relative;
 }
 .feed {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 236px;
-  top: 289px;
+  left: 16.39vw;
+  top: 28.22vh;
 }
 .reels {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 304px;
-  top: 289px;
+  left: 21.11vw;
+  top: 28.22vh;
 }
 .articulos {
   color: #a1824a;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 374px;
-  top: 289px;
+  left: 25.97vw;
+  top: 28.22vh;
 }
 .menciones {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 469px;
-  top: 289px;
+  left: 32.57vw;
+  top: 28.22vh;
 }
 .estadisticas {
   position: absolute;
   color: #fff;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 16px;
-  margin-left: 20px;
+  font-size: 1.11vw;
+  margin-left: 1.39vw;
   cursor: pointer;
-  left: 570px;
-  top: 289px;
+  left: 39.58vw;
+  top: 28.22vh;
 }
 .line-1 {
   margin-top: -1px;
   border-style: solid;
   border-color: #ffffff;
-  border-width: 1px 0 0 0;
-  width: 906px;
-  height: 0px;
+  border-width: 0.07vw 0 0 0;
+  width: 62.92vw;
+  height: 0.00vh;
   position: absolute;
-  left: 221px;
-  top: 327px;
+  left: 15.35vw;
+  top: 31.93vh;
   transform-origin: 0 0;
   transform: rotate(0.126deg) scale(1, 1);
 }
 .rectangle-5 {
   background: #d9d9d9;
-  width: 34px;
-  height: 4px;
+  width: 2.36vw;
+  height: 0.39vh;
   position: absolute;
-  left: 388px;
-  top: 323px;
+  left: 26.94vw;
+  top: 31.54vh;
 }
 .depth-6-frame-1 {
   border-radius: 12px;
-  width: 303px;
-  height: 161px;
+  width: 21.04vw;
+  height: 15.72vh;
   position: absolute;
-  left: 855px;
-  top: 574px;
+  left: 59.38vw;
+  top: 56.05vh;
   overflow: hidden;
   object-fit: cover;
 }
 .depth-6-frame-12 {
   border-radius: 12px;
-  width: 303px;
-  height: 161px;
+  width: 21.04vw;
+  height: 15.72vh;
   position: absolute;
-  left: 855px;
-  top: 362px;
+  left: 59.38vw;
+  top: 35.35vh;
   overflow: hidden;
   object-fit: cover;
 }
 .rectangle-28 {
   background: #362645;
   border-radius: 16px;
-  width: 141px;
-  height: 32px;
+  width: 9.79vw;
+  height: 3.12vh;
   position: absolute;
-  left: 282px;
-  top: 470px;
+  left: 19.58vw;
+  top: 45.90vh;
 }
 .radiogalaxias-con-jets-que-est-n-desalineados-con-sus-galaxias-anfitrionas {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Bold", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1.11vw;
+  line-height: 1.95vh;
   font-weight: 700;
   position: absolute;
-  left: 282px;
-  top: 387px;
-  width: 573px;
+  left: 19.58vw;
+  top: 37.79vh;
+  width: 39.79vw;
 }
 .por-astra-index-astrof-sica-10-minutos {
   color: #ad94c7;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 400;
   position: absolute;
-  left: 282px;
-  top: 433px;
+  left: 19.58vw;
+  top: 42.29vh;
 }
 .astronomia {
   color: #ad94c7;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 400;
   position: absolute;
-  left: 282px;
-  top: 362px;
+  left: 19.58vw;
+  top: 35.35vh;
 }
 .leer-articulo {
   color: #ffffff;
   text-align: center;
   font-family: "Inter-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 289px;
-  top: 474px;
-  width: 126px;
+  left: 20.07vw;
+  top: 46.29vh;
+  width: 8.75vw;
 }
 .astronomia2 {
   color: #ad94c7;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 400;
   position: absolute;
-  left: 282px;
-  top: 574px;
+  left: 19.58vw;
+  top: 56.05vh;
 }
 .el-telescopio-espacial-the-hubble-ha-descubierto-un-exoplaneta-con-cielo-azul {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Bold", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1.11vw;
+  line-height: 1.95vh;
   font-weight: 700;
   position: absolute;
-  left: 282px;
-  top: 599px;
-  width: 573px;
+  left: 19.58vw;
+  top: 58.50vh;
+  width: 39.79vw;
 }
 .por-astra-index-astrof-sica-2-meses {
   color: #ad94c7;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 400;
   position: absolute;
-  left: 282px;
-  top: 643px;
+  left: 19.58vw;
+  top: 62.79vh;
 }
 .rectangle-27 {
   background: #362645;
   border-radius: 16px;
-  width: 141px;
-  height: 32px;
+  width: 9.79vw;
+  height: 3.12vh;
   position: absolute;
-  left: 282px;
-  top: 680px;
+  left: 19.58vw;
+  top: 66.41vh;
 }
 .rectangle-26 {
   background: #333f48;
   border-radius: 20px;
-  width: 480px;
-  height: 40px;
+  width: 33.33vw;
+  height: 3.91vh;
   position: absolute;
-  left: 556px;
-  top: 889px;
+  left: 38.61vw;
+  top: 86.82vh;
 }
 .leer-articulo2 {
   color: #ffffff;
   text-align: center;
   font-family: "Inter-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 289px;
-  top: 685px;
-  width: 126px;
+  left: 20.07vw;
+  top: 66.89vh;
+  width: 8.75vw;
 }
 .cargar-m-s {
   color: #ffffff;
   text-align: center;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 756.5px;
-  top: 898.5px;
+  left: 52.53vw;
+  top: 87.74vh;
 }
 .depth-4-frame-3 {
   border-radius: 20px;
-  width: 40px;
-  height: 40px;
+  width: 2.78vw;
+  height: 3.91vh;
   position: absolute;
-  left: 1362px;
-  top: 19px;
+  left: 94.58vw;
+  top: 1.86vh;
   overflow: hidden;
   object-fit: cover;
 }
 .vector-4 {
-  width: 20px;
-  height: 20px;
+  width: 1.39vw;
+  height: 1.95vh;
   position: absolute;
-  left: 1156px;
-  top: 29px;
+  left: 80.28vw;
+  top: 2.83vh;
   overflow: visible;
 }
 .group-1 {
@@ -258,57 +258,57 @@
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
   font-weight: 700;
   position: absolute;
-  left: 72px;
-  top: 20.5px;
-  width: 148px;
+  left: 5.00vw;
+  top: 2.00vh;
+  width: 10.28vw;
 }
 .frame-1 {
-  width: 25px;
-  height: 25px;
+  width: 1.74vw;
+  height: 2.44vh;
   position: absolute;
-  left: 31px;
-  top: 19px;
+  left: 2.15vw;
+  top: 1.86vh;
   overflow: hidden;
   object-fit: cover;
 }
 .image-1 {
-  width: 17px;
-  height: 20px;
+  width: 1.18vw;
+  height: 1.95vh;
   position: absolute;
-  left: 1207px;
-  top: 29px;
+  left: 83.82vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 17/20;
 }
 .image-2 {
-  width: 21px;
-  height: 20px;
+  width: 1.46vw;
+  height: 1.95vh;
   position: absolute;
-  left: 1252px;
-  top: 29px;
+  left: 86.94vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 21/20;
 }
 .image-3 {
-  width: 19px;
-  height: 20px;
+  width: 1.32vw;
+  height: 1.95vh;
   position: absolute;
-  left: 1301px;
-  top: 29px;
+  left: 90.35vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 19/20;
 }
 .depth-4-frame-2 {
   border-radius: 100px;
-  width: 128px;
-  height: 128px;
+  width: 8.89vw;
+  height: 12.50vh;
   position: absolute;
-  left: 220px;
-  top: 117px;
+  left: 15.28vw;
+  top: 11.43vh;
   overflow: hidden;
   object-fit: cover;
 }
@@ -316,132 +316,132 @@
   color: #ffffff;
   text-align: center;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 1.53vw;
+  line-height: 2.73vh;
   font-weight: 700;
   position: absolute;
-  left: 382px;
-  top: 141px;
+  left: 26.53vw;
+  top: 13.77vh;
 }
 .astrof-sica-el-cielo-de-la-noche-cienca-los-angeles-ca {
   color: #a1824a;
   text-align: left;
   font-family: "PlusJakartaSans-Regular", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.11vw;
+  line-height: 2.34vh;
   font-weight: 400;
   position: absolute;
-  left: 382px;
-  top: 181px;
+  left: 26.53vw;
+  top: 17.68vh;
 }
 .rectangle-2 {
   background: #362645;
   border-radius: 20px;
-  width: 234px;
-  height: 40px;
+  width: 16.25vw;
+  height: 3.91vh;
   position: absolute;
-  left: 532px;
-  top: 135px;
+  left: 36.94vw;
+  top: 13.18vh;
 }
 .nueva-publicacion {
   color: #ffffff;
   text-align: center;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 585.5px;
-  top: 144.5px;
+  left: 40.66vw;
+  top: 14.11vh;
 }
 .seguidores {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 22px;
+  font-size: 1.53vw;
   font-weight: 500;
   position: absolute;
-  left: 932px;
-  top: 177px;
+  left: 64.72vw;
+  top: 17.29vh;
 }
 .publicaciones {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 22px;
+  font-size: 1.53vw;
   font-weight: 500;
   position: absolute;
-  left: 1175px;
-  top: 176px;
+  left: 81.60vw;
+  top: 17.19vh;
 }
 ._255-mil {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 22px;
+  font-size: 1.53vw;
   font-weight: 500;
   position: absolute;
-  left: 834px;
-  top: 176px;
+  left: 57.92vw;
+  top: 17.19vh;
 }
 ._20 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 22px;
+  font-size: 1.53vw;
   font-weight: 500;
   position: absolute;
-  left: 1132px;
-  top: 176px;
+  left: 78.61vw;
+  top: 17.19vh;
 }
 .art-culos {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 1061px;
-  top: 29px;
-  width: 65px;
+  left: 73.68vw;
+  top: 2.83vh;
+  width: 4.51vw;
 }
 .live {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 1005px;
-  top: 29px;
-  width: 34px;
-  height: 22px;
+  left: 69.79vw;
+  top: 2.83vh;
+  width: 2.36vw;
+  height: 2.15vh;
 }
 .destacados {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 895px;
-  top: 29px;
-  width: 82px;
-  height: 43px;
+  left: 62.15vw;
+  top: 2.83vh;
+  width: 5.69vw;
+  height: 4.20vh;
 }
 .explorar {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 808px;
-  top: 29px;
-  width: 59px;
-  height: 43px;
+  left: 56.11vw;
+  top: 2.83vh;
+  width: 4.10vw;
+  height: 4.20vh;
 }
