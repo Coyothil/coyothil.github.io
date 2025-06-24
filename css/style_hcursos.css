@@ -6,26 +6,31 @@
   background: #121217;
   height: 100vh;
   width: 100vw;
-  min-height: 1240px;
-  min-width: 1640px;
+  
   position: relative;
 }
+body{
+    background-size: cover;
+    background: #121217;
+    width:100vw;
+    height:100vh ;
+}
 .depth-4-frame-3 {
-  border-radius: 20px;
-  width: 40px;
-  height: 40px;
+  border-radius: 50%;
+  width: auto;
+  height: 2.2vh;
   position: absolute;
-  left: 1362px;
-  top: 19px;
+  left: 94.58vw;
+  top: 2.3vh;
   overflow: hidden;
   object-fit: cover;
 }
 .vector-4 {
-  width: 20px;
-  height: 20px;
+  width: auto;
+  height: 1.39vh;
   position: absolute;
-  left: 1156px;
-  top: 29px;
+  left: 80.28vw;
+  top: 2.83vh;
   overflow: visible;
 }
 .group-1 {
@@ -33,50 +38,50 @@
   inset: 0;
 }
 .astra-index {
-  color: #ffffff;
+   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
   font-weight: 700;
   position: absolute;
-  left: 72px;
-  top: 20.5px;
-  width: 148px;
+  left: 5.00vw;
+  top: 2.30vh;
+  width: 10.28vw;
 }
 .frame-1 {
-  width: 25px;
-  height: 25px;
+  width: auto;
+  height:  1.74vh;
   position: absolute;
-  left: 31px;
-  top: 19px;
+  left: 2.15vw;
+  top:2.3vh;
   overflow: hidden;
   object-fit: cover;
 }
 .image-1 {
-  width: 17px;
-  height: 20px;
+  width: auto;
+  height:  1.18vh;
   position: absolute;
-  left: 1207px;
-  top: 29px;
+  left: 83.82vw;
+  top:  2.83vh;
   object-fit: cover;
   aspect-ratio: 17/20;
 }
 .image-2 {
-  width: 21px;
-  height: 20px;
+  width: auto;
+  height: 1.46vh;
   position: absolute;
-  left: 1252px;
-  top: 29px;
+  left: 86.94vw;
+  top:  2.83vh;
   object-fit: cover;
   aspect-ratio: 21/20;
 }
 .image-3 {
-  width: 19px;
-  height: 20px;
+  width: auto;
+  height: 1.32vh;
   position: absolute;
-  left: 1301px;
-  top: 29px;
+  left: 90.35vw;
+  top:  2.83vh;
   object-fit: cover;
   aspect-ratio: 19/20;
 }
@@ -84,120 +89,120 @@
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 2.22vw;
+  line-height: 3.91vh;
   font-weight: 700;
   position: absolute;
-  left: 31px;
-  top: 71px;
+  left: 2.15vw;
+  top: 6.93vh;
 }
 .reels {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 41px;
-  top: 148px;
+  left: 2.85vw;
+  top: 14.45vh;
 }
 .art-culos {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 98px;
-  top: 148px;
+  left: 6.81vw;
+  top: 14.45vh;
 }
 .n-vistas {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 810px;
-  top: 220px;
+  left: 56.25vw;
+  top: 21.48vh;
 }
 .n-comentarios {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 905px;
-  top: 220px;
+  left: 62.85vw;
+  top: 21.48vh;
 }
 .visibilidad {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 515px;
-  top: 220px;
-  width: 109px;
-  height: 21px;
+  left: 35.76vw;
+  top: 21.48vh;
+  width: 7.57vw;
+  height: 2.05vh;
 }
 .fecha-de-creaci-n {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 630px;
-  top: 220px;
+  left: 43.75vw;
+  top: 21.48vh;
 }
 .line-1 {
   margin-top: -1px;
   border-style: solid;
   border-color: #ffffff;
-  border-width: 1px 0 0 0;
-  width: 906px;
-  height: 0px;
+  border-width: 0.07vw 0 0 0;
+  width: 62.92vw;
+  height: 0.00vh;
   position: absolute;
-  left: 28px;
-  top: 176px;
+  left: 1.94vw;
+  top: 17.19vh;
   transform-origin: 0 0;
   transform: rotate(0.126deg) scale(1, 1);
 }
 .rectangle-5 {
   background: #d9d9d9;
-  width: 39px;
-  height: 4px;
+  width: 2.71vw;
+  height: 0.39vh;
   position: absolute;
-  left: 186px;
-  top: 172px;
+  left: 12.92vw;
+  top: 16.80vh;
 }
 .filter {
-  width: 31px;
-  height: 31px;
+  width: 2.15vw;
+  width: 2.15vw;
   position: absolute;
-  left: 50px;
-  top: 220px;
+  left: 3.47vw;
+  top: 21.48vh;
   overflow: visible;
 }
 .cursos {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 180px;
-  top: 148px;
+  left: 12.50vw;
+  top: 14.45vh;
 }
 .group-96 {
   position: absolute;
@@ -207,69 +212,69 @@
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 2.22vw;
+  line-height: 3.91vh;
   font-weight: 700;
   position: absolute;
-  left: 403px;
-  top: 571px;
+  left: 27.99vw;
+  top: 55.76vh;
 }
 .search {
-  width: 134px;
-  height: 134px;
+  width: 9.31vw;
+  height: 13.09vh;
   position: absolute;
-  left: 447px;
-  top: 414px;
+  left: 31.04vw;
+  top: 40.43vh;
   overflow: visible;
 }
 .art-culos2 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 1063px;
-  top: 29px;
-  width: 65px;
+  left: 73.82vw;
+  top: 3vh;
+  width: 4.51vw;
 }
 .live {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 1007px;
-  top: 29px;
-  width: 34px;
-  height: 22px;
+  left: 69.93vw;
+  top: 3vh;
+  width: 2.36vw;
+  height: 2.15vh;
 }
 .destacados {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 897px;
-  top: 29px;
-  width: 82px;
-  height: 43px;
+  left: 62.29vw;
+  top:3vh;
+  width: 5.69vw;
+  height: 4.20vh;
 }
 .explorar {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 810px;
-  top: 29px;
-  width: 59px;
-  height: 43px;
+  left: 56.25vw;
+  top: 3vh;
+  width: 4.10vw;
+  height: 4.20vh;
 }
