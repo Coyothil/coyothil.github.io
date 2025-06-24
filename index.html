@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/inicio.css">
   <link rel="stylesheet" href="./css/styleMenu.css">
   <link rel="stylesheet" href="./css/styleChats.css">
+  <link rel="stylesheet" href="./css/style-Notificaciones.css">
     <link rel="stylesheet" href="./css/styleChatEjemplo.css">
   <style>
    a,
@@ -40,6 +41,11 @@
      z-index: 1000;
      position: relative;
    }
+   #notificaciones-container {
+    min-width: 300px;
+    max-width: 90vw;
+    pointer-events: auto;
+    position: fixed;}
    body{
     background-size: cover;
     background: #121217;
@@ -109,6 +115,10 @@
     <img class="frame-1" src="./Pagina Inicio/frame-10.png" alt="Frame 1" />
     <a href="Guardado.html"><img class="image-1" src="./Pagina Inicio/image-10.png" alt="Imagen 1" /></a>
     <img class="image-2" src="./Pagina Inicio/image-20.png" alt="Imagen 2"  id="Chat-trigger" />
+    <button id="notificaciones-trigger" style="background: none; border: none; cursor: pointer;">
+      <img class="image-3" src="./Pagina Inicio/image-30.png" alt="Imagen 3" id="notificaciones-trigger"/>
+    </button>
+    <div id="notificaciones-container" style="position: fixed; z-index: 1000; display: none;"></div>
     <div id="chat-container" style="position:absolute; z-index:9998;"></div>
     <img class="image-3" src="./Pagina Inicio/image-30.png" alt="Imagen 3" />
     <div class="group-53">
@@ -126,6 +136,41 @@
       <a href="Streaming.html"><img class="svgexport-43" src="./Pagina Inicio/svgexport-42.svg" alt="Ver todo 3" /></a>
     </div>
   </div>
+
+  <script>
+  document.getElementById('notificaciones-trigger').addEventListener('click', function() {
+    const trigger = document.getElementById('notificaciones-trigger');
+    const container = document.getElementById('notificaciones-container');
+    const panelWidth = 350; // Ajusta este valor al ancho real de tu panel
+
+    if (container.innerHTML.trim() === "") {
+      fetch('Notificaciones.html')
+        .then(response => response.text())
+        .then(html => {
+          const tempDiv = document.createElement('div');
+          tempDiv.innerHTML = html;
+          const notificacionesDiv = tempDiv.querySelector('.notificaciones');
+          if (notificacionesDiv) {
+            container.innerHTML = '';
+            container.appendChild(notificacionesDiv.cloneNode(true));
+
+            // Centrar el panel debajo de la imagen
+            const img = trigger.querySelector('img');
+            const rect = img.getBoundingClientRect();
+            container.style.width = panelWidth + 'px';
+            container.style.left = (rect.left + rect.width / 2 - panelWidth / 2) + 'px';
+            container.style.top = (rect.bottom + 8) + 'px'; // 8px de separación
+            container.style.position = 'fixed';
+            container.style.display = 'block';
+            container.style.zIndex = 1000;
+          }
+        });
+    } else {
+      container.innerHTML = '';
+      container.style.display = 'none';
+    }
+  });
+</script>
 
   <script>
   document.getElementById('menu-trigger').addEventListener('click', function() {
@@ -190,7 +235,6 @@
     window.location.href = 'Streaming.html';
   });
   </script>
-
 </body>
 </html>
 <script>

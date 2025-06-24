@@ -1,10 +1,7 @@
 /*================*/
 /*Inicio*/ 
 /*======1440x1800=====*/
-.inicio,
-.inicio * {
-  box-sizing: border-box;
-}
+
 .inicio {
   background: #121217;
   position: relative;
@@ -59,18 +56,18 @@
   text-align: center;
   font-family: "SpaceGrotesk-Bold", sans-serif;
   font-size: 1.1vw;
-  line-height: 1.3vh;
+  line-height: auto;
   font-weight: 700;
   position: absolute;
   left: 60.9vw;
-  top: 31.17vh;
+  top: 31vh;
 }
 .busca-sobre-el-espacio {
   color: #9ea3b8;
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
   font-size: 1.1vw;
-  line-height: 1.33vh;
+  line-height: auto;
   font-weight: 400;
   position: absolute;
   left: 36.39vw;
@@ -81,7 +78,7 @@
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
   font-size: 1.53vw;
-  line-height: 1.55vh;
+  line-height: auto;
   font-weight: 700;
   position: absolute;
   left: 18.19vw;
@@ -106,7 +103,7 @@
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
   font-size: 1.11vw;
-  line-height: 1.33vh;
+  line-height: auto;
   font-weight: 500;
   position: absolute;
   left: 18.19vw;
@@ -131,7 +128,7 @@
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
   font-size: 1.1vw;
-  line-height: 1.33vh;
+  line-height: auto;
   font-weight: 500;
   position: absolute;
   left: 35.69vw;
@@ -156,7 +153,7 @@
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
   font-size: 1.11vw;
-  line-height: 1.33vh;
+  line-height: auto;
   font-weight: 500;
   position: absolute;
   left: 53.19vw;
@@ -181,7 +178,7 @@
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
   font-size: 1.11vw;
-  line-height: 1.33vh;
+  line-height: auto;
   font-weight: 500;
   position: absolute;
   left: 70.69vw;
@@ -192,7 +189,7 @@
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
   font-size: 1.53vw;
-  line-height: 1.56vh;
+  line-height: auto;
   font-weight: 700;
   position: absolute;
   left: 18.19vw;
@@ -217,7 +214,7 @@
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
   font-size: 1.25vw;
-  line-height: 1.28vh;
+  line-height: auto;
   font-weight: 700;
   position: absolute;
   left: 51.53vw;
@@ -228,7 +225,7 @@
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
   font-size: 1.11vw;
-  line-height: 1.65vh;
+  line-height: auto;
   font-weight: 400;
   position: absolute;
   left: 51.53vw;
@@ -240,11 +237,11 @@
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
   font-size: 1.11vw;
-  line-height: 1.33vh;
+  line-height: auto;
   font-weight: 400;
   position: absolute;
   left: 51.53vw;
-  top: 69.5vh;
+  top: 71.5vh;
 }
 .group-97 {
   width: 7.43vw;
@@ -254,7 +251,6 @@
 .depth-8-frame-1 {
   background: #304fe8;
   border-radius: 0.67vh;
-  padding: 0px 16px 0px 16px;
   width:7.53vw;
   height: 3.78vh;
   position: absolute;
@@ -267,11 +263,11 @@
   text-align: center;
   font-family: "SpaceGrotesk-Medium", sans-serif;
   font-size: 0.97vw;
-  line-height: 1.17vh;
+  line-height: auto;
   font-weight: 500;
   position: absolute;
   left: 76.85vw;
-  top: 68.3vh;
+  top: 68vh;
 }
 .articulo {
   color: #ffffff;
@@ -303,7 +299,7 @@
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
   font-size: 1.11vw;
-  line-height: 1.33vh;
+  line-height: auto;
   font-weight: 500;
   position: absolute;
   left: 18.19vw;
@@ -314,7 +310,7 @@
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
   font-size: 0.97vw;
-  line-height: 1.17vh;
+  line-height: auto;
   font-weight: 400;
   position: absolute;
   left: 18.19vw;
@@ -339,7 +335,7 @@
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
   font-size: 1.11vw;
-  line-height:1.33vh;
+  line-height:auto;
   font-weight: 500;
   position: absolute;
   left: 39.93vw;
@@ -351,11 +347,11 @@
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
   font-size: 0.97vw;
-  line-height: 1.17vh;
+  line-height: auto;
   font-weight: 400;
   position: absolute;
   left: 39.93vw;
-  top: 96vh;
+  top: 97.3vh;
 }
 .group-103 {
   position: absolute;
@@ -376,7 +372,7 @@
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
   font-size: 1.11vw;
-  line-height: 1.61vh;
+  line-height: auto;
   font-weight: 500;
   position: absolute;
   left: 61.67vw;
@@ -387,7 +383,7 @@
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
   font-size: 0.97vw;
-  line-height: 1.17vh;
+  line-height: auto;
   font-weight: 400;
   position: absolute;
   left: 61.67vw;
@@ -398,32 +394,31 @@
   text-align: center;
   font-family: "SpaceGrotesk-Bold", sans-serif;
   font-size: 3.33vw;
-  line-height: 3.33vh;
+  line-height: auto;
   letter-spacing: -0.14vw;
   font-weight: 700;
   position: absolute;
   left: 31.67vw;
-  top: 21.11vh;
+  top: 21vh;
 }
 .t-guia-cosmologica {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Regular", sans-serif;
   font-size: 1.11vw;
-  line-height: 1.33vh;
+  line-height:auto;
   font-weight: 400;
   position: absolute;
   left: 44.51vw;
-  top: 26.61vh;
+  top: 27.5vh;
 }
 .depth-4-frame-3 {
   border-radius: 50%;
-  width: 2.22vw;
-  height: 2.22vw;
+  width: auto;
+  height: 2.7vh;
   position: absolute;
   left: 94.58vw;
-  top: 0.75vh;
-  aspect-ratio: 1/1;
+  top: 1vh;
   overflow: hidden;
   object-fit: cover;
 }
@@ -440,11 +435,11 @@
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
   font-size: 0.97vw;
-  line-height: 1.17vh;
+  line-height: auto;
   font-weight: 500;
   position: absolute;
   left: 74.24vw;
-  top: 2.25vh;
+  top: 1.61vh;
   width: 4.51vw;
 }
 .live {
@@ -452,11 +447,11 @@
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
   font-size: 0.97vw;
-  line-height: 1.17vh;
+  line-height:auto;
   font-weight: 500;
   position: absolute;
   left: 69.51vw;
-  top: 2.25vh;
+  top: 1.61vh;
   width: 2.36vw;
   height: 1.22vh;
 }
@@ -465,11 +460,11 @@
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
   font-size: 0.97vw;
-  line-height: 1.17vh;
+  line-height: auto;
   font-weight: 500;
   position: absolute;
   left: 61.46vw;
-  top: 2.25vh;
+  top: 1.61vh;
   width: 5.69vw;
   height: 2.39vh;
 }
@@ -477,12 +472,12 @@
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 0.97vw;
-  line-height: 1.17vh;
+  font-size: 0.85vw;
+  line-height: auto;
   font-weight: 500;
   position: absolute;
-  left: 55.07vw;
-  top: 2.25vh;
+  left: 53.4vw;
+  top: 1.4vh;
   width: 4.10vw;
   height: 2.39vh;
 }
@@ -499,7 +494,7 @@
   font-weight: 700;
   position: absolute;
   left: 5vw;
-  top:2.25vh;
+  top:1.61vh;
   width: 10.28vw;
 }
 .frame-1 {
@@ -507,7 +502,7 @@
   height: 1.5vw;
   position: absolute;
   left: 2vw;
-  top: 1vh;
+  top: 1.61vh;
   overflow: hidden;
   object-fit: cover;
 }
@@ -609,7 +604,11 @@
   position: relative;
   overflow: visible;
 }
-.destacados, .live, .art-culos, .astra-index {
+.destacados, .live, .art-culos, .astra-index, .chat {
   cursor: pointer;
 }
-
+#notificaciones-container {
+  min-width: 300px;
+  max-width: 90vw;
+  pointer-events: auto;
+}
