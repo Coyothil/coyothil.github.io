@@ -4,7 +4,7 @@
 }
 .streaming {
   background: #121217;
-  height: 1024px;
+  height: 100.00vh;
   position: relative;
   overflow: hidden;
 }
@@ -12,58 +12,58 @@
   background: #121217;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0);
-  border-width: 1px;
-  width: 1440px;
-  height: 1024px;
+  border-width: 0.07vw;
+  width: 100.00vw;
+  height: 100.00vh;
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 0.00vw;
+  top: 0.00vh;
 }
 .rectangle-49 {
   background: #232222;
   border-radius: 43px;
-  width: 427px;
-  height: 455px;
+  width: 29.65vw;
+  height: 44.43vh;
   position: absolute;
-  left: 975px;
-  top: 143px;
+  left: 67.71vw;
+  top: 13.96vh;
 }
 .depth-6-frame-0 {
   border-radius: 12px;
-  width: 872px;
-  height: 455px;
+  width: 60.56vw;
+  height: 44.43vh;
   position: absolute;
-  left: 43px;
-  top: 143px;
+  left: 2.99vw;
+  top: 13.96vh;
   overflow: hidden;
   object-fit: cover;
 }
 .depth-4-frame-3 {
-  border-radius: 20px;
-  width: 40px;
-  height: 40px;
+  border-radius: 50%;
+  width:auto;
+  height: 3.91vh;
   position: absolute;
-  left: 1362px;
-  top: 19px;
+  left: 94vw;
+  top: 1.86vh;
   overflow: hidden;
   object-fit: cover;
 }
 .depth-4-frame-4 {
   border-radius: 20px;
-  width: 79px;
-  height: 75px;
+  width: 5.49vw;
+  height: 7.32vh;
   position: absolute;
-  left: 43px;
-  top: 630px;
+  left: 2.99vw;
+  top: 61.52vh;
   overflow: hidden;
   object-fit: cover;
 }
 .vector-4 {
-  width: 20px;
-  height: 20px;
+  width: auto;
+  height: 1.95vh;
   position: absolute;
-  left: 1156px;
-  top: 29px;
+  left: 80.28vw;
+  top: 2.83vh;
   overflow: visible;
 }
 .group-1 {
@@ -74,47 +74,47 @@
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
   font-weight: 700;
   position: absolute;
-  left: 72px;
-  top: 20.5px;
-  width: 148px;
+  left: 5.00vw;
+  top: 2.83vh;
+  width: 10.28vw;
 }
 .frame-1 {
-  width: 25px;
-  height: 25px;
+  width: auto;
+  height: 2.44vh;
   position: absolute;
-  left: 31px;
-  top: 19px;
+  left: 2.15vw;
+  top: 2.83vh;
   overflow: hidden;
   object-fit: cover;
 }
 .image-1 {
-  width: 17px;
-  height: 20px;
+  width: auto;
+  height: 1.95vh;
   position: absolute;
-  left: 1207px;
-  top: 29px;
+  left: 83.82vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 17/20;
 }
 .image-2 {
-  width: 21px;
-  height: 20px;
+  width:auto;
+  height: 1.95vh;
   position: absolute;
-  left: 1252px;
-  top: 29px;
+  left: 86.94vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 21/20;
 }
 .image-3 {
-  width: 19px;
-  height: 20px;
+  width:auto;
+  height: 1.95vh;
   position: absolute;
-  left: 1301px;
-  top: 29px;
+  left: 90.35vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 19/20;
 }
@@ -122,52 +122,52 @@
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 1069px;
-  top: 29px;
-  width: 65px;
+  left: 74.24vw;
+  top: 2.83vh;
+  width: 4.51vw;
 }
 .live {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 1013px;
-  top: 29px;
-  width: 34px;
-  height: 22px;
+  left: 70.35vw;
+  top: 2.83vh;
+  width: 2.36vw;
+  height: 2.15vh;
 }
 .destacados {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 903px;
-  top: 29px;
-  width: 82px;
-  height: 43px;
+  left: 62.71vw;
+  top: 2.83vh;
+  width: 5.69vw;
+  height: 4.20vh;
 }
 .explorar {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 816px;
-  top: 29px;
-  width: 59px;
-  height: 43px;
+  left: 56.67vw;
+  top: 2.83vh;
+  width: 4.10vw;
+  height: 4.20vh;
 }
 .group-61 {
   width: 6.1%;
@@ -184,16 +184,16 @@
   inset: 0;
 }
 .group-83 {
-  width: 677px;
-  height: 33px;
+  width: 47.01vw;
+  height: 3.22vh;
   position: static;
 }
 .explorando-martes-con-la-nasa {
   color: var(--ffffff, #ffffff);
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 38px;
-  line-height: 48px;
+  font-size: 2.64vw;
+  line-height: 4.69vh;
   letter-spacing: -0.015em;
   font-weight: 700;
   position: absolute;
@@ -214,90 +214,90 @@
   align-items: flex-end;
   justify-content: center;
   position: absolute;
-  left: 1175px;
-  top: 660px;
+  left: 81.60vw;
+  top: 64.45vh;
 }
 .group-81 {
   flex-shrink: 0;
-  width: 61px;
-  height: 54.03px;
+  width: 4.24vw;
+  height: 5.28vh;
   position: static;
 }
 .frame-18 {
-  width: 18px;
-  height: 18px;
+  width: 1.25vw;
+  height: 1.76vh;
   position: absolute;
-  left: 22px;
-  top: 0px;
+  left: 1.53vw;
+  top: 0.00vh;
 }
 .group-88 {
   position: absolute;
   inset: 0;
 }
 .group-89 {
-  width: 18.38px;
-  height: 14px;
+  width: 1.28vw;
+  height: 1.37vh;
   position: static;
 }
 .group-86 {
-  width: 12.97px;
-  height: 10.14px;
+  width: 0.90vw;
+  height: 0.99vh;
   position: static;
 }
 .rectangle-43 {
   background: var(--black-color-737174, #807e81);
   border-radius: 2px;
-  width: 12.97px;
-  height: 1.5px;
+  width: 0.90vw;
+  height: 0.15vh;
   position: absolute;
-  left: 0px;
-  top: 3.03px;
+  left: 0.00vw;
+  top: 0.30vh;
 }
 .rectangle-44 {
   background: var(--black-color-737174, #807e81);
   border-radius: 2px;
-  width: 12.97px;
-  height: 1.5px;
+  width: 0.90vw;
+  height: 0.15vh;
   position: absolute;
-  left: 0px;
-  top: 7.35px;
+  left: 0.00vw;
+  top: 0.72vh;
 }
 .rectangle-45 {
   background: var(--black-color-737174, #807e81);
   border-radius: 2px;
-  width: 8.65px;
-  height: 1.5px;
+  width: 0.60vw;
+  height: 0.15vh;
   position: absolute;
-  left: 0px;
-  top: 11.67px;
+  left: 0.00vw;
+  top: 1.14vh;
 }
 .group-85 {
-  width: 7.78px;
-  height: 7.78px;
+  width: 0.54vw;
+  height: 0.76vh;
   position: static;
 }
 .group-84 {
-  width: 7.78px;
-  height: 7.78px;
+  width: 0.54vw;
+  height: 0.76vh;
   position: static;
 }
 .rectangle-46 {
   background: var(--black-color-737174, #807e81);
   border-radius: 2px;
-  width: 7.78px;
-  height: 1.5px;
+  width: 0.54vw;
+  height: 0.15vh;
   position: absolute;
-  left: 10.59px;
-  top: 12.36px;
+  left: 0.74vw;
+  top: 1.21vh;
 }
 .rectangle-47 {
   background: var(--black-color-737174, #807e81);
   border-radius: 2px;
-  width: 7.78px;
-  height: 1.5px;
+  width: 0.54vw;
+  height: 0.15vh;
   position: absolute;
-  left: 15.26px;
-  top: 9.25px;
+  left: 1.06vw;
+  top: 0.90vh;
   transform-origin: 0 0;
   transform: rotate(90deg) scale(1, 1);
 }
@@ -305,40 +305,40 @@
   color: var(--black-color-737174, #807e81);
   text-align: left;
   font-family: "GilroyMedium-☞", sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.97vw;
+  line-height: 1.95vh;
   font-weight: 400;
   position: absolute;
-  left: 0px;
-  top: 34.03px;
+  left: 0.00vw;
+  top: 3.32vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 .group-82 {
   flex-shrink: 0;
-  width: 38px;
-  height: 54px;
+  width: 2.64vw;
+  height: 5.27vh;
   position: static;
 }
 .frame {
-  width: 24px;
-  height: 24px;
+  width: 1.67vw;
+  height: 2.34vh;
   position: absolute;
-  left: 114px;
-  top: 0.03px;
+  left: 7.92vw;
+  top: 0.00vh;
   overflow: visible;
 }
 .share {
   color: var(--black-color-737174, #807e81);
   text-align: center;
   font-family: "GilroyMedium-☞", sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.97vw;
+  line-height: 1.95vh;
   font-weight: 400;
   position: absolute;
-  left: 109px;
-  top: 34.03px;
+  left: 7.57vw;
+  top: 3.32vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -351,12 +351,12 @@
   color: var(--ffffff, #ffffff);
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.67vw;
+  line-height: 3.12vh;
   font-weight: 700;
   position: absolute;
-  left: 43px;
-  top: 733px;
+  left: 2.99vw;
+  top: 71.58vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -383,22 +383,22 @@
 .rectangle-32 {
   background: #304fe8;
   border-radius: 0px 3px 3px 0px;
-  width: 138.01px;
-  height: 62px;
+  width: 9.58vw;
+  height: 6.05vh;
   position: absolute;
-  left: 985px;
-  top: 643px;
+  left: 68.40vw;
+  top: 62.79vh;
 }
 .suscribete {
   color: var(--ffffff, #ffffff);
   text-align: center;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 1.11vw;
+  line-height: 2.15vh;
   font-weight: 700;
   position: absolute;
-  left: 1014px;
-  top: 663px;
+  left: 70.42vw;
+  top: 64.75vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -407,32 +407,32 @@
   background: #59595b;
   border-radius: 12px;
   padding: 0px 16px 0px 16px;
-  width: 321px;
-  height: 37px;
+  width: 22.29vw;
+  height: 3.61vh;
   position: absolute;
-  left: 999px;
-  top: 536px;
+  left: 69.38vw;
+  top: 52.34vh;
   overflow: hidden;
 }
 .chatear {
   color: rgba(251, 246, 246, 0.71);
   text-align: center;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 1.11vw;
+  line-height: 2.15vh;
   font-weight: 700;
   position: absolute;
-  left: 28px;
-  top: 8px;
+  left: 1.94vw;
+  top: 0.78vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.send {
-  width: 32px;
-  height: 30px;
+.streaming .send {
+  width: 2.22vw;
+  height: 2.93vh;
   position: absolute;
-  left: 1346px;
-  top: 540px;
+  left: 93.47vw;
+  top: 52.73vh;
   overflow: visible;
 }

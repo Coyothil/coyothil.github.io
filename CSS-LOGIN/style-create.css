@@ -7,15 +7,15 @@
   border-radius: 34px;
   border-style: solid;
   border-color: #ffffff;
-  border-width: 10px;
-  height: 1024px;
+  border-width: 0.69vw;
+  height: 100.00vh;
   position: relative;
   box-shadow: 0px 0px 45px 0px rgba(225, 194, 168, 1);
   overflow: hidden;
 }
 .image-21 {
-  width: 1711px;
-  height: 1141px;
+  width: 118.82vw;
+  height: 111.43vh;
   position: absolute;
   left: -54px;
   top: -80px;
@@ -24,11 +24,11 @@
 }
 .rectangle-9636 {
   background: #121217;
-  width: 811px;
-  height: 1080px;
+  width: 56.32vw;
+  height: 105.47vh;
   position: absolute;
-  left: 665px;
-  top: 0px;
+  left: 46.18vw;
+  top: 0.00vh;
 }
 .group-1 {
   position: absolute;
@@ -38,21 +38,23 @@
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 48px;
-  line-height: 23px;
+  font-size: 3vw;
+  line-height:auto;
   font-weight: 700;
   position: absolute;
-  left: 924.77px;
-  top: 188px;
-  width: 432.23px;
-  height: 98.55px;
+  left: 67.08vw;
+  top: 18vh;
+  width: 30vw;
+  height: 9.62vh;
 }
 .frame-1 {
-  width: 73.01px;
-  height: 107.12px;
+  
+  width: 7vw;
+  height:auto;
   position: absolute;
-  left: 820px;
-  top: 152px;
+  left: 58.54vw;
+  top:16.90vh;
+ 
   overflow: hidden;
   object-fit: cover;
 }
@@ -63,8 +65,8 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 838px;
-  top: 316px;
+  left: 58.19vw;
+  top: 30.86vh;
 }
 .frame-13 {
   display: flex;
@@ -88,7 +90,7 @@
   color: #ffffff;
   text-align: left;
   font-family: "NunitoSans-Bold", sans-serif;
-  font-size: 36px;
+  font-size: 2.50vw;
   font-weight: 700;
   position: relative;
 }
@@ -96,7 +98,7 @@
   border-radius: 5px;
   border-style: solid;
   border-color: #ffffff;
-  border-width: 1px;
+  border-width: 0.07vw;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -104,14 +106,14 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 420px;
+  width: 29.17vw;
   position: relative;
 }
 .image-2 {
   border-radius: 10px;
   flex-shrink: 0;
-  width: 25px;
-  height: 25px;
+  width: auto;
+  height: 2.44vh;
   position: relative;
   object-fit: cover;
 }
@@ -119,14 +121,14 @@
   color: var(--gray-3, #828282);
   text-align: left;
   font-family: "NunitoSans-Bold", sans-serif;
-  font-size: 14px;
+  font-size: 0.97vw;
   font-weight: 700;
   position: relative;
 }
 .or-sign-in-with-email {
   text-align: left;
   font-family: "NunitoSans-SemiBold", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 600;
   position: relative;
 }
@@ -143,7 +145,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  height: 403px;
+  height: 39.36vh;
   position: relative;
 }
 .frame-5 {
@@ -159,7 +161,7 @@
   color: #ffffff;
   text-align: left;
   font-family: "NunitoSans-SemiBold", sans-serif;
-  font-size: 14px;
+  font-size: 0.97vw;
   font-weight: 600;
   position: relative;
 }
@@ -167,7 +169,7 @@
   border-radius: 5px;
   border-style: solid;
   border-color: #ffffff;
-  border-width: 1px;
+  border-width: 0.07vw;
   padding: 13px 10px 13px 10px;
   display: flex;
   flex-direction: row;
@@ -175,14 +177,14 @@
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 420px;
+  width: 29.17vw;
   position: relative;
 }
 .mail-abc-com {
   color: var(--gray-5, #e0e0e0);
   text-align: left;
   font-family: "NunitoSans-Regular", sans-serif;
-  font-size: 14px;
+  font-size: 0.97vw;
   font-weight: 400;
   position: relative;
 }
@@ -193,14 +195,14 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  height: 197px;
+  height: 19.24vh;
   position: relative;
 }
 .email {
   color: #ffffff;
   text-align: left;
   font-family: "NunitoSans-SemiBold", sans-serif;
-  font-size: 14px;
+  font-size: 0.97vw;
   font-weight: 600;
   position: relative;
 }
@@ -226,7 +228,7 @@
   color: #ffffff;
   text-align: left;
   font-family: "NunitoSans-SemiBold", sans-serif;
-  font-size: 14px;
+  font-size: 0.97vw;
   font-weight: 600;
   position: relative;
 }
@@ -234,7 +236,7 @@
   border-radius: 5px;
   border-style: solid;
   border-color: #ffffff;
-  border-width: 1px;
+  border-width: 0.07vw;
   padding: 18px 10px 13px 10px;
   display: flex;
   flex-direction: row;
@@ -242,21 +244,21 @@
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 420px;
+  width: 29.17vw;
   position: relative;
 }
 .div {
   color: var(--gray-5, #e0e0e0);
   text-align: left;
   font-family: "NunitoSans-Regular", sans-serif;
-  font-size: 10px;
+  font-size: 0.69vw;
   font-weight: 400;
   position: relative;
 }
 .frame-8 {
   display: flex;
   flex-direction: row;
-  gap: 222px;
+  gap: 10vw;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -273,8 +275,8 @@
 }
 .check {
   flex-shrink: 0;
-  width: 12px;
-  height: 12px;
+  width: 0.83vw;
+  height: 1.17vh;
   position: relative;
 }
 .icon-checkbox-unfilled {
@@ -282,7 +284,7 @@
   border-radius: 2px;
   border-style: solid;
   border-color: #304fe8;
-  border-width: 2px;
+  border-width: 0.14vw;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -302,18 +304,18 @@
   overflow: hidden;
 }
 .icons-navigation-others-10-check {
-  width: 8px;
-  height: 8px;
+  width: 0.56vw;
+  height: 0.78vh;
   position: absolute;
-  left: 1px;
-  top: 1.14px;
+  left: 0.07vw;
+  top: 0.11vh;
   overflow: visible;
 }
 .remember-me {
   color: #ffffff;
   text-align: left;
   font-family: "NunitoSans-Regular", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 400;
   position: relative;
 }
@@ -321,7 +323,7 @@
   color: #304fe8;
   text-align: left;
   font-family: "NunitoSans-SemiBold", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 600;
   position: relative;
 }
@@ -335,14 +337,14 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 420px;
+  width: 29.17vw;
   position: relative;
 }
 .get-started {
   color: #ffffff;
   text-align: left;
   font-family: "NunitoSans-ExtraBold", sans-serif;
-  font-size: 18px;
+  font-size: 1.25vw;
   font-weight: 800;
   position: relative;
 }
