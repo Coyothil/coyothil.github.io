@@ -34,7 +34,7 @@
   top: 30.1vh;
 }
 .search {
-  width: 1.4vw;
+  width: 1.1vh;
   height: 1.1vh;
   position: absolute;
   left:34.3vw;
@@ -228,11 +228,11 @@
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
   font-size: 1.11vw;
-  line-height: 1.33vh;
+  line-height: 1.65vh;
   font-weight: 400;
   position: absolute;
   left: 51.53vw;
-  top: 65.56vh;
+  top: 66vh;
   width: 23.89vw;
 }
 ._15-minutos-restantes {
@@ -244,7 +244,7 @@
   font-weight: 400;
   position: absolute;
   left: 51.53vw;
-  top: 68.44vh;
+  top: 69.5vh;
 }
 .group-97 {
   width: 7.43vw;
@@ -256,10 +256,10 @@
   border-radius: 0.67vh;
   padding: 0px 16px 0px 16px;
   width:7.53vw;
-  height: 1.78vh;
+  height: 3.78vh;
   position: absolute;
-  left: 75.42vw;
-  top: 68vh;
+  left: 75.25vw;
+  top: 67vh;
   overflow: hidden;
 }
 .ver-ahora {
@@ -270,7 +270,7 @@
   line-height: 1.17vh;
   font-weight: 500;
   position: absolute;
-  left: 76.875vw;
+  left: 76.85vw;
   top: 68.3vh;
 }
 .articulo {
@@ -318,7 +318,7 @@
   font-weight: 400;
   position: absolute;
   left: 18.19vw;
-  top: 93.89vh;
+  top: 94.5vh;
 }
 .group-101 {
   position: absolute;
@@ -355,7 +355,7 @@
   font-weight: 400;
   position: absolute;
   left: 39.93vw;
-  top: 95.22vh;
+  top: 96vh;
 }
 .group-103 {
   position: absolute;
@@ -391,7 +391,7 @@
   font-weight: 400;
   position: absolute;
   left: 61.67vw;
-  top: 93.94vh;
+  top: 95vh;
 }
 .bienvenido-a-astra-index {
   color: #ffffff;
@@ -418,18 +418,18 @@
 }
 .depth-4-frame-3 {
   border-radius: 50%;
-  width: 2.22vh;
-  height: 2.22vh;
+  width: 2.22vw;
+  height: 2.22vw;
   position: absolute;
   left: 94.58vw;
-  top: 1.06vh;
+  top: 0.75vh;
   aspect-ratio: 1/1;
   overflow: hidden;
   object-fit: cover;
 }
 .vector-4 {
-  width: 1.39vh;
-  height: 1.11vh;
+  width: 1.11vw;
+  height: 1.11vw;
   position: absolute;
   left: 80.28vw;
   top: 1.61vh;
@@ -444,7 +444,7 @@
   font-weight: 500;
   position: absolute;
   left: 74.24vw;
-  top: 1.61vh;
+  top: 2.25vh;
   width: 4.51vw;
 }
 .live {
@@ -456,7 +456,7 @@
   font-weight: 500;
   position: absolute;
   left: 69.51vw;
-  top: 1.61vh;
+  top: 2.25vh;
   width: 2.36vw;
   height: 1.22vh;
 }
@@ -469,7 +469,7 @@
   font-weight: 500;
   position: absolute;
   left: 61.46vw;
-  top: 1.61vh;
+  top: 2.25vh;
   width: 5.69vw;
   height: 2.39vh;
 }
@@ -482,7 +482,7 @@
   font-weight: 500;
   position: absolute;
   left: 55.07vw;
-  top: 1.61vh;
+  top: 2.25vh;
   width: 4.10vw;
   height: 2.39vh;
 }
@@ -499,21 +499,21 @@
   font-weight: 700;
   position: absolute;
   left: 5vw;
-  top: 1.14vh;
+  top:2.25vh;
   width: 10.28vw;
 }
 .frame-1 {
-  width: 1.74vw;
-  height: 1.39vh;
+  width: 1.5vw;
+  height: 1.5vw;
   position: absolute;
-  left: 2.15vw;
-  top: 1.06vh;
+  left: 2vw;
+  top: 1vh;
   overflow: hidden;
   object-fit: cover;
 }
 .image-1 {
-  width: 1.18vw;
-  height: 1.11vh;
+  width:1.11vw;
+  height: 1.11vw;
   position: absolute;
   left: 83.82vw;
   top: 1.61vh;
@@ -521,8 +521,8 @@
   aspect-ratio: 17/20;
 }
 .image-2 {
-  width: 1.46vw;
-  height: 1.11vh;
+  width:1.11vw;
+  height: 1.11vw;
   position: absolute;
   left: 86.94vw;
   top: 1.61vh;
@@ -530,8 +530,8 @@
   aspect-ratio: 21/20;
 }
 .image-3 {
-  width: 1.32vw;
-  height: 1.11vh;
+  width: 1.11vw;
+  height: 1.11vw;
   position: absolute;
   left: 90.35vw;
   top: 1.61vh;
