@@ -1,0 +1,221 @@
+.notificaciones,
+.notificaciones * {
+  box-sizing: border-box;
+}
+.notificaciones {
+  background: #362645;
+  width: 197px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+}
+.notificaciones2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-ExtraBold", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 800;
+  position: absolute;
+  left: 9px;
+  top: 8px;
+  width: 118px;
+  height: 16px;
+}
+.hoy {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-ExtraBold", sans-serif;
+  font-size: 10px;
+  line-height: 24px;
+  font-weight: 800;
+  position: absolute;
+  left: 15px;
+  top: 30px;
+  width: 31px;
+  height: 16px;
+}
+.se-ha-iniciado-sesi-n-en-tu-cuenta-desde-un-dispositivo-nuevo-el-05-de-julio-2025 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 46px;
+  top: 51px;
+  width: 140px;
+  height: 48px;
+}
+.ayer {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-ExtraBold", sans-serif;
+  font-size: 10px;
+  line-height: 24px;
+  font-weight: 800;
+  position: absolute;
+  left: 15px;
+  top: 130px;
+  width: 31px;
+  height: 16px;
+}
+.semana-pasada {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-ExtraBold", sans-serif;
+  font-size: 10px;
+  line-height: 24px;
+  font-weight: 800;
+  position: absolute;
+  left: 15px;
+  top: 230px;
+  width: 79px;
+  height: 24px;
+  white-space: nowrap;
+}
+.frame-2 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 15px;
+  top: 55px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image-11 {
+  width: 34px;
+  height: 21px;
+  position: absolute;
+  left: 12px;
+  top: 102px;
+  object-fit: cover;
+  aspect-ratio: 34/21;
+}
+.image-12 {
+  width: 34px;
+  height: 21px;
+  position: absolute;
+  left: 12px;
+  top: 157px;
+  object-fit: cover;
+  aspect-ratio: 34/21;
+}
+.user-20021033-coment-en-tu-publicaci-n-gran-video {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 8px;
+  line-height: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 46px;
+  top: 102px;
+  width: 118px;
+  height: 38px;
+}
+.user-201189341-le-ha-dado-like-a-tu-publicaci-n {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 8px;
+  line-height: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 46px;
+  top: 157px;
+  width: 118px;
+  height: 28px;
+}
+.image-13 {
+  width: 34px;
+  height: 21px;
+  position: absolute;
+  left: 12px;
+  top: 188px;
+  object-fit: cover;
+  aspect-ratio: 34/21;
+}
+.user-20063345-le-ha-dado-like-a-tu-publicaci-n {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 8px;
+  line-height: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 46px;
+  top: 188px;
+  width: 118px;
+  height: 28px;
+}
+.elon-musk-ha-comenzado-a-seguirte {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 8px;
+  line-height: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 46px;
+  top: 253px;
+  width: 118px;
+  height: 28px;
+}
+.donald-trump-ha-comenzado-a-seguirte {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 8px;
+  line-height: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 46px;
+  top: 281px;
+  width: 118px;
+  height: 28px;
+}
+.donald-trump-le-ha-dado-like-a-tu-publicaci-n {
+  color: #ffffff;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium", sans-serif;
+  font-size: 8px;
+  line-height: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 46px;
+  top: 312px;
+  width: 118px;
+  height: 28px;
+}
+.image-14 {
+  border-radius: 67.5px;
+  width: 19px;
+  height: 20px;
+  position: absolute;
+  left: 20px;
+  top: 254px;
+  object-fit: cover;
+  aspect-ratio: 19/20;
+}
+.image-15 {
+  border-radius: 1125px;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 20px;
+  top: 284px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.image-16 {
+  border-radius: 1125px;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 20px;
+  top: 316px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}

@@ -612,4 +612,8 @@
 .destacados, .live, .art-culos, .astra-index {
   cursor: pointer;
 }
-
+#notificaciones-container {
+  min-width: 300px;
+  max-width: 90vw;
+  pointer-events: auto;
+}
