@@ -4,27 +4,27 @@
 }
 .landing-page {
   background: #121217;
-  height: 2272px;
+  height: 221.88vh;
   position: relative;
 }
 .destacado {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 1.53vw;
+  line-height: 2.73vh;
   font-weight: 700;
   position: absolute;
-  left: 262px;
-  top: 709px;
+  left: 18.19vw;
+  top: 69.24vh;
   cursor: pointer;
 }
 .image-7 {
-  width: 1440.51px;
-  height: 1102px;
+  width: 100.04vw;
+  height: 107.62vh;
   position: absolute;
-  left: 0px;
-  top: 84px;
+  left: 0.00vw;
+  top: 8.20vh;
   object-fit: cover;
   aspect-ratio: 1440.51/1102;
 }
@@ -36,12 +36,12 @@
   color: #fffdfd;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 14.875px;
-  line-height: 25.6px;
+  font-size: 1.03vw;
+  line-height: 2.50vh;
   font-weight: 400;
   position: absolute;
-  left: 458px;
-  top: 335px;
+  left: 31.81vw;
+  top: 32.71vh;
 }
 .group-108 {
   position: absolute;
@@ -49,11 +49,11 @@
 }
 .depth-6-frame-0 {
   border-radius: 12px;
-  width: 485px;
-  height: 286px;
+  width: 33.68vw;
+  height: 27.93vh;
   position: absolute;
-  left: 80px;
-  top: 1248px;
+  left: 5.56vw;
+  top: 121.88vh;
   overflow: hidden;
   object-fit: cover;
 }
@@ -61,109 +61,109 @@
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 3.33vw;
+  line-height: 5.86vh;
   letter-spacing: -2px;
   font-weight: 700;
   position: absolute;
-  left: 463px;
-  top: 275px;
+  left: 32.15vw;
+  top: 26.86vh;
 }
 .beneficios-exclusivos {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 36px;
-  line-height: 60px;
+  font-size: 2.50vw;
+  line-height: 5.86vh;
   letter-spacing: -2px;
   font-weight: 700;
   position: absolute;
-  left: 835px;
-  top: 1248px;
+  left: 57.99vw;
+  top: 121.88vh;
 }
 .planes-y-precios {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 36px;
-  line-height: 60px;
+  font-size: 2.50vw;
+  line-height: 5.86vh;
   letter-spacing: -2px;
   font-weight: 700;
   position: absolute;
-  left: 587px;
-  top: 1596px;
+  left: 40.76vw;
+  top: 155.86vh;
 }
 .depth-4-frame-3 {
   border-radius: 20px;
-  width: 40px;
-  height: 40px;
+  width: 2.78vw;
+  height: 3.91vh;
   position: absolute;
-  left: 1362px;
-  top: 19px;
+  left: 94.58vw;
+  top: 1.86vh;
   overflow: hidden;
   object-fit: cover;
 }
 .vector-4 {
-  width: 20px;
-  height: 20px;
+  width: 1.39vw;
+  height: 1.95vh;
   position: absolute;
-  left: 1156px;
-  top: 29px;
+  left: 80.28vw;
+  top: 2.83vh;
   overflow: visible;
 }
 .art-culos {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 1069px;
-  top: 29px;
-  width: 65px;
+  left: 74.24vw;
+  top: 2.83vh;
+  width: 4.51vw;
   cursor: pointer;
 }
 .live {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 1001px;
-  top: 29px;
-  width: 34px;
-  height: 22px;
+  left: 69.51vw;
+  top: 2.83vh;
+  width: 2.36vw;
+  height: 2.15vh;
   cursor: pointer;
 }
 .destacados {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 885px;
-  top: 29px;
-  width: 82px;
-  height: 43px;
+  left: 61.46vw;
+  top: 2.83vh;
+  width: 5.69vw;
+  height: 4.20vh;
   cursor: pointer;
 }
 .explorar {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 500;
   position: absolute;
-  left: 793px;
-  top: 29px;
-  width: 59px;
-  height: 43px;
+  left: 55.07vw;
+  top: 2.83vh;
+  width: 4.10vw;
+  height: 4.20vh;
   cursor: pointer;
 }
 .group-1 {
@@ -174,172 +174,172 @@
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
   font-weight: 700;
   position: absolute;
-  left: 72px;
-  top: 20.5px;
-  width: 148px;
+  left: 5.00vw;
+  top: 2.00vh;
+  width: 10.28vw;
 }
 .frame-1 {
-  width: 25px;
-  height: 25px;
+  width: 1.74vw;
+  height: 2.44vh;
   position: absolute;
-  left: 31px;
-  top: 19px;
+  left: 2.15vw;
+  top: 1.86vh;
   overflow: hidden;
   object-fit: cover;
 }
 .image-1 {
-  width: 17.06px;
-  height: 20px;
+  width: 1.18vw;
+  height: 1.95vh;
   position: absolute;
-  left: 1207px;
-  top: 29px;
+  left: 83.82vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 17.06/20;
 }
 .image-2 {
-  width: 21px;
-  height: 20px;
+  width: 1.46vw;
+  height: 1.95vh;
   position: absolute;
-  left: 1252px;
-  top: 29px;
+  left: 86.94vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 21/20;
 }
 .image-3 {
-  width: 19.44px;
-  height: 20px;
+  width: 1.35vw;
+  height: 1.95vh;
   position: absolute;
-  left: 1301px;
-  top: 29px;
+  left: 90.35vw;
+  top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 19.44/20;
 }
 .rectangle-47 {
   background: #362645;
   border-radius: 20px;
-  width: 276px;
-  height: 240px;
+  width: 19.17vw;
+  height: 23.44vh;
   position: absolute;
-  left: 181px;
-  top: 440px;
+  left: 12.57vw;
+  top: 42.97vh;
 }
 .rectangle-48 {
   background: #362645;
   border-radius: 20px;
-  width: 276px;
-  height: 240px;
+  width: 19.17vw;
+  height: 23.44vh;
   position: absolute;
-  left: 588px;
-  top: 440px;
+  left: 40.83vw;
+  top: 42.97vh;
 }
 .rectangle-49 {
   background: #362645;
   border-radius: 20px;
-  width: 276px;
-  height: 240px;
+  width: 19.17vw;
+  height: 23.44vh;
   position: absolute;
-  left: 1018px;
-  top: 440px;
+  left: 70.69vw;
+  top: 42.97vh;
 }
 .david-contreras {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Black", sans-serif;
-  font-size: 14.875px;
-  line-height: 25.6px;
+  font-size: 1.03vw;
+  line-height: 2.50vh;
   font-weight: 900;
   position: absolute;
-  left: 206px;
-  top: 468px;
+  left: 14.31vw;
+  top: 45.70vh;
 }
 .omar-acu-a {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Black", sans-serif;
-  font-size: 14.875px;
-  line-height: 25.6px;
+  font-size: 1.03vw;
+  line-height: 2.50vh;
   font-weight: 900;
   position: absolute;
-  left: 620px;
-  top: 463px;
+  left: 43.06vw;
+  top: 45.21vh;
 }
 .ricardo-ambrosio {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Black", sans-serif;
-  font-size: 14.875px;
-  line-height: 25.6px;
+  font-size: 1.03vw;
+  line-height: 2.50vh;
   font-weight: 900;
   position: absolute;
-  left: 1051px;
-  top: 463px;
+  left: 72.99vw;
+  top: 45.21vh;
 }
 .ceo-and-founder {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 14.875px;
-  line-height: 25.6px;
+  font-size: 1.03vw;
+  line-height: 2.50vh;
   font-weight: 400;
   position: absolute;
-  left: 206px;
-  top: 494px;
-  width: 124px;
-  height: 24px;
+  left: 14.31vw;
+  top: 48.24vh;
+  width: 8.61vw;
+  height: 2.34vh;
 }
 .estudiante-de-la-carrera-de-ciencias-de-la-computaci-n-y-manejo-los-lenguajes-de-programaci-n-c-y-python {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 15px;
+  font-size: 0.97vw;
+  line-height: 1.46vh;
   font-weight: 400;
   position: absolute;
-  left: 206px;
-  top: 548px;
-  width: 212px;
-  height: 62px;
+  left: 14.31vw;
+  top: 53.52vh;
+  width: 14.72vw;
+  height: 6.05vh;
 }
 .director-of-operations {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 14.875px;
-  line-height: 25.6px;
+  font-size: 1.03vw;
+  line-height: 2.50vh;
   font-weight: 400;
   position: absolute;
-  left: 620px;
-  top: 494px;
-  width: 160px;
-  height: 24px;
+  left: 43.06vw;
+  top: 48.24vh;
+  width: 11.11vw;
+  height: 2.34vh;
 }
 .senior-seo-specialist {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 14.875px;
-  line-height: 25.6px;
+  font-size: 1.03vw;
+  line-height: 2.50vh;
   font-weight: 400;
   position: absolute;
-  left: 1051px;
-  top: 494px;
-  width: 160px;
-  height: 24px;
+  left: 72.99vw;
+  top: 48.24vh;
+  width: 11.11vw;
+  height: 2.34vh;
 }
 .line-9 {
   margin-top: -1px;
   border-style: solid;
   border-color: #a1824a;
-  border-width: 1px 0 0 0;
-  width: 213px;
-  height: 0px;
+  border-width: 0.07vw 0 0 0;
+  width: 14.79vw;
+  height: 0.00vh;
   position: absolute;
-  left: 206px;
-  top: 538px;
+  left: 14.31vw;
+  top: 52.54vh;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
@@ -347,12 +347,12 @@
   margin-top: -1px;
   border-style: solid;
   border-color: #a1824a;
-  border-width: 1px 0 0 0;
-  width: 213px;
-  height: 0px;
+  border-width: 0.07vw 0 0 0;
+  width: 14.79vw;
+  height: 0.00vh;
   position: absolute;
-  left: 620px;
-  top: 538px;
+  left: 43.06vw;
+  top: 52.54vh;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
@@ -360,83 +360,83 @@
   margin-top: -1px;
   border-style: solid;
   border-color: #a1824a;
-  border-width: 1px 0 0 0;
-  width: 213px;
-  height: 0px;
+  border-width: 0.07vw 0 0 0;
+  width: 14.79vw;
+  height: 0.00vh;
   position: absolute;
-  left: 1050px;
-  top: 538px;
+  left: 72.92vw;
+  top: 52.54vh;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
 .rectangle-50 {
   background: #362645;
   border-radius: 20px;
-  width: 276px;
-  height: 240px;
+  width: 19.17vw;
+  height: 23.44vh;
   position: absolute;
-  left: 377px;
-  top: 737px;
+  left: 26.18vw;
+  top: 71.97vh;
 }
 .line-12 {
   margin-top: -1px;
   border-style: solid;
   border-color: #a1824a;
-  border-width: 1px 0 0 0;
-  width: 213px;
-  height: 0px;
+  border-width: 0.07vw 0 0 0;
+  width: 14.79vw;
+  height: 0.00vh;
   position: absolute;
-  left: 409px;
-  top: 835px;
+  left: 28.40vw;
+  top: 81.54vh;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
 .rectangle-51 {
   background: #362645;
   border-radius: 20px;
-  width: 276px;
-  height: 240px;
+  width: 19.17vw;
+  height: 23.44vh;
   position: absolute;
-  left: 793px;
-  top: 737px;
+  left: 55.07vw;
+  top: 71.97vh;
 }
 .rectangle-52 {
   background: #362645;
   border-radius: 20px;
-  width: 242px;
-  height: 163px;
+  width: 16.81vw;
+  height: 15.92vh;
   position: absolute;
-  left: 873px;
-  top: 1330px;
+  left: 60.62vw;
+  top: 129.88vh;
 }
 .rectangle-53 {
   background: #362645;
   border-radius: 20px;
-  width: 242px;
-  height: 163px;
+  width: 16.81vw;
+  height: 15.92vh;
   position: absolute;
-  left: 605px;
-  top: 1330px;
+  left: 42.01vw;
+  top: 129.88vh;
 }
 .rectangle-54 {
   background: #362645;
   border-radius: 20px;
-  width: 242px;
-  height: 163px;
+  width: 16.81vw;
+  height: 15.92vh;
   position: absolute;
-  left: 1142px;
-  top: 1330px;
+  left: 79.31vw;
+  top: 129.88vh;
 }
 .line-13 {
   margin-top: -1px;
   border-style: solid;
   border-color: #a1824a;
-  border-width: 1px 0 0 0;
-  width: 213px;
-  height: 0px;
+  border-width: 0.07vw 0 0 0;
+  width: 14.79vw;
+  height: 0.00vh;
   position: absolute;
-  left: 825px;
-  top: 835px;
+  left: 57.29vw;
+  top: 81.54vh;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, 1);
 }
@@ -444,171 +444,171 @@
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Black", sans-serif;
-  font-size: 14.875px;
-  line-height: 25.6px;
+  font-size: 1.03vw;
+  line-height: 2.50vh;
   font-weight: 900;
   position: absolute;
-  left: 408px;
-  top: 770px;
+  left: 28.33vw;
+  top: 75.20vh;
 }
 .ppc-manager {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 14.875px;
-  line-height: 25.6px;
+  font-size: 1.03vw;
+  line-height: 2.50vh;
   font-weight: 400;
   position: absolute;
-  left: 408px;
-  top: 796px;
+  left: 28.33vw;
+  top: 77.73vh;
 }
 .m-s-interactivo {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Black", sans-serif;
-  font-size: 14.875px;
-  line-height: 25.6px;
+  font-size: 1.03vw;
+  line-height: 2.50vh;
   font-weight: 900;
   position: absolute;
-  left: 665px;
-  top: 1357px;
+  left: 46.18vw;
+  top: 132.52vh;
 }
 .r-pida-monetizaci-n {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Black", sans-serif;
-  font-size: 14.875px;
-  line-height: 25.6px;
+  font-size: 1.03vw;
+  line-height: 2.50vh;
   font-weight: 900;
   position: absolute;
-  left: 916px;
-  top: 1357px;
+  left: 63.61vw;
+  top: 132.52vh;
 }
 .interfaz-intuitiva {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Black", sans-serif;
-  font-size: 14.875px;
-  line-height: 25.6px;
+  font-size: 1.03vw;
+  line-height: 2.50vh;
   font-weight: 900;
   position: absolute;
-  left: 1201px;
-  top: 1357px;
+  left: 83.40vw;
+  top: 132.52vh;
 }
 .estudiante-de-la-upc-de-la-carrera-de-ciencias-de-la-computaci-n-voy-en-mi-quinto-ciclo-y-manejo-los-lenguajes-de-programaci-n-c-python-sql-y-r {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 15px;
+  font-size: 0.97vw;
+  line-height: 1.46vh;
   font-weight: 400;
   position: absolute;
-  left: 410px;
-  top: 848px;
-  width: 210px;
+  left: 28.47vw;
+  top: 82.81vh;
+  width: 14.58vw;
 }
 .conecta-con-tu-audiencia-con-nuestros-distintos-modelos-de-publicaciones-nuestro-modelo-de-comentariso-y-de-chat-en-vivo {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 15px;
+  font-size: 0.97vw;
+  line-height: 1.46vh;
   font-weight: 400;
   position: absolute;
-  left: 620px;
-  top: 1391px;
-  width: 210px;
+  left: 43.06vw;
+  top: 135.84vh;
+  width: 14.58vw;
 }
 .navega-por-nuestra-p-gina-web-con-gran-fluidez-incluso-si-es-tu-primera-vez-visitandonos {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 15px;
+  font-size: 0.97vw;
+  line-height: 1.46vh;
   font-weight: 400;
   position: absolute;
-  left: 1158px;
-  top: 1391px;
-  width: 210px;
+  left: 80.42vw;
+  top: 135.84vh;
+  width: 14.58vw;
 }
 .gana-dinero-de-manera-r-pida-divertida-y-eficiente-con-nuestro-sistema-de-monetizaci-n-a-los-creadores-de-contenido {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 15px;
+  font-size: 0.97vw;
+  line-height: 1.46vh;
   font-weight: 400;
   position: absolute;
-  left: 889px;
-  top: 1391px;
-  width: 210px;
+  left: 61.74vw;
+  top: 135.84vh;
+  width: 14.58vw;
 }
 .estudiante-de-la-carrera-de-ciencias-de-la-computaci-n-hoy-en-d-a-domino-los-lenguajes-de-programaci-n-c-sql-y-python-una-de-mis-habilidades-es-poder-liderar-grupos {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 15px;
+  font-size: 0.97vw;
+  line-height: 1.46vh;
   font-weight: 400;
   position: absolute;
-  left: 620px;
-  top: 548px;
-  width: 203px;
+  left: 43.06vw;
+  top: 53.52vh;
+  width: 14.10vw;
 }
 .estudiante-de-la-carrera-de-ciencias-de-la-computaci-n-actualmente-cursando-el-cuarto-ciclo-de-la-carrera-y-manejo-diversas-aptitudes-para-trabajar-en-equipo-tanto-como-comunicativas-y-de-trabajo {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 15px;
+  font-size: 0.97vw;
+  line-height: 1.46vh;
   font-weight: 400;
   position: absolute;
-  left: 1051px;
-  top: 548px;
-  width: 212px;
+  left: 72.99vw;
+  top: 53.52vh;
+  width: 14.72vw;
 }
 .estudiante-de-la-carrera-de-ingenier-a-en-sistemas-computacionales-en-la-uvm-en-m-rida-yucat-n-m-xico-y-voy-en-mi-cuarto-semestre-y-manejo-los-lenguajes-de-programaci-n-c-r-y-html {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
-  font-size: 14px;
-  line-height: 15px;
+  font-size: 0.97vw;
+  line-height: 1.46vh;
   font-weight: 400;
   position: absolute;
-  left: 823px;
-  top: 844px;
-  width: 215px;
+  left: 57.15vw;
+  top: 82.42vh;
+  width: 14.93vw;
 }
 .content-creator {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Regular", sans-serif;
-  font-size: 14.875px;
-  line-height: 25.6px;
+  font-size: 1.03vw;
+  line-height: 2.50vh;
   font-weight: 400;
   position: absolute;
-  left: 825px;
-  top: 796px;
+  left: 57.29vw;
+  top: 77.73vh;
 }
 .yat-fernando-pat {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Black", sans-serif;
-  font-size: 14.875px;
-  line-height: 25.6px;
+  font-size: 1.03vw;
+  line-height: 2.50vh;
   font-weight: 900;
   position: absolute;
-  left: 823px;
-  top: 770px;
+  left: 57.15vw;
+  top: 75.20vh;
 }
 .landing-rectangle-56 {
   background: #362645;
   border-radius: 20px;
-  width: 276px;
-  height: 443px;
+  width: 19.17vw;
+  height: 43.26vh;
   position: fixed;
-  left: 100px;
-  top: 100px;
+  left: 6.94vw;
+  top: 9.77vh;
   z-index: 1000;
   border: 2px solid red; /* solo para depuración */
 }
@@ -616,22 +616,22 @@
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
   font-weight: 500;
   position: absolute;
-  left: 440px;
-  top: 1746px;
+  left: 30.56vw;
+  top: 170.51vh;
 }
 .acceso-a-los-cursos {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 428px;
-  top: 1793px;
+  left: 29.72vw;
+  top: 175.10vh;
 }
 .group-110 {
   position: absolute;
@@ -640,112 +640,112 @@
 .rectangle-512 {
   background: #ffffff;
   border-radius: 20px;
-  width: 208px;
-  height: 43px;
+  width: 14.44vw;
+  height: 4.20vh;
   position: absolute;
-  left: 428px;
-  top: 2077px;
+  left: 29.72vw;
+  top: 202.83vh;
 }
 .unirse-como-miembro {
   color: #000000;
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 400;
   position: absolute;
-  left: 469px;
-  top: 2091px;
+  left: 32.57vw;
+  top: 204.20vh;
 }
 .verificacion {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 428px;
-  top: 1821px;
+  left: 29.72vw;
+  top: 177.83vh;
 }
 .monetizacion-de-contenido {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 428px;
-  top: 1851px;
+  left: 29.72vw;
+  top: 180.76vh;
 }
 .mayor-alcanze-de-publico {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 428px;
-  top: 1879px;
+  left: 29.72vw;
+  top: 183.50vh;
 }
 .s-50 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 50px;
+  font-size: 3.47vw;
   font-weight: 500;
   position: absolute;
-  left: 459px;
-  top: 1995px;
-  width: 144px;
-  height: 69px;
+  left: 31.88vw;
+  top: 194.82vh;
+  width: 10.00vw;
+  height: 6.74vh;
 }
 .rectangle-46 {
   background: #362645;
   border-radius: 20px;
-  width: 276px;
-  height: 463px;
+  width: 19.17vw;
+  height: 45.21vh;
   position: absolute;
-  left: 783px;
-  top: 1703px;
+  left: 54.38vw;
+  top: 166.31vh;
 }
 .mayor-alcanze-de-publico2 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 817px;
-  top: 1874px;
+  left: 56.74vw;
+  top: 183.01vh;
 }
 .rectangle-55 {
   background: #d9d9d9;
   border-radius: 20px 20px 0px 0px;
-  width: 276px;
-  height: 41px;
+  width: 19.17vw;
+  height: 4.00vh;
   position: absolute;
-  left: 783px;
-  top: 1682px;
+  left: 54.38vw;
+  top: 164.26vh;
 }
 .acceso-a-los-cursos2 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 817px;
-  top: 1788px;
+  left: 56.74vw;
+  top: 174.61vh;
 }
 .pro {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
   font-weight: 500;
   position: absolute;
-  left: 904px;
-  top: 1741px;
+  left: 62.78vw;
+  top: 170.02vh;
 }
 .group-112 {
   position: absolute;
@@ -754,83 +754,83 @@
 .rectangle-513 {
   background: #ffffff;
   border-radius: 20px;
-  width: 208px;
-  height: 43px;
+  width: 14.44vw;
+  height: 4.20vh;
   position: absolute;
-  left: 822px;
-  top: 2068px;
+  left: 57.08vw;
+  top: 201.95vh;
 }
 .unirse-como-miembro2 {
   color: #000000;
   text-align: left;
   font-family: "SpaceGrotesk-Regular", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 400;
   position: absolute;
-  left: 863px;
-  top: 2082px;
+  left: 59.93vw;
+  top: 203.32vh;
 }
 .verificacion2 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 817px;
-  top: 1817px;
+  left: 56.74vw;
+  top: 177.44vh;
 }
 .acceso-anticipado-a-nuevos-articulos {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 817px;
-  top: 1938px;
+  left: 56.74vw;
+  top: 189.26vh;
 }
 .monetizacion-de-contenido2 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 817px;
-  top: 1844px;
+  left: 56.74vw;
+  top: 180.08vh;
 }
 .m-s-popular {
   color: #000000;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 878px;
-  top: 1702px;
-  width: 87px;
-  height: 15px;
+  left: 60.97vw;
+  top: 166.21vh;
+  width: 6.04vw;
+  height: 1.46vh;
 }
 .ai-para-los-cursos {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 12px;
+  font-size: 0.83vw;
   font-weight: 500;
   position: absolute;
-  left: 818px;
-  top: 1906px;
+  left: 56.81vw;
+  top: 186.13vh;
 }
 .s-100 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 50px;
+  font-size: 3.47vw;
   font-weight: 500;
   position: absolute;
-  left: 846px;
-  top: 1995px;
-  width: 153px;
-  height: 69px;
+  left: 58.75vw;
+  top: 194.82vh;
+  width: 10.62vw;
+  height: 6.74vh;
 }
