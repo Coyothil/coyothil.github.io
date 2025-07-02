@@ -282,7 +282,7 @@ if (triggerElon) {
         const chatEjemploDiv = tempChat.querySelector('.chat-elon');
         if (chatEjemploDiv) {
           chatEjemploDiv.style.position = 'fixed';
-          chatEjemploDiv.style.left = (chatDiv.offsetLeft + chatDiv.offsetWidth + 24) + 'px';
+          chatEjemploDiv.style.left = (chatDiv.offsetLeft - chatDiv.offsetWidth - 120) + 'px';
           chatEjemploDiv.style.top = chatDiv.offsetTop + 'px';
           chatEjemploDiv.style.zIndex = '10001';
           chatEjemploDiv.style.boxShadow = '0 4px 16px rgba(0,0,0,0.18)';
