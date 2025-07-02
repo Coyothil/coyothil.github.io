@@ -11,73 +11,78 @@
   background: #121217;
   height: 100vh;
   width: 100vw;
-  min-height: 1240px;
-  min-width: 1640px;
+
   position: relative;
 }
+body{
+    background-size: cover;
+    background: #121217;
+    width:100vw;
+    height:100vh ;
+}
 .depth-4-frame-3 {
-  border-radius: 20px;
-  width: 40px;
-  height: 40px;
+  border-radius: 50%;
+  width: auto;
+  height: 2.2vh;
   position: absolute;
-  left: 1362px;
-  top: 19px;
+  left: 94.58vw;
+  top: 2.3vh;
   overflow: hidden;
   object-fit: cover;
 }
 .vector-4 {
-  width: 20px;
-  height: 20px;
+  width: auto;
+  height: 1.39vh;
   position: absolute;
-  left: 1156px;
-  top: 29px;
+  left: 80.28vw;
+  top: 2.83vh;
   overflow: visible;
 }
 .astra-index {
-  color: #ffffff;
+   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
   font-weight: 700;
   position: absolute;
-  left: 72px;
-  top: 20.5px;
-  width: 148px;
+  left: 5.00vw;
+  top: 2.30vh;
+  width: 10.28vw;
 }
 .frame-1 {
-  width: 25px;
-  height: 25px;
+  width: auto;
+  height:  1.74vh;
   position: absolute;
-  left: 31px;
-  top: 19px;
+  left: 2.15vw;
+  top:2.3vh;
   overflow: hidden;
   object-fit: cover;
 }
 .image-1 {
-  width: 17px;
-  height: 20px;
+  width: auto;
+  height:  1.18vh;
   position: absolute;
-  left: 1207px;
-  top: 29px;
+  left: 83.82vw;
+  top:  2.83vh;
   object-fit: cover;
   aspect-ratio: 17/20;
 }
 .image-2 {
-  width: 21px;
-  height: 20px;
+  width: auto;
+  height: 1.46vh;
   position: absolute;
-  left: 1252px;
-  top: 29px;
+  left: 86.94vw;
+  top:  2.83vh;
   object-fit: cover;
   aspect-ratio: 21/20;
 }
 .image-3 {
-  width: 19px;
-  height: 20px;
+  width: auto;
+  height: 1.32vh;
   position: absolute;
-  left: 1301px;
-  top: 29px;
+  left: 90.35vw;
+  top:  2.83vh;
   object-fit: cover;
   aspect-ratio: 19/20;
 }
@@ -85,108 +90,107 @@
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 2.22vw;
+  line-height: 3.91vh;
   font-weight: 700;
   position: absolute;
-  left: 31px;
-  top: 71px;
+  left: 2.15vw;
+  top: 6.93vh;
 }
 .reels {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 41px;
-  top: 148px;
+  left: 2.85vw;
+  top: 14.45vh;
 }
 .art-culos {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 98px;
-  top: 148px;
+  left: 6.81vw;
+  top: 14.45vh;
 }
 .n-vistas {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 810px;
-  top: 220px;
+  left: 56.25vw;
+  top: 21.48vh;
 }
 .n-comentarios {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 905px;
-  top: 220px;
+  left: 62.85vw;
+  top: 21.48vh;
 }
 .visibilidad {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 515px;
-  top: 220px;
-  width: 109px;
-  height: 21px;
+  left: 35.76vw;
+  top: 21.48vh;
+  width: 7.57vw;
+  height: 2.05vh;
 }
 .fecha-de-creaci-n {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 630px;
-  top: 220px;
+  left: 43.75vw;
+  top: 21.48vh;
 }
 .line-1 {
   margin-top: -1px;
   border-style: solid;
   border-color: #ffffff;
-  border-width: 1px 0 0 0;
-  width: 906px;
-  height: 0px;
+  border-width: 0.07vw 0 0 0;
+  width: 62.92vw;
   position: absolute;
-  left: 28px;
-  top: 176px;
+  left: 1.94vw;
+  top: 17.19vh;
   transform-origin: 0 0;
   transform: rotate(0.126deg) scale(1, 1);
 }
 .rectangle-5 {
   background: #d9d9d9;
-  width: 56px;
-  height: 4px;
+  width: 3.89vw;
+  height: 0.39vh;
   position: absolute;
-  left: 101px;
-  top: 172px;
+  left: 7.01vw;
+  top: 16.80vh;
 }
 .filter {
-  width: 31px;
-  height: 31px;
+  width: 2.15vw;
+  height: 2.15vw;
   position: absolute;
-  left: 50px;
-  top: 220px;
+  left: 3.47vw;
+  top: 21.48vh;
   overflow: visible;
 }
 .group-127 {
@@ -197,207 +201,207 @@
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 525px;
-  top: 330px;
-  width: 109px;
-  height: 21px;
+  left: 36.46vw;
+  top: 32.23vh;
+  width: 7.57vw;
+  height: 2.05vh;
 }
 .c-mo-encontrar-constelaciones-en-el-cielo-nocturno {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Bold", sans-serif;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1.11vw;
+  line-height: 1.95vh;
   font-weight: 700;
   position: absolute;
-  left: 220px;
-  top: 302px;
-  width: 184px;
-  height: 44px;
+  left: 15.28vw;
+  top: 29.49vh;
+  width: 12.78vw;
+  height: 4.30vh;
 }
 .rectangle-48 {
   border-style: solid;
   border-color: #ffffff;
-  border-width: 1px;
-  width: 1232px;
-  height: 120px;
+  border-width: 0.07vw;
+  width: 85.56vw;
+  height: 11.72vh;
   position: absolute;
-  left: 41px;
-  top: 279px;
+  left: 2.85vw;
+  top: 27.25vh;
 }
 ._01-06-2025 {
   color: #ffffff;
   text-align: left;
   font-family: var(--m3-title-medium-font-family, "Roboto-Medium", sans-serif);
-  font-size: var(--m3-title-medium-font-size, 16px);
-  line-height: var(--m3-title-medium-line-height, 24px);
+  font-size: 1.11vw;
+  line-height: auto;
   letter-spacing: var(--m3-title-medium-letter-spacing, 0.15px);
   font-weight: var(--m3-title-medium-font-weight, 500);
   position: absolute;
-  left: 645px;
-  top: 330px;
+  left: 44.79vw;
+  top: 32.23vh;
 }
 ._5 {
   color: #ffffff;
   text-align: left;
   font-family: var(--m3-title-medium-font-family, "Roboto-Medium", sans-serif);
-  font-size: var(--m3-title-medium-font-size, 16px);
-  line-height: var(--m3-title-medium-line-height, 24px);
+  font-size:1.11vw ;
+  line-height: auto;
   letter-spacing: var(--m3-title-medium-letter-spacing, 0.15px);
   font-weight: var(--m3-title-medium-font-weight, 500);
   position: absolute;
-  left: 825px;
-  top: 330px;
+  left: 57.29vw;
+  top: 32.23vh;
 }
 ._1 {
   color: #ffffff;
   text-align: left;
   font-family: var(--m3-title-medium-font-family, "Roboto-Medium", sans-serif);
-  font-size: var(--m3-title-medium-font-size, 16px);
-  line-height: var(--m3-title-medium-line-height, 24px);
+  font-size:1.11vw ;
+  line-height: auto;
   letter-spacing: var(--m3-title-medium-letter-spacing, 0.15px);
   font-weight: var(--m3-title-medium-font-weight, 500);
   position: absolute;
-  left: 945px;
-  top: 330px;
+  left: 65.62vw;
+  top: 32.23vh;
 }
 .line-6 {
-  margin-top: -1px;
+ 
   border-style: solid;
   border-color: #ffffff;
-  border-width: 1px 0 0 0;
-  width: 120px;
-  height: 0px;
+  border-width: 0.07vw 0 0 0;
+  width: 11.27vh;
+  height: 0.00vh;
   position: absolute;
-  left: 475px;
-  top: 278px;
+  left: 32.99vw;
+  top: 27.15vh;
   transform-origin: 0 0;
   transform: rotate(90deg) scale(1, 1);
 }
 .line-7 {
-  margin-top: -1px;
+  
   border-style: solid;
   border-color: #ffffff;
-  border-width: 1px 0 0 0;
-  width: 120px;
-  height: 0px;
+  border-width: 0.07vw 0 0 0;
+  width: 11.27vh;
+  height: 0.00vh;
   position: absolute;
-  left: 1041px;
-  top: 280px;
+  left: 72.29vw;
+  top: 27.34vh;
   transform-origin: 0 0;
   transform: rotate(90deg) scale(1, 1);
 }
 .image-19 {
-  width: 150px;
-  height: 100px;
+  width: 10.42vw;
+  height: 9.77vh;
   position: absolute;
-  left: 50px;
-  top: 289px;
+  left: 3.47vw;
+  top: 28.22vh;
   object-fit: cover;
 }
 .rectangle-39 {
   background: #304fe8;
   border-radius: 12px;
-  width: 94px;
-  height: 42px;
+  width: 6.53vw;
+  height: 4.10vh;
   position: absolute;
-  left: 1053px;
-  top: 319px;
+  left: 73.12vw;
+  top: 31.15vh;
 }
 .editar {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.11vw;
+  line-height: 2.34vh;
   font-weight: 700;
   position: absolute;
-  left: 1077.5px;
-  top: 328px;
+  left: 74.83vw;
+  top: 32.03vh;
 }
 .rectangle-392 {
   background: #304fe8;
   border-radius: 12px;
-  width: 94px;
-  height: 42px;
+  width: 6.53vw;
+  height: 4.10vh;
   position: absolute;
-  left: 1169px;
-  top: 319px;
+  left: 81.18vw;
+  top: 31.15vh;
 }
 .eliminar {
   color: #ffffff;
   text-align: center;
   font-family: "SpaceGrotesk-Bold", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.11vw;
+  line-height: 2.34vh;
   font-weight: 700;
   position: absolute;
-  left: 1186.5px;
-  top: 328px;
+  left: 82.40vw;
+  top: 32.03vh;
 }
 .cursos {
   color: #ffffff;
   text-align: left;
   font-family: "PlusJakartaSans-Bold", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
   font-weight: 700;
   position: absolute;
-  left: 180px;
-  top: 148px;
+  left: 12.50vw;
+  top: 14.45vh;
 }
 .art-culos2 {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: auto;
   font-weight: 500;
   position: absolute;
-  left: 1063px;
-  top: 29px;
-  width: 65px;
+  left: 73.82vw;
+  top: 3vh;
+  width: 4.51vw;
 }
 .live {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height: auto;
   font-weight: 500;
   position: absolute;
-  left: 1007px;
-  top: 29px;
-  width: 34px;
-  height: 22px;
+  left: 69.93vw;
+  top: 3vh;
+  width: 2.36vw;
+  height: 2.15vh;
 }
 .destacados {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.97vw;
+  line-height:auto;
   font-weight: 500;
   position: absolute;
-  left: 897px;
-  top: 29px;
-  width: 82px;
-  height: 43px;
+  left: 62.29vw;
+  top: 3vh;
+  width: 5.69vw;
+  height: 4.20vh;
 }
 .explorar {
   color: #ffffff;
   text-align: left;
   font-family: "SpaceGrotesk-Medium", sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+  font-size:0.97vw;
+  line-height: auto;
   font-weight: 500;
   position: absolute;
-  left: 810px;
-  top: 29px;
-  width: 59px;
-  height: 43px;
+  left: 56.25vw;
+  top: 3vh;
+  width: 4.10vw;
+  height: 4.20vh;
 }
