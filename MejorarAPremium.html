@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/styleMenu.css">
   <link rel="stylesheet" href="./css/styleChats.css">
   <link rel="stylesheet" href="./css/styleChatEjemplo.css">
+  <link rel="stylesheet" href="./css/styleTarjeta.css">
 
   <style>
    a,
@@ -77,8 +78,11 @@
     <div class="mayor-alcanze-de-publico2">Mayor Alcanze de Publico</div>
     <div class="s-50">S/.50</div>
     <div class="s-100">S/.100</div>
+    <div id="modal-tarjeta">
+    <div id="modal-tarjeta-content"></div>
   </div>
-  </body>
+  </div>
+</body>
 </html>
 <script>
 document.getElementById('menu-trigger').addEventListener('click', function() {
@@ -91,6 +95,25 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
         const tempDiv = document.createElement('div');
         tempDiv.innerHTML = html;
         const menuDiv = tempDiv.querySelector('.menu');
+        const btnCerrar = document.createElement('button');
+        btnCerrar.id = 'cerrar-modal-tarjeta';
+        btnCerrar.innerHTML = '&times;';
+        btnCerrar.style.position = 'absolute';
+        btnCerrar.style.top = '24px';
+        btnCerrar.style.right = '32px';
+        btnCerrar.style.fontSize = '2.5rem';
+        btnCerrar.style.background = 'none';
+        btnCerrar.style.border = 'none';
+        btnCerrar.style.color = '#fff';
+        btnCerrar.style.cursor = 'pointer';
+        btnCerrar.style.zIndex = '1001';
+
+        btnCerrar.onclick = () => { modal.style.display = 'none'; };
+
+        modalContent.innerHTML = '';
+        modalContent.appendChild(btnCerrar);
+        modalContent.appendChild(tarjeta);
+        modal.style.display = 'flex';
         if (menuDiv) {
           menuContainer.innerHTML = '';
           menuContainer.appendChild(menuDiv.cloneNode(true));
@@ -207,6 +230,63 @@ if (triggerElon) {
       });
   } else {
     chatContainer.innerHTML = '';
+  }
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const plan1 = document.querySelector('.rectangle-46');
+  const plan2 = document.querySelector('.rectangle-47');
+  const modal = document.getElementById('modal-tarjeta');
+  const modalContent = document.getElementById('modal-tarjeta-content');
+
+  function abrirModalTarjeta() {
+    fetch('Tarjeta.html')
+      .then(resp => resp.text())
+      .then(html => {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        let tarjeta = tempDiv.querySelector('.tarjeta');
+        if (!tarjeta) tarjeta = tempDiv;
+
+        const btnCerrar = document.createElement('button');
+        btnCerrar.id = 'cerrar-modal-tarjeta';
+        btnCerrar.innerHTML = '&times;';
+        btnCerrar.style.position = 'absolute';
+        btnCerrar.style.top = '24px';
+        btnCerrar.style.right = '32px';
+        btnCerrar.style.fontSize = '2.5rem';
+        btnCerrar.style.background = 'none';
+        btnCerrar.style.border = 'none';
+        btnCerrar.style.color = '#fff';
+        btnCerrar.style.cursor = 'pointer';
+        btnCerrar.style.zIndex = '1001';
+
+        btnCerrar.onclick = () => { modal.style.display = 'none'; };
+
+        modalContent.innerHTML = '';
+        modalContent.appendChild(btnCerrar);
+        modalContent.appendChild(tarjeta);
+        modal.style.display = 'flex';
+
+        const form = modalContent.querySelector('.tarjeta form');
+        const mensaje = modalContent.querySelector('#mensaje-tarjeta');
+        if(form && mensaje) {
+          form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            mensaje.textContent = "no se pudo verificar la tarjeta";
+            mensaje.style.display = "block";
+          });
+        }
+      });
+  }
+  if (plan1) plan1.addEventListener('click', abrirModalTarjeta);
+  if (plan2) plan2.addEventListener('click', abrirModalTarjeta);
+
+  if (modal) {
+    modal.addEventListener('click', function(e) {
+      if (e.target === modal) modal.style.display = 'none';
+    });
   }
 });
 </script>
