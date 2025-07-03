@@ -69,6 +69,7 @@
     <div id="chat-container" style="position:absolute; z-index:9998;"></div>
     <img class="image-3" src="LandingPage-Assets/image-30.png" />
     <div class="rectangle-47"></div>
+    <div class="rectangle-470"></div>
     <div class="rectangle-48"></div>
     <div class="rectangle-49"></div>
     <div class="david-contreras">David Contreras</div>
@@ -254,6 +255,24 @@ if (triggerElon) {
       });
   } else {
     chatContainer.innerHTML = '';
+  }
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const rect46 = document.querySelector('.rectangle-46');
+  const rect47 = document.querySelector('.rectangle-470');
+  if(rect46) {
+    rect46.style.cursor = 'pointer';
+    rect46.addEventListener('click', function() {
+      window.location.href = 'MejorarAPremium.html';
+    });
+  }
+  if(rect47) {
+    rect47.style.cursor = 'pointer';
+    rect47.addEventListener('click', function() {
+      window.location.href = 'MejorarAPremium.html';
+    });
   }
 });
 </script>

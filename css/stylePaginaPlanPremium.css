@@ -8,15 +8,6 @@
   position: relative;
   overflow: hidden;
 }
-.rectangle-46 {
-  background: #362645;
-  border-radius: 20px;
-  width: 19.17vw;
-  height: 56.54vh;
-  position: absolute;
-  left: 59.58vw;
-  top: 12.99vh;
-}
 .mayor-alcanze-de-publico {
   color: #ffffff;
   text-align: left;
@@ -171,6 +162,15 @@
   top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 19/20;
+}
+.rectangle-46 {
+  background: #362645;
+  border-radius: 20px;
+  width: 19.17vw;
+  height: 56.54vh;
+  position: absolute;
+  left: 59.58vw;
+  top: 12.99vh;
 }
 .rectangle-47 {
   background: #362645;
