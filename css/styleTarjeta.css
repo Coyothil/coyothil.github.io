@@ -1,0 +1,182 @@
+.tarjeta,
+.tarjeta * {
+  box-sizing: border-box;
+}
+.tarjeta {
+  background: #362645;
+  height: 495px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  width: 900px;
+}
+.numero {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  position: absolute;
+  left: 95px;
+  top: 80px;
+}
+.nombre-y-apellido {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  position: absolute;
+  left: 95px;
+  top: 193px;
+}
+.vencimiento {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  position: absolute;
+  left: 95px;
+  top: 306px;
+}
+.codigo-seguridad {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  position: absolute;
+  left: 303px;
+  top: 306px;
+}
+.numero-tarjeta-frame {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  padding: 13px 10px 13px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 334px;
+  position: absolute;
+  left: 95px;
+  top: 120px;
+}
+.div {
+  color: var(--gray-5, #e0e0e0);
+  text-align: left;
+  font-family: "NunitoSans-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: relative;
+}
+.nombre-tarjeta-frame {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  padding: 13px 10px 13px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 336px;
+  position: absolute;
+  left: 93px;
+  top: 233px;
+}
+.vencimiento-tarjeta-frame {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  padding: 13px 10px 13px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 140px;
+  position: absolute;
+  left: 93px;
+  top: 346px;
+}
+.mm-aa {
+  color: var(--gray-5, #e0e0e0);
+  text-align: left;
+  font-family: "NunitoSans-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: relative;
+}
+.csv-tarjeta-frame {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  padding: 13px 10px 13px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 140px;
+  position: absolute;
+  left: 303px;
+  top: 346px;
+}
+.image-22 {
+  width: 368.62px;
+  height: 368.62px;
+  position: absolute;
+  left: 484.7px;
+  top: 81px;
+  transform-origin: 0 0;
+  transform: rotate(1.508deg) scale(1, 1);
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.tarjeta label,
+.tarjeta input {
+  color: #fff;
+}
+
+.tarjeta input {
+  background: transparent; 
+  border: 1px solid #fff;  
+}
+
+.tarjeta input::placeholder {
+  color: #fff;
+  opacity: 0.7; 
+}
+.tarjeta button[type="submit"] {
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-size: 18px;
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  bottom: 32px;
+  transform: translateX(-50%);
+  transition: background 0.2s, color 0.2s;
+}
+
+.tarjeta button[type="submit"]:hover {
+  background: #fff;
+  color: #362645;
+}
