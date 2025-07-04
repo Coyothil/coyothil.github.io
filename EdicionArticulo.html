@@ -160,10 +160,15 @@
     <div class="stargazing">
       <p id="text-tag"><div class="rectangle-21"></div></p>
     </div>
-    <a href="./HerramientasDelCreadorArticulos.html"><div class="rectangle-39"></div></a>
-    <a href="./HerramientasDelCreadorArticulos.html"><div class="guardar">Guardar</div></a>
-    <a href="./HerramientasDelCreadorArticulos.html"><div  class="rectangle-51"></div></a>
-    <a href="./HerramientasDelCreadorArticulos.html"><div class="cancelar">Cancelar</div></a>
+    <a href="./HerramientasDelCreadorArticulos.html"><div class="rectangle-39">Guardar</div></a>
+    
+    <a href="./HerramientasDelCreadorArticulos.html"><div  class="rectangle-51">Cancelar</div></a>
+    
+
+    <div class="visualizacion">Estado de Visualización</div>
+    <button class="visual" onclick="cambiarColor(this)">Público</button>
+    <button class="visual" onclick="cambiarColor(this)">Oculto</button>
+    <button class="visual" onclick="cambiarColor(this)">Privado</button>
   </div>
 </body>
   <script>
@@ -248,7 +253,7 @@ function tags() {
 
   // Verificar si ya hay 5 etiquetas
   if (container.children.length >= 7) {
-    alert("Solo puedes agregar hasta 5 etiquetas.");
+    alert("Solo puedes agregar hasta 7 etiquetas.");
     return;
   }
 
@@ -274,6 +279,12 @@ function tags() {
   container.appendChild(tagElement);
 
   document.getElementById("tag").value = "";
+}
+
+function cambiarColor(botonPresionado) {
+    const botones = document.querySelectorAll('.visual');
+    botones.forEach(boton => boton.classList.remove('activo'));
+    botonPresionado.classList.add('activo');
 }
 
 </script>
