@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -156,7 +156,7 @@
     <input class="input" id="tag">
     <button class="btn" type="button" onclick="tags()">Agregar</button>
     
-    <div class="agregar-topic">Agregar Topic</div>
+    <div class="agregar-topic">Agregar Topic (máx 7)</div>
     <div class="stargazing">
       <p id="text-tag"><div class="rectangle-21"></div></p>
     </div>
@@ -240,11 +240,42 @@
 });
 
 function tags() {
+  const text = document.getElementById("tag").value.trim();
+  const container = document.getElementById("text-tag");
 
-  let text = document.getElementById("tag").value;
-  
-   document.getElementById("text-tag").innerHTML+=  text + "<br><br>"  ;
+  // Verificar si el campo está vacío
+  if (text === "") return;
+
+  // Verificar si ya hay 5 etiquetas
+  if (container.children.length >= 7) {
+    alert("Solo puedes agregar hasta 5 etiquetas.");
+    return;
+  }
+
+  // Verificar si la etiqueta ya existe
+  for (let i = 0; i < container.children.length; i++) {
+    if (container.children[i].textContent === text) {
+      alert("Esta etiqueta ya fue agregada.");
+      return;
+    }
+  }
+
+  // Crear y agregar nueva etiqueta
+  const tagElement = document.createElement("div");
+  tagElement.textContent = text;
+  tagElement.style.backgroundColor = "#292B38";
+  tagElement.style.fontSize = "0.97vw";
+  tagElement.style.padding = "0.42vw 1.2vh";
+  tagElement.style.borderRadius = "12px";
+  tagElement.style.display = "inline-block";
+  tagElement.style.marginBottom = "0.98vh";
+  tagElement.style.margin = "0.35vw";
+
+  container.appendChild(tagElement);
+
+  document.getElementById("tag").value = "";
 }
+
 </script>
 
 <script>

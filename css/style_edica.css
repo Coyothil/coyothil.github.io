@@ -300,8 +300,13 @@ body{
   position: absolute;
   left: 64.79vw;
   top: 28.61vh;
-  width: 9.17vw;
+  width: 31.11vw;
 }
+
+  #text-tag {
+    max-width: 100vw; /* controla el ancho del contenedor */
+    padding: 10px;
+  }
 
 .editor {
       background-color:  #59595b;
