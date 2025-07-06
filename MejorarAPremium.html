@@ -85,7 +85,7 @@
 </body>
 </html>
 <script>
-document.getElementById('menu-trigger').addEventListener('click', function() {
+  document.getElementById('menu-trigger').addEventListener('click', function() {
   const menuTrigger = document.getElementById('menu-trigger');
   const menuContainer = document.getElementById('menu-container');
   if (menuContainer.innerHTML.trim() === "") {
@@ -95,25 +95,6 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
         const tempDiv = document.createElement('div');
         tempDiv.innerHTML = html;
         const menuDiv = tempDiv.querySelector('.menu');
-        const btnCerrar = document.createElement('button');
-        btnCerrar.id = 'cerrar-modal-tarjeta';
-        btnCerrar.innerHTML = '&times;';
-        btnCerrar.style.position = 'absolute';
-        btnCerrar.style.top = '24px';
-        btnCerrar.style.right = '32px';
-        btnCerrar.style.fontSize = '2.5rem';
-        btnCerrar.style.background = 'none';
-        btnCerrar.style.border = 'none';
-        btnCerrar.style.color = '#fff';
-        btnCerrar.style.cursor = 'pointer';
-        btnCerrar.style.zIndex = '1001';
-
-        btnCerrar.onclick = () => { modal.style.display = 'none'; };
-
-        modalContent.innerHTML = '';
-        modalContent.appendChild(btnCerrar);
-        modalContent.appendChild(tarjeta);
-        modal.style.display = 'flex';
         if (menuDiv) {
           menuContainer.innerHTML = '';
           menuContainer.appendChild(menuDiv.cloneNode(true));
@@ -124,7 +105,7 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
           menuContainer.style.top = (rect.bottom + window.scrollY -40 ) + 'px';
 
           // Evento para "Mejorar a Premium"
-          const premiumBtn = menuContainer.querySelector('.menu-mejorar-a-premium');
+          const premiumBtn = menuContainer.querySelector('.mejorar-a-premium');
           if (premiumBtn) {
             premiumBtn.style.cursor = 'pointer';
             premiumBtn.addEventListener('click', function() {
@@ -145,20 +126,13 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
               window.location.href = 'HerramientasDelCreadorReels.html';
             });
           }
-          const cerrarSe = menuContainer.querySelector('.cerrar-sesion');
-          if (cerrarSe) {
-            cerrarSe.style.cursor = 'pointer';
-            cerrarSe.addEventListener('click', function() {
-              window.location.href = 'Login.html';
-            });
-          }
         }
       });
   } else {
     menuContainer.innerHTML = '';
   }
 });
-
+</script>
 // Evento para "Ver ahora"
 document.querySelector('.ver-ahora').addEventListener('click', function() {
   window.location.href = 'Streaming.html';
