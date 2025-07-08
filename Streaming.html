@@ -107,12 +107,20 @@
         The point of using Lorem Ipsum is that it has a more-or-less normal
         distribution of letters.
       </div>
+      <div class="depth-8-frame-2" style="display:none;"></div>
       <div id="subscribe-bg" class="rectangle-32"></div>
       <button id="subscribe-btn" class="suscribete" style="cursor:pointer;">Suscribete</button>
-      <div class="depth-8-frame-2">
-        <div class="chatear">Chatear...</div>
-      </div>
-      <img class="send" src="./image-stream/send0.svg" />
+      <!-- Sección de comentarios en el costado, reemplazando la caja de chatear, pero dejando Suscribete -->
+      <section class="comentarios-section" style="position:absolute; left:67.71vw; top:13.96vh; width:29.65vw; min-height:44.43vh; max-width:29.65vw; z-index:2;">
+        <h2>Comentarios</h2>
+        <form id="comentario-form">
+          <textarea id="comentario-text" placeholder="Escribe tu comentario..."></textarea>
+          <button type="submit">Publicar</button>
+        </form>
+        <div class="comentarios-list" id="comentarios-list">
+          <!-- Aquí aparecerán los comentarios -->
+        </div>
+      </section>
       <button id="notificaciones-trigger" style="background: none; border: none; cursor: pointer;">
         <img class="image-3" src="./image-stream/image-30.png" alt="Campana de notificaciones" />
       </button>
@@ -271,6 +279,32 @@ document.getElementById('notificaciones-trigger').addEventListener('click', func
     container.innerHTML = '';
     container.style.display = 'none';
     document.removeEventListener('mousedown', closeNotificationsOnClickOutside);
+  }
+});
+</script>
+<script>
+// Comentarios funcionales con imagen de usuario
+const comentarioForm = document.getElementById('comentario-form');
+const comentarioText = document.getElementById('comentario-text');
+const comentariosList = document.getElementById('comentarios-list');
+
+// Imagen de usuario por defecto
+const userImgUrl = './image-stream/depth-4-frame-30.png'; // Cambia la ruta si tienes otra imagen de perfil
+
+comentarioForm.addEventListener('submit', function(e) {
+  e.preventDefault();
+  const texto = comentarioText.value.trim();
+  if (texto) {
+    const div = document.createElement('div');
+    div.className = 'comentario';
+    div.innerHTML = `
+      <div style="display:flex;align-items:flex-start;gap:10px;">
+        <img src="${userImgUrl}" alt="Usuario" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+        <span style="display:block;word-break:break-word;">${texto}</span>
+      </div>
+    `;
+    comentariosList.prepend(div);
+    comentarioText.value = '';
   }
 });
 </script>
