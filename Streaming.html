@@ -99,8 +99,8 @@
         The point of using Lorem Ipsum is that it has a more-or-less normal
         distribution of letters.
       </div>
-      <div class="rectangle-32"></div>
-      <div class="suscribete">Suscribete</div>
+      <div id="subscribe-bg" class="rectangle-32"></div>
+      <button id="subscribe-btn" class="suscribete" style="cursor:pointer;">Suscribete</button>
       <div class="depth-8-frame-2">
         <div class="chatear">Chatear...</div>
       </div>
@@ -186,6 +186,21 @@ if (triggerElon) {
       });
   } else {
     chatContainer.innerHTML = '';
+  }
+});
+</script>
+<script>
+document.getElementById('subscribe-btn').addEventListener('click', function() {
+  const btn = this;
+  const bg = document.getElementById('subscribe-bg');
+  if (btn.textContent === 'Suscribete') {
+    btn.textContent = 'Suscrito';
+    btn.classList.add('suscrito');
+    if(bg) bg.style.background = '#bdbdbd';
+  } else {
+    btn.textContent = 'Suscribete';
+    btn.classList.remove('suscrito');
+    if(bg) bg.style.background = '#304fe8';
   }
 });
 </script>
