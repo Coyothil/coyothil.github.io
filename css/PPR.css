@@ -1,4 +1,16 @@
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+a.btn,        /* por si tienes enlaces con clase .btn */
+[class*="btn"] /* cualquier clase que incluya "btn" */
+{
+  cursor: pointer;
+}
+
 .perfil-de-usuario-reels,
+
 .perfil-de-usuario-reels * {
   box-sizing: border-box;
 }
@@ -428,6 +440,10 @@
   position: absolute;
   left: 36.94vw;
   top: 13.18vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.rectangle-2:hover{
+  background-color: #ffffff;
 }
 .nueva-publicacion {
   color: #ffffff;

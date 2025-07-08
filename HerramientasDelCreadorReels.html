@@ -46,7 +46,7 @@
 </head>
 <body>
   <div class="herramientas-del-creador-reels">
-    <img class="image-20" src="HerramientasDelCreadorReels_Imagenes/cielo_noc.png" />
+    
     <img class="depth-4-frame-3" src="HerramientasDelCreadorReels_Imagenes/katherine.png" id="menu-trigger"/>
     <div id="menu-container"></div>
     <a href="./Buscador.html"><img class="vector-4" src="HerramientasDelCreadorReels_Imagenes/buscar.png" /></a>
@@ -68,53 +68,57 @@
     <div class="line-1"></div>
     <div class="rectangle-5"></div>
     <img class="filter" src="HerramientasDelCreadorReels_Imagenes/filter.png" />
-    <div class="p-blico">Público</div>
-    <div class="que-pasar-a-si-cayeras-dentro-de-un-agujero-negro">
-      ¡¿Que pasaría si cayeras dentro de un agujero negro?
+    <div class="Reel">
+      <div class="p-blico">Público</div>
+      <div class="que-pasar-a-si-cayeras-dentro-de-un-agujero-negro">
+        ¡¿Que pasaría si cayeras dentro de un agujero negro?
+      </div>
+      <img class="image-18" src="HerramientasDelCreadorReels_Imagenes/agujero.png" />
+      <div class="group-8">
+        <div class="rectangle-48"></div>
+        <div class="_25-05-2025">25/05/2025</div>
+        <div class="_653">653</div>
+        <div class="_47">47</div>
+        <div class="line-6"></div>
+        <div class="line-7"></div>
+      </div>
+      <img class="play-circle" src="HerramientasDelCreadorReels_Imagenes/play.png" />
+      <a href="./EdicionArticulo.html"><div class="group-9">
+        <div class="rectangle-39"></div>
+        <div class="editar">Editar</div>
+      </div></a>
+      <div class="group-10">
+        <div class="rectangle-392"></div>
+        <div class="eliminar">Eliminar</div>
+      </div>
     </div>
-    <img class="image-18" src="HerramientasDelCreadorReels_Imagenes/agujero.png" />
-    <div class="group-8">
-      <div class="rectangle-48"></div>
-      <div class="_25-05-2025">25/05/2025</div>
-      <div class="_653">653</div>
-      <div class="_47">47</div>
-      <div class="line-6"></div>
-      <div class="line-7"></div>
-    </div>
-    <img class="play-circle" src="HerramientasDelCreadorReels_Imagenes/play.png" />
-    <div class="group-9">
-      <div class="rectangle-39"></div>
-      <div class="editar">Editar</div>
-    </div>
-    <div class="group-10">
-      <div class="rectangle-392"></div>
-      <div class="eliminar">Eliminar</div>
-    </div>
-    <div class="oculto">Oculto</div>
-    <div class="cosas-que-puedes-ver-en-el-cielo-esta-noche">
-      Cosas que puedes ver en el cielo esta noche
-    </div>
-    <div class="group-8">
-      <div class="rectangle-482"></div>
-      <div class="_27-05-2025">27/05/2025</div>
-      <div class="_26">26</div>
-      <div class="_2">2</div>
-      <div class="line-62"></div>
-      <div class="line-72"></div>
-    </div>
-    <img class="play-circle2" src="HerramientasDelCreadorReels_Imagenes/play.png" />
-    <div class="group-9">
-      <div class="rectangle-393"></div>
-      <div class="editar2">Editar</div>
-    </div>
-    <div class="group-10">
-      <div class="rectangle-394"></div>
-      <div class="eliminar2">Eliminar</div>
+    <div class="Reel">
+      <img class="image-20" src="HerramientasDelCreadorReels_Imagenes/cielo_noc.png" />
+      <div class="oculto">Oculto</div>
+      <div class="cosas-que-puedes-ver-en-el-cielo-esta-noche">
+        Cosas que puedes ver en el cielo esta noche
+      </div>
+      <div class="group-8">
+        <div class="rectangle-482"></div>
+        <div class="_27-05-2025">27/05/2025</div>
+        <div class="_26">26</div>
+        <div class="_2">2</div>
+        <div class="line-62"></div>
+        <div class="line-72"></div>
+      </div>
+      <img class="play-circle2" src="HerramientasDelCreadorReels_Imagenes/play.png" />
+      <a href="./EdicionArticulo.html"><div class="group-9">
+        <div class="rectangle-393"></div>
+        <div class="editar2">Editar</div>
+      </div></a>
+      <div class="group-10">
+        <div class="rectangle-394"></div>
+        <div class="eliminar2">Eliminar</div>
+      </div>
     </div>
     <a href="./Articulos.html"><div class="art-culos2">Artículos</div></a>
     <a href="./Streaming.html"><div class="live">Live</div></a>
     <a href="./index.html"><div class="destacados">Destacados</div></a>
-    <a href="./Buscador.html"><div class="explorar">Explorar</div></a>
   </div>
 <script>
   document.getElementById('menu-trigger').addEventListener('click', function() {
@@ -219,6 +223,20 @@ if (triggerElon) {
     chatContainer.innerHTML = '';
   }
 });
+
+</script>
+<script>
+   document.querySelectorAll('.group-10').forEach(function(el) {
+    el.addEventListener('click', function() {
+        const confirmar = confirm("¿Estás seguro de que deseas eliminar?");
+        if (confirmar) {
+          alert("Reel eliminado ");
+          this.parentElement.remove();
+        } else {
+          alert("Eliminación cancelada");
+        }
+      });
+    });
 
 </script>
 </body>

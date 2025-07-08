@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/styleMenu.css">
   <link rel="stylesheet" href="./css/styleChats.css">
   <link rel="stylesheet" href="./css/styleChatEjemplo.css">
+  <link rel="stylesheet" href="./css/styleTarjeta.css">
 
   <style>
    a,
@@ -50,7 +51,6 @@
     <a href="Articulos.html"><div class="art-culos">Artículos</div></a>
     <a href="Streaming.html"><div class="live">Live</div></a>
     <a href="index.html"><div class="destacados">Destacados</div></a>
-    <div class="explorar">Explorar</div>
     <div class="astra-index">Astra Index</div>
     <img class="frame-1" src="PP-Estadisticas/frame-10.png" />
     <a href="./Guardado.html"><img class="image-1" src="PP-Estadisticas/image-10.png" /></a>
@@ -77,11 +77,14 @@
     <div class="mayor-alcanze-de-publico2">Mayor Alcanze de Publico</div>
     <div class="s-50">S/.50</div>
     <div class="s-100">S/.100</div>
+    <div id="modal-tarjeta">
+    <div id="modal-tarjeta-content"></div>
   </div>
-  </body>
+  </div>
+</body>
 </html>
 <script>
-document.getElementById('menu-trigger').addEventListener('click', function() {
+  document.getElementById('menu-trigger').addEventListener('click', function() {
   const menuTrigger = document.getElementById('menu-trigger');
   const menuContainer = document.getElementById('menu-container');
   if (menuContainer.innerHTML.trim() === "") {
@@ -101,7 +104,7 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
           menuContainer.style.top = (rect.bottom + window.scrollY -40 ) + 'px';
 
           // Evento para "Mejorar a Premium"
-          const premiumBtn = menuContainer.querySelector('.menu-mejorar-a-premium');
+          const premiumBtn = menuContainer.querySelector('.mejorar-a-premium');
           if (premiumBtn) {
             premiumBtn.style.cursor = 'pointer';
             premiumBtn.addEventListener('click', function() {
@@ -122,20 +125,13 @@ document.getElementById('menu-trigger').addEventListener('click', function() {
               window.location.href = 'HerramientasDelCreadorReels.html';
             });
           }
-          const cerrarSe = menuContainer.querySelector('.cerrar-sesion');
-          if (cerrarSe) {
-            cerrarSe.style.cursor = 'pointer';
-            cerrarSe.addEventListener('click', function() {
-              window.location.href = 'Login.html';
-            });
-          }
         }
       });
   } else {
     menuContainer.innerHTML = '';
   }
 });
-
+</script>
 // Evento para "Ver ahora"
 document.querySelector('.ver-ahora').addEventListener('click', function() {
   window.location.href = 'Streaming.html';
@@ -207,6 +203,63 @@ if (triggerElon) {
       });
   } else {
     chatContainer.innerHTML = '';
+  }
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const plan1 = document.querySelector('.rectangle-46');
+  const plan2 = document.querySelector('.rectangle-47');
+  const modal = document.getElementById('modal-tarjeta');
+  const modalContent = document.getElementById('modal-tarjeta-content');
+
+  function abrirModalTarjeta() {
+    fetch('Tarjeta.html')
+      .then(resp => resp.text())
+      .then(html => {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        let tarjeta = tempDiv.querySelector('.tarjeta');
+        if (!tarjeta) tarjeta = tempDiv;
+
+        const btnCerrar = document.createElement('button');
+        btnCerrar.id = 'cerrar-modal-tarjeta';
+        btnCerrar.innerHTML = '&times;';
+        btnCerrar.style.position = 'absolute';
+        btnCerrar.style.top = '24px';
+        btnCerrar.style.right = '32px';
+        btnCerrar.style.fontSize = '2.5rem';
+        btnCerrar.style.background = 'none';
+        btnCerrar.style.border = 'none';
+        btnCerrar.style.color = '#fff';
+        btnCerrar.style.cursor = 'pointer';
+        btnCerrar.style.zIndex = '1001';
+
+        btnCerrar.onclick = () => { modal.style.display = 'none'; };
+
+        modalContent.innerHTML = '';
+        modalContent.appendChild(btnCerrar);
+        modalContent.appendChild(tarjeta);
+        modal.style.display = 'flex';
+
+        const form = modalContent.querySelector('.tarjeta form');
+        const mensaje = modalContent.querySelector('#mensaje-tarjeta');
+        if(form && mensaje) {
+          form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            mensaje.textContent = "no se pudo verificar la tarjeta";
+            mensaje.style.display = "block";
+          });
+        }
+      });
+  }
+  if (plan1) plan1.addEventListener('click', abrirModalTarjeta);
+  if (plan2) plan2.addEventListener('click', abrirModalTarjeta);
+
+  if (modal) {
+    modal.addEventListener('click', function(e) {
+      if (e.target === modal) modal.style.display = 'none';
+    });
   }
 });
 </script>

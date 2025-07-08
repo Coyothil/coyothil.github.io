@@ -1,4 +1,16 @@
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+a.btn,        /* por si tienes enlaces con clase .btn */
+[class*="btn"] /* cualquier clase que incluya "btn" */
+{
+  cursor: pointer;
+}
+
 .mejorar-a-premium,
+
+
 .mejorar-a-premium * {
   box-sizing: border-box;
 }
@@ -7,15 +19,6 @@
   height: 100.00vh;
   position: relative;
   overflow: hidden;
-}
-.rectangle-46 {
-  background: #362645;
-  border-radius: 20px;
-  width: 19.17vw;
-  height: 56.54vh;
-  position: absolute;
-  left: 59.58vw;
-  top: 12.99vh;
 }
 .mayor-alcanze-de-publico {
   color: #ffffff;
@@ -171,6 +174,15 @@
   top: 2.83vh;
   object-fit: cover;
   aspect-ratio: 19/20;
+}
+.rectangle-46 {
+  background: #362645;
+  border-radius: 20px;
+  width: 19.17vw;
+  height: 56.54vh;
+  position: absolute;
+  left: 59.58vw;
+  top: 12.99vh;
 }
 .rectangle-47 {
   background: #362645;
@@ -364,4 +376,30 @@
   top: 50.98vh;
   width: 10.62vw;
   height: 6.74vh;
+}
+#modal-tarjeta {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.45);
+  z-index: 20000;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-tarjeta.show {
+  display: flex;
+}
+
+#modal-tarjeta-content {
+  position: relative;
+  background: transparent;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.25);
+  padding: 0;
+  max-width: 95vw;
+  max-height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

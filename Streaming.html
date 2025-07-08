@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/styleMenu.css">
   <link rel="stylesheet" href="./css/styleChats.css">
   <link rel="stylesheet" href="./css/styleChatEjemplo.css">
+  <link rel="stylesheet" href="./css/style-Notificaciones.css">
   
   <style>
    a,
@@ -35,6 +36,13 @@
        margin: 0;
        padding: 0;
    }
+
+   #notificaciones-container {
+    min-width: 300px;
+    max-width: 90vw;
+    pointer-events: auto;
+    position: fixed;
+  }
    </style>
   <title>Document</title>
 </head>
@@ -56,7 +64,6 @@
       <a href="Articulos.html"><div class="articulos">Articulos</div></a>
     <a href="Streaming.html"><div class="live">Live</div></a>
     <a href="index.html"><div class="destacados">Destacados</div></a>
-      <div class="explorar">Explorar</div>
       <img class="group-61" src="./image-stream/group-610.svg" />
       <div class="group-83">
         <div class="explorando-martes-con-la-nasa">
@@ -99,12 +106,24 @@
         The point of using Lorem Ipsum is that it has a more-or-less normal
         distribution of letters.
       </div>
-      <div class="rectangle-32"></div>
-      <div class="suscribete">Suscribete</div>
-      <div class="depth-8-frame-2">
-        <div class="chatear">Chatear...</div>
-      </div>
-      <img class="send" src="./image-stream/send0.svg" />
+      <div class="depth-8-frame-2" style="display:none;"></div>
+     
+      <button id="subscribe-btn" class="suscribete" style="cursor:pointer;">Suscribete</button>
+      <!-- Sección de comentarios en el costado, reemplazando la caja de chatear, pero dejando Suscribete -->
+      <section class="comentarios-section" style="position:absolute; left:67.71vw; top:13.96vh; width:29.65vw; min-height:44.43vh; max-width:29.65vw; z-index:2;">
+        <h2>Comentarios</h2>
+        <form id="comentario-form">
+          <textarea id="comentario-text" placeholder="Escribe tu comentario..."></textarea>
+          <button type="submit">Publicar</button>
+        </form>
+        <div class="comentarios-list" id="comentarios-list">
+          <!-- Aquí aparecerán los comentarios -->
+        </div>
+      </section>
+      <button id="notificaciones-trigger" style="background: none; border: none; cursor: pointer;">
+        <img class="image-3" src="./image-stream/image-30.png" alt="Campana de notificaciones" />
+      </button>
+      <div id="notificaciones-container" style="position: fixed; z-index: 1000; display: none; min-width: 300px; max-width: 90vw; pointer-events: auto;"></div>
     </div>
   </div>
   <script>
@@ -186,6 +205,105 @@ if (triggerElon) {
       });
   } else {
     chatContainer.innerHTML = '';
+  }
+});
+</script>
+<script>
+document.getElementById('subscribe-btn').addEventListener('click', function() {
+  const btn = this;
+  const bg = document.getElementById('subscribe-bg');
+  if (btn.textContent === 'Suscribete') {
+    btn.textContent = 'Suscrito';
+    btn.classList.add('suscrito');
+    if(bg) bg.style.background = '#bdbdbd';
+  } else {
+    btn.textContent = 'Suscribete';
+    btn.classList.remove('suscrito');
+    if(bg) bg.style.background = '#304fe8';
+  }
+});
+</script>
+<script>
+document.getElementById('notificaciones-trigger').addEventListener('click', function(event) {
+  event.stopPropagation();
+  const trigger = this;
+  const container = document.getElementById('notificaciones-container');
+  const panelWidth = 350;
+
+  if (container.innerHTML.trim() === "") {
+    fetch('Notificaciones.html')
+      .then(response => response.text())
+      .then(html => {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        const notificacionesDiv = tempDiv.querySelector('.notificaciones');
+        if (notificacionesDiv) {
+          container.innerHTML = '';
+          container.appendChild(notificacionesDiv.cloneNode(true));
+
+          // Centrar el panel justo debajo de la campana
+          const rect = trigger.querySelector('img').getBoundingClientRect();
+          const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+          const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+          container.style.width = panelWidth + 'px';
+          container.style.left = (rect.left + scrollLeft + rect.width / 2 - panelWidth / 2) + 'px';
+          container.style.top = (rect.bottom + scrollTop + 8) + 'px';
+          container.style.position = 'absolute';
+          container.style.display = 'block';
+          container.style.zIndex = 1000;
+
+          // Cerrar notificaciones al hacer clic fuera
+          setTimeout(() => {
+            document.addEventListener('mousedown', closeNotificationsOnClickOutside);
+          }, 0);
+        } else {
+          container.innerHTML = '<div style="padding:20px; color:white;">No hay notificaciones para mostrar.</div>';
+          container.style.display = 'block';
+        }
+      });
+  } else {
+    closeNotifications();
+  }
+
+  function closeNotificationsOnClickOutside(e) {
+    const container = document.getElementById('notificaciones-container');
+    const trigger = document.getElementById('notificaciones-trigger');
+    if (container && !container.contains(e.target) && !trigger.contains(e.target)) {
+      closeNotifications();
+    }
+  }
+
+  function closeNotifications() {
+    const container = document.getElementById('notificaciones-container');
+    container.innerHTML = '';
+    container.style.display = 'none';
+    document.removeEventListener('mousedown', closeNotificationsOnClickOutside);
+  }
+});
+</script>
+<script>
+// Comentarios funcionales con imagen de usuario
+const comentarioForm = document.getElementById('comentario-form');
+const comentarioText = document.getElementById('comentario-text');
+const comentariosList = document.getElementById('comentarios-list');
+
+// Imagen de usuario por defecto
+const userImgUrl = './image-stream/depth-4-frame-30.png'; // Cambia la ruta si tienes otra imagen de perfil
+
+comentarioForm.addEventListener('submit', function(e) {
+  e.preventDefault();
+  const texto = comentarioText.value.trim();
+  if (texto) {
+    const div = document.createElement('div');
+    div.className = 'comentario';
+    div.innerHTML = `
+      <div style="display:flex;align-items:flex-start;gap:10px;">
+        <img src="${userImgUrl}" alt="Usuario" style="width:36px;height:36px;border-radius:50%;object-fit:cover;flex-shrink:0;">
+        <span style="display:block;word-break:break-word;">${texto}</span>
+      </div>
+    `;
+    comentariosList.prepend(div);
+    comentarioText.value = '';
   }
 });
 </script>

@@ -66,26 +66,29 @@
     <div class="line-1"></div>
     <div class="rectangle-5"></div>
     <img class="filter" src="HerramientasDelCreadorArticulos_Imagenes/filter.png" />
-    <div class="privado">Privado</div>
-    <div class="c-mo-encontrar-constelaciones-en-el-cielo-nocturno">
-      Cómo encontrar constelaciones en el cielo nocturno
+    <div class="art1">
+      <div class="privado">Privado</div>
+      <div class="c-mo-encontrar-constelaciones-en-el-cielo-nocturno">
+        Cómo encontrar constelaciones en el cielo nocturno
+      </div>
+      <div class="rectangle-48"></div>
+      <div class="_01-06-2025">01/06/2025</div>
+      <div class="_5">5</div>
+      <div class="_1">1</div>
+      <div class="line-6"></div>
+      <div class="line-7"></div>
+      <img class="image-19" src="HerramientasDelCreadorArticulos_Imagenes/image 19.png" />
+      <a href="./EdicionArticulo.html"><div class="rectangle-39"></div></a>
+      <a href="./EdicionArticulo.html"><div class="editar">Editar</div></a>
+      <div class="group-11">
+      <div class="rectangle-392"></div>
+      <div class="eliminar">Eliminar</div>
+      </div>
     </div>
-    <div class="rectangle-48"></div>
-    <div class="_01-06-2025">01/06/2025</div>
-    <div class="_5">5</div>
-    <div class="_1">1</div>
-    <div class="line-6"></div>
-    <div class="line-7"></div>
-    <img class="image-19" src="HerramientasDelCreadorArticulos_Imagenes/image 19.png" />
-    <a href="./EdicionArticulo.html"><div class="rectangle-39"></div></a>
-    <a href="./EdicionArticulo.html"><div class="editar">Editar</div></a>
-    <div class="rectangle-392"></div>
-    <div class="eliminar">Eliminar</div>
     <a href="./HerramientasDelCreadorCursos.html"><div class="cursos">Cursos</div></a>
     <a href="./Articulos.html"><div class="art-culos2">Artículos</div></a>
     <a href="./Streaming.html"><div class="live">Live</div></a>
     <a href="./index.html"><div class="destacados">Destacados</div></a>
-    <a href="./Buscador.html"><div class="explorar">Explorar</div></a>
   </div>
 <script>
   document.getElementById('menu-trigger').addEventListener('click', function() {
@@ -190,6 +193,21 @@ if (triggerElon) {
     chatContainer.innerHTML = '';
   }
 });
+</script>
+<script>
+   document.querySelectorAll('.group-11').forEach(function(el) {
+    el.addEventListener('click', function() {
+        const confirmar = confirm("¿Estás seguro de que deseas eliminar este artículo?");
+        if (confirmar) {
+          alert("Artículo eliminado");
+         
+         this.parentElement.remove();
+        } else {
+          alert("Eliminación cancelada");
+        }
+      });
+    });
+
 </script>
 </body>
 </html>

@@ -1,4 +1,17 @@
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+a.btn,        /* por si tienes enlaces con clase .btn */
+[class*="btn"] /* cualquier clase que incluya "btn" */
+{
+  cursor: pointer;
+}
+
+
 .landing-page,
+
+
 .landing-page * {
   box-sizing: border-box;
 }
@@ -226,6 +239,15 @@
   position: absolute;
   left: 12.57vw;
   top: 42.97vh;
+}
+.rectangle-470 {
+  background: #362645;
+  border-radius: 20px;
+  width: 19.17vw;
+  height: 45.21vh;
+  position: absolute;
+  left: 28vw;
+  top: 166.31vh;
 }
 .rectangle-48 {
   background: #362645;

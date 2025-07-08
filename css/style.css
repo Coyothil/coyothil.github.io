@@ -2,7 +2,15 @@
 /*Inicio*/
 /*================*/
 
-
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+a.btn,        /* por si tienes enlaces con clase .btn */
+[class*="btn"] /* cualquier clase que incluya "btn" */
+{
+  cursor: pointer;
+}
 
 .inicio {
   background: #121217;
@@ -56,6 +64,10 @@
   position: absolute;
   left: 857px;
   top: 549px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.rectangle-37:hover{
+  background-color: #ffffff;
 }
 .search2 {
   color: #ffffff;

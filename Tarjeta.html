@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styleTarjeta.css">
+  
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+   </style>
+  <title>Document</title>
+</head>
+<body>
+ <div class="tarjeta">
+  <div id="mensaje-tarjeta" style="color:#fff; text-align:center; margin-bottom:12px; display:none;"></div>
+  <form autocomplete="on">
+  <label class="numero">Número</label>
+  <input type="text" class="numero-tarjeta-frame" maxlength="16" placeholder="Número de tarjeta" required>
+
+  <label class="nombre-y-apellido">Nombre y Apellido</label>
+  <input type="text" class="nombre-tarjeta-frame" maxlength="40" placeholder="Nombre y Apellido" required>
+
+  <label class="vencimiento">Vencimiento</label>
+  <input type="text" class="vencimiento-tarjeta-frame" maxlength="5" placeholder="MM/AA" required pattern="\d{2}/\d{2}">
+
+  <label class="codigo-seguridad">Código Seguridad</label>
+  <input type="text" class="csv-tarjeta-frame" maxlength="4" placeholder="CVV" required pattern="\d{3,4}">
+
+  <button type="submit" style="margin-top:16px;">Confirmar</button>
+</form>
+  <img class="image-22" src="LandingPage-Assets/image-220.png" />
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.querySelector('.tarjeta form');
+  const mensaje = document.getElementById('mensaje-tarjeta');
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    mensaje.textContent = "no se pudo verificar la tarjeta";
+    mensaje.style.display = "block";
+  });
+});
+</script>
+</body>
+</html>

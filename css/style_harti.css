@@ -165,6 +165,9 @@ body{
   left: 43.75vw;
   top: 21.48vh;
 }
+.group-11{
+  cursor: pointer;
+}
 .line-1 {
   margin-top: -1px;
   border-style: solid;
@@ -311,6 +314,10 @@ body{
   position: absolute;
   left: 73.12vw;
   top: 31.15vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.rectangle-39:hover{
+  background-color: #ffffff;
 }
 .editar {
   color: #ffffff;
@@ -331,6 +338,11 @@ body{
   position: absolute;
   left: 81.18vw;
   top: 31.15vh;
+  transition: background-color 0.3s, color 0.3s;
+  
+}
+.rectangle-392:hover {
+  background-color: #ffffff;
 }
 .eliminar {
   color: #ffffff;

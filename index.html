@@ -64,14 +64,14 @@
     <a href="Buscador.html"><div class="search2">Search</div></a>
     <div class="busca-sobre-el-espacio">Busca sobre el espacio</div>
     <div class="destacado" id="destacado">Destacado</div>
-    <img class="depth-7-frame-0" src="./Pagina Inicio/depth-7-frame-00.png" alt="Destacado 1" />
-    <div class="marte">Marte</div>
-    <img class="depth-7-frame-02" src="./Pagina Inicio/depth-7-frame-01.png" alt="Marte" />
-    <div class="jupiter">Jupiter</div>
-    <img class="depth-7-frame-03" src="./Pagina Inicio/depth-7-frame-02.png" alt="Jupiter" />
-    <div class="saturno">Saturno</div>
-    <img class="depth-7-frame-04" src="./Pagina Inicio/depth-7-frame-03.png" alt="Saturno" />
-    <div class="la-luna">La Luna</div>
+     <a href="404.html"><img class="depth-7-frame-0" src="./Pagina Inicio/depth-7-frame-00.png" alt="Destacado 1" />
+    <div class="marte">Marte</div></a>
+   <a href="404.html"> <img class="depth-7-frame-02" src="./Pagina Inicio/depth-7-frame-01.png" alt="Marte" />
+    <div class="jupiter">Jupiter</div></a>
+   <a href="404.html"> <img class="depth-7-frame-03" src="./Pagina Inicio/depth-7-frame-02.png" alt="Jupiter" />
+    <div class="saturno">Saturno</div></a>
+    <a href="404.html"><img class="depth-7-frame-04" src="./Pagina Inicio/depth-7-frame-03.png" alt="Saturno" />
+    <div class="la-luna">La Luna</div></a>
     <a href="./Streaming.html"><div class="stream-en-vivo" id="stream-en-vivo">Stream en vivo</div></a>
     <img class="depth-6-frame-02" src="./Pagina Inicio/depth-6-frame-01.png" alt="Stream en vivo" />
     <div class="explorando-marte-junto-a-la-nasa">
@@ -84,18 +84,18 @@
     <div class="depth-8-frame-1"></div>
     <div class="ver-ahora">Ver ahora</div>
     <div class="articulo" id="articulo">Articulo</div>
-    <img class="depth-7-frame-05" src="./Pagina Inicio/depth-7-frame-04.png" alt="Artículo 1" />
-    <div class="porque-las-estrellas-brillan">Porque las estrellas brillan</div>
+    <a href="404.html"> <img class="depth-7-frame-05" src="./Pagina Inicio/depth-7-frame-04.png" alt="Artículo 1" />
+    <div class="porque-las-estrellas-brillan">Porque las estrellas brillan</div></a>
     <div class="lectura-de-3-minutos">Lectura de 3 minutos</div>
-    <img class="depth-7-frame-06" src="./Pagina Inicio/depth-7-frame-05.png" alt="Artículo 2"/>
+    <a href="404.html"> <img class="depth-7-frame-06" src="./Pagina Inicio/depth-7-frame-05.png" alt="Artículo 2"/>
     <div class="el-misterio-de-jupiter-y-su-gran-punto-rojo">
       El misterio de Jupiter y su gran punto Rojo
-    </div>
+    </div></a>
     <div class="lectura-de-4-minutos">Lectura de 4 minutos</div>
-    <img class="depth-7-frame-07" src="./Pagina Inicio/depth-7-frame-06.png" alt="Artículo 3" />
+    <a href="404.html"> <img class="depth-7-frame-07" src="./Pagina Inicio/depth-7-frame-06.png" alt="Artículo 3" />
     <div class="como-se-forman-los-agujeros-negros">
       Como se forman los agujeros negros?
-    </div>
+    </div></a>
     <div class="lectura-de-5-minutos">Lectura de 5 minutos</div>
     <div class="bienvenido-a-astra-index">Bienvenido a Astra Index</div>
     <div class="t-guia-cosmologica">Tú guia cosmologica</div>
@@ -110,11 +110,12 @@
     <a href="Guardado.html"><img class="image-1" src="./Pagina Inicio/image-10.png" alt="Imagen 1" /></a>
     <img class="image-2" src="./Pagina Inicio/image-20.png" alt="Imagen 2"  id="Chat-trigger" />
     <button id="notificaciones-trigger" style="background: none; border: none; cursor: pointer;">
-      <img class="image-3" src="./Pagina Inicio/image-30.png" alt="Imagen 3" id="notificaciones-trigger"/>
+
+       <img class="image-3" src="./Pagina Inicio/image-30.png" alt="Notificaciones" />
+
     </button>
     <div id="notificaciones-container" style="position: fixed; z-index: 1000; display: none;"></div>
     <div id="chat-container" style="position:absolute; z-index:9998;"></div>
-    <img class="image-3" src="./Pagina Inicio/image-30.png" alt="Imagen 3" />
     <div class="group-53">
       <div class="see-all">See all</div>
       <img class="svgexport-4" src="./Pagina Inicio/svgexport-40.svg" alt="Ver todo 1" />
@@ -132,38 +133,70 @@
   </div>
 
   <script>
-  document.getElementById('notificaciones-trigger').addEventListener('click', function() {
-    const trigger = document.getElementById('notificaciones-trigger');
+
+document.getElementById('notificaciones-trigger').addEventListener('click', function(event) {
+  event.stopPropagation();
+  const trigger = this;
+  const icon = trigger.querySelector('img') || trigger; // Usar el ícono si existe
+  const container = document.getElementById('notificaciones-container');
+  const panelWidth = 350;
+
+  if (container.innerHTML.trim() === "") {
+    fetch('Notificaciones.html')
+      .then(response => response.text())
+      .then(html => {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        const notificacionesDiv = tempDiv.querySelector('.notificaciones');
+        if (notificacionesDiv) {
+          container.innerHTML = '';
+          container.appendChild(notificacionesDiv.cloneNode(true));
+
+          // Centrar el panel justo debajo del ícono de la campana
+          const rect = icon.getBoundingClientRect();
+          let left = rect.left + rect.width / 2 - panelWidth / 2;
+          const top = rect.bottom + 8;
+
+          // Ajustar si se sale de la pantalla
+          const maxLeft = window.innerWidth - panelWidth - 8;
+          if (left < 8) left = 8;
+          if (left > maxLeft) left = maxLeft;
+
+          container.style.width = panelWidth + 'px';
+          container.style.position = 'fixed';
+          container.style.left = left + 'px';
+          container.style.top = top + 'px';
+          container.style.display = 'block';
+          container.style.zIndex = 1000;
+
+          // Cerrar notificaciones al hacer clic fuera
+          setTimeout(() => {
+            document.addEventListener('mousedown', closeNotificationsOnClickOutside);
+          }, 0);
+        } else {
+          container.innerHTML = '<div style="padding:20px; color:white;">No hay notificaciones para mostrar.</div>';
+          container.style.display = 'block';
+        }
+      });
+  } else {
+    closeNotifications();
+  }
+
+  function closeNotificationsOnClickOutside(e) {
     const container = document.getElementById('notificaciones-container');
-    const panelWidth = 350; // Ajusta este valor al ancho real de tu panel
-
-    if (container.innerHTML.trim() === "") {
-      fetch('Notificaciones.html')
-        .then(response => response.text())
-        .then(html => {
-          const tempDiv = document.createElement('div');
-          tempDiv.innerHTML = html;
-          const notificacionesDiv = tempDiv.querySelector('.notificaciones');
-          if (notificacionesDiv) {
-            container.innerHTML = '';
-            container.appendChild(notificacionesDiv.cloneNode(true));
-
-            // Centrar el panel debajo de la imagen
-            const img = trigger.querySelector('img');
-            const rect = img.getBoundingClientRect();
-            container.style.width = panelWidth + 'px';
-            container.style.left = (rect.left + rect.width / 2 - panelWidth / 2) + 'px';
-            container.style.top = (rect.bottom + 8) + 'px'; // 8px de separación
-            container.style.position = 'fixed';
-            container.style.display = 'block';
-            container.style.zIndex = 1000;
-          }
-        });
-    } else {
-      container.innerHTML = '';
-      container.style.display = 'none';
+    const trigger = document.getElementById('notificaciones-trigger');
+    if (container && !container.contains(e.target) && !trigger.contains(e.target)) {
+      closeNotifications();
     }
-  });
+  }
+
+  function closeNotifications() {
+    const container = document.getElementById('notificaciones-container');
+    container.innerHTML = '';
+    container.style.display = 'none';
+    document.removeEventListener('mousedown', closeNotificationsOnClickOutside);
+  }
+});
 </script>
 
   <script>
@@ -202,6 +235,7 @@
                 window.location.href = 'Perfil de Usuario PP.html';
               });
             }
+            
             const herramientasCre = menuContainer.querySelector('.herramientas-de-creador');
             if (herramientasCre) {
               herramientasCre.style.cursor = 'pointer';

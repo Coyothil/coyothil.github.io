@@ -1,3 +1,13 @@
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+a.btn,        /* por si tienes enlaces con clase .btn */
+[class*="btn"] /* cualquier clase que incluya "btn" */
+{
+  cursor: pointer;
+}
+
 .streaming,
 .streaming * {
   box-sizing: border-box;
@@ -388,6 +398,10 @@
   position: absolute;
   left: 68.40vw;
   top: 62.79vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.rectangle-32:hover{
+  background-color: #ffffff;
 }
 .suscribete {
   color: var(--ffffff, #ffffff);
@@ -396,12 +410,27 @@
   font-size: 1.11vw;
   line-height: 2.15vh;
   font-weight: 700;
+  padding: 0.69vw;
   position: absolute;
   left: 70.42vw;
   top: 64.75vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #304fe8; /* color por defecto */
+  border-radius: 6px;
+  border: none;
+  transition: background 0.2s, color 0.2s;
+}
+.suscribete:hover{
+  background-color: #ffffff;
+}
+.suscribete.suscrito {
+  background: #bdbdbd !important; /* gris cuando está suscrito */
+  color: #fff !important;
+  border: 1px solid #757575 !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
 }
 .depth-8-frame-2 {
   background: #59595b;
@@ -435,4 +464,57 @@
   left: 93.47vw;
   top: 52.73vh;
   overflow: visible;
+}
+.comentarios-section {
+  width: 90vw;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+  background: #18181c;
+  border-radius: 12px;
+  padding: 2vh 2vw;
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  position: relative;
+  z-index: 2;
+}
+.comentarios-section h2 {
+  font-size: 1.3vw;
+  margin-bottom: 1vh;
+}
+.comentarios-section textarea {
+  width: 100%;
+  min-height: 60px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #232232;
+  color: #fff;
+  padding: 1vh 1vw;
+  margin-bottom: 1vh;
+  resize: vertical;
+}
+.comentarios-section button {
+  background: #304fe8;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7vh 2vw;
+  font-size: 1vw;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.comentarios-section button:hover {
+  background: #2236a8;
+}
+.comentarios-list {
+  margin-top: 2vh;
+}
+.comentario {
+  background: #232232;
+  border-radius: 8px;
+  padding: 1vh 1vw;
+  margin-bottom: 1vh;
+  color: #ccc;
 }
