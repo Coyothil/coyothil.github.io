@@ -134,9 +134,10 @@
 
   <script>
 
-document.getElementById('notificaciones-trigger').addEventListener('click', function() {
-  const trigger = document.getElementById('notificaciones-trigger');
-
+document.getElementById('notificaciones-trigger').addEventListener('click', function(event) {
+  event.stopPropagation();
+  const trigger = this;
+  const icon = trigger.querySelector('img') || trigger; // Usar el ícono si existe
   const container = document.getElementById('notificaciones-container');
   const panelWidth = 350;
 
@@ -151,22 +152,49 @@ document.getElementById('notificaciones-trigger').addEventListener('click', func
           container.innerHTML = '';
           container.appendChild(notificacionesDiv.cloneNode(true));
 
-          // Obtener la posición del botón
-          const rect = trigger.getBoundingClientRect();
+          // Centrar el panel justo debajo del ícono de la campana
+          const rect = icon.getBoundingClientRect();
+          let left = rect.left + rect.width / 2 - panelWidth / 2;
+          const top = rect.bottom + 8;
 
-          // Posicionar el panel justo debajo del botón
+          // Ajustar si se sale de la pantalla
+          const maxLeft = window.innerWidth - panelWidth - 8;
+          if (left < 8) left = 8;
+          if (left > maxLeft) left = maxLeft;
+
           container.style.width = panelWidth + 'px';
-          container.style.left = rect.left + "px";
-          container.style.top = rect.bottom + "px";
           container.style.position = 'fixed';
+          container.style.left = left + 'px';
+          container.style.top = top + 'px';
           container.style.display = 'block';
-          container.style.zIndex = '1000';
+          container.style.zIndex = 1000;
+
+          // Cerrar notificaciones al hacer clic fuera
+          setTimeout(() => {
+            document.addEventListener('mousedown', closeNotificationsOnClickOutside);
+          }, 0);
+        } else {
+          container.innerHTML = '<div style="padding:20px; color:white;">No hay notificaciones para mostrar.</div>';
+          container.style.display = 'block';
         }
       });
   } else {
+    closeNotifications();
+  }
+
+  function closeNotificationsOnClickOutside(e) {
+    const container = document.getElementById('notificaciones-container');
+    const trigger = document.getElementById('notificaciones-trigger');
+    if (container && !container.contains(e.target) && !trigger.contains(e.target)) {
+      closeNotifications();
+    }
+  }
+
+  function closeNotifications() {
+    const container = document.getElementById('notificaciones-container');
     container.innerHTML = '';
     container.style.display = 'none';
-
+    document.removeEventListener('mousedown', closeNotificationsOnClickOutside);
   }
 });
 </script>
