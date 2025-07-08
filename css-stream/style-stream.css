@@ -398,6 +398,10 @@ a.btn,        /* por si tienes enlaces con clase .btn */
   position: absolute;
   left: 68.40vw;
   top: 62.79vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.rectangle-32:hover{
+  background-color: #ffffff;
 }
 .suscribete {
   color: var(--ffffff, #ffffff);
@@ -406,6 +410,7 @@ a.btn,        /* por si tienes enlaces con clase .btn */
   font-size: 1.11vw;
   line-height: 2.15vh;
   font-weight: 700;
+  padding: 0.69vw;
   position: absolute;
   left: 70.42vw;
   top: 64.75vh;
@@ -416,6 +421,9 @@ a.btn,        /* por si tienes enlaces con clase .btn */
   border-radius: 6px;
   border: none;
   transition: background 0.2s, color 0.2s;
+}
+.suscribete:hover{
+  background-color: #ffffff;
 }
 .suscribete.suscrito {
   background: #bdbdbd !important; /* gris cuando está suscrito */
