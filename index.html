@@ -110,7 +110,9 @@
     <a href="Guardado.html"><img class="image-1" src="./Pagina Inicio/image-10.png" alt="Imagen 1" /></a>
     <img class="image-2" src="./Pagina Inicio/image-20.png" alt="Imagen 2"  id="Chat-trigger" />
     <button id="notificaciones-trigger" style="background: none; border: none; cursor: pointer;">
+
        <img class="image-3" src="./Pagina Inicio/image-30.png" alt="Notificaciones" />
+
     </button>
     <div id="notificaciones-container" style="position: fixed; z-index: 1000; display: none;"></div>
     <div id="chat-container" style="position:absolute; z-index:9998;"></div>
@@ -131,8 +133,10 @@
   </div>
 
   <script>
+
 document.getElementById('notificaciones-trigger').addEventListener('click', function() {
   const trigger = document.getElementById('notificaciones-trigger');
+
   const container = document.getElementById('notificaciones-container');
   const panelWidth = 350;
 
@@ -162,6 +166,7 @@ document.getElementById('notificaciones-trigger').addEventListener('click', func
   } else {
     container.innerHTML = '';
     container.style.display = 'none';
+
   }
 });
 </script>
