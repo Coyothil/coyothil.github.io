@@ -1,8 +1,19 @@
 /*================*/
 /*Buscador*/
 /*================*/
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+a.btn,        /* por si tienes enlaces con clase .btn */
+[class*="btn"] /* cualquier clase que incluya "btn" */
+{
+  cursor: pointer;
+}
 
 .buscador,
+
+
 .buscador * {
   box-sizing: border-box;
 }
