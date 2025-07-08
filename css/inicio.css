@@ -1,6 +1,15 @@
 /*================*/
 /*Inicio*/ 
 /*======1440x1800=====*/
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+a.btn,        /* por si tienes enlaces con clase .btn */
+[class*="btn"] /* cualquier clase que incluya "btn" */
+{
+  cursor: pointer;
+}
 
 .inicio {
   background: #121217;

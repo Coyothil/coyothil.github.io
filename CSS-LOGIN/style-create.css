@@ -1,3 +1,39 @@
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+a.btn,        /* por si tienes enlaces con clase .btn */
+[class*="btn"] /* cualquier clase que incluya "btn" */
+{
+  cursor: pointer;
+}
+
+.create-account,
+.create-account * {
+  box-sizing: border-box;
+}
+.create-account {
+  background: #ffffff;
+  border-radius: 34px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0.69vw;
+  height: 100.00vh;
+  position: relative;
+  box-shadow: 0px 0px 45px 0px rgba(225, 194, 168, 1);
+  overflow: hidden;
+}
+.image-21 {
+  width: 118.82vw;
+  height: 111.43vh;
+  position: absolute;
+  left: -54px;
+  top: -80px;
+  object-fit: cover;
+  aspect-ratio: 1711/1141;
+}
+.rectangle-9636 {
 body {
   min-height: 100vh;
   margin: 0;
