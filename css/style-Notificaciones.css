@@ -18,7 +18,6 @@ a.btn,        /* por si tienes enlaces con clase .btn */
   background: #362645;
   width: 197px;
   height: 350px;
-  position: relative;
   overflow: hidden;
 }
 .notificaciones2 {
