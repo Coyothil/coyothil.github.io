@@ -1,0 +1,459 @@
+.informar-de-problema,
+.informar-de-problema * {
+  box-sizing: border-box;
+}
+.informar-de-problema {
+  background: #121217;
+  height: 100.00vh;
+  position: relative;
+}
+.depth-0-frame-0 {
+  background: #f7fafc;
+  width: 88.89vw;
+  height: 92.97vh;
+  min-height: 78.12vh;
+  position: absolute;
+  left: 5.56vw;
+  top: 3.52vh;
+  overflow: hidden;
+}
+.depth-1-frame-0 {
+  background: #121217;
+  width: 88.89vw;
+  height: 92.97vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-2-frame-0 {
+  padding: 20px 160px 20px 160px;
+  width: 88.89vw;
+  height: 92.97vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-3-frame-0 {
+  padding: 20px 0px 20px 0px;
+  width: 66.67vw;
+  height: 89.16vh;
+  max-width: 66.67vw;
+  position: absolute;
+  left: 11.11vw;
+  top: 1.95vh;
+  overflow: hidden;
+}
+.depth-4-frame-0 {
+  padding: 16px;
+  width: 66.67vw;
+  height: 7.03vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 1.95vh;
+}
+.depth-5-frame-0 {
+  width: 20.00vw;
+  height: 3.91vh;
+  min-width: 20.00vw;
+  position: absolute;
+  left: 1.11vw;
+  top: 1.56vh;
+}
+.reportar-un-problema {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 2.22vw;
+  line-height: 3.91vh;
+  font-weight: 700;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-4-frame-1 {
+  padding: 16px 16px 8px 16px;
+  width: 66.67vw;
+  height: 4.59vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 8.98vh;
+}
+.qu-est-pasando {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
+  font-weight: 700;
+  position: absolute;
+  left: 1.11vw;
+  top: 1.56vh;
+}
+.depth-4-frame-2 {
+  padding: 16px;
+  width: 66.67vw;
+  height: 46.39vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 13.57vh;
+}
+.depth-5-frame-02 {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #d1dbe8;
+  border-width: 0.07vw;
+  padding: 15px;
+  width: 64.44vw;
+  height: 5.18vh;
+  position: absolute;
+  left: 1.11vw;
+  top: 1.56vh;
+}
+.depth-6-frame-0 {
+  border-radius: 10px;
+  width: 1.39vw;
+  height: 1.95vh;
+  position: absolute;
+  left: 1.11vw;
+  top: 1.61vh;
+  overflow: visible;
+}
+.depth-6-frame-1 {
+  width: 59.72vw;
+  height: 2.05vh;
+  position: absolute;
+  left: 3.61vw;
+  top: 1.56vh;
+}
+.depth-7-frame-0 {
+  width: 59.72vw;
+  height: 2.05vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.algo-no-est-funcionando {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Medium", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 500;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-5-frame-1 {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #d1dbe8;
+  border-width: 0.07vw;
+  padding: 15px;
+  width: 64.44vw;
+  height: 5.18vh;
+  position: absolute;
+  left: 1.11vw;
+  top: 7.91vh;
+}
+.depth-6-frame-02 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #d1dbe8;
+  border-width: 0.14vw;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1.39vw;
+  height: 1.95vh;
+  position: absolute;
+  left: 1.11vw;
+  top: 1.61vh;
+}
+.no-me-gusta-esta-funci-n {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Medium", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 500;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-5-frame-2 {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #d1dbe8;
+  border-width: 0.07vw;
+  padding: 15px;
+  width: 64.44vw;
+  height: 5.18vh;
+  position: absolute;
+  left: 1.11vw;
+  top: 14.26vh;
+}
+.esto-es-confuso {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Medium", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 500;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-5-frame-3 {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #d1dbe8;
+  border-width: 0.07vw;
+  padding: 15px;
+  width: 64.44vw;
+  height: 5.18vh;
+  position: absolute;
+  left: 1.11vw;
+  top: 20.61vh;
+}
+.tengo-preocupaciones-sobre-la-privacidad {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Medium", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 500;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-5-frame-4 {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #d1dbe8;
+  border-width: 0.07vw;
+  padding: 15px;
+  width: 64.44vw;
+  height: 5.18vh;
+  position: absolute;
+  left: 1.11vw;
+  top: 26.95vh;
+}
+.esto-es-inapropiado {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Medium", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 500;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-5-frame-5 {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #d1dbe8;
+  border-width: 0.07vw;
+  padding: 15px;
+  width: 64.44vw;
+  height: 5.18vh;
+  position: absolute;
+  left: 1.11vw;
+  top: 33.30vh;
+}
+.esto-es-spam {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Medium", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 500;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-5-frame-6 {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #d1dbe8;
+  border-width: 0.07vw;
+  padding: 15px;
+  width: 64.44vw;
+  height: 5.18vh;
+  position: absolute;
+  left: 1.11vw;
+  top: 39.65vh;
+}
+.otros {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Medium", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 500;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-4-frame-3 {
+  padding: 16px 16px 8px 16px;
+  width: 66.67vw;
+  height: 4.59vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 59.96vh;
+}
+.describe-el-problema {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
+  font-weight: 700;
+  position: absolute;
+  left: 1.11vw;
+  top: 1.56vh;
+}
+.depth-4-frame-4 {
+  padding: 12px 16px 12px 16px;
+  width: 33.33vw;
+  height: 16.41vh;
+  max-width: 33.33vw;
+  position: absolute;
+  left: 0.00vw;
+  top: 64.55vh;
+}
+.depth-5-frame-03 {
+  width: 31.11vw;
+  height: 14.06vh;
+  min-width: 11.11vw;
+  position: absolute;
+  left: 1.11vw;
+  top: 1.17vh;
+}
+.depth-6-frame-03 {
+  background: #f7fafc;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #d1dbe8;
+  border-width: 0.07vw;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 31.11vw;
+  height: 14.06vh;
+  min-height: 14.06vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+  overflow: hidden;
+}
+.depth-4-frame-5 {
+  width: 66.67vw;
+  height: 6.25vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 80.96vh;
+}
+.depth-5-frame-04 {
+  padding: 12px 16px 12px 16px;
+  width: 66.67vw;
+  height: 6.25vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-6-frame-04 {
+  border-radius: 12px;
+  padding: 0px 16px 0px 16px;
+  width: 5.83vw;
+  height: 3.91vh;
+  min-width: 5.83vw;
+  max-width: 33.33vw;
+  position: absolute;
+  left: 50.56vw;
+  top: 1.17vh;
+  overflow: hidden;
+}
+.depth-7-frame-02 {
+  width: 3.47vw;
+  height: 2.05vh;
+  position: absolute;
+  left: 1.18vw;
+  top: 0.93vh;
+  overflow: hidden;
+}
+.cancel {
+  color: #ffffff;
+  text-align: center;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 700;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-6-frame-12 {
+  background: #1a80e5;
+  border-radius: 12px;
+  padding: 0px 16px 0px 16px;
+  width: 9.17vw;
+  height: 3.91vh;
+  min-width: 5.83vw;
+  max-width: 33.33vw;
+  position: absolute;
+  left: 56.39vw;
+  top: 1.17vh;
+  overflow: hidden;
+}
+.depth-7-frame-03 {
+  width: 8.19vw;
+  height: 2.05vh;
+  position: absolute;
+  left: 0.49vw;
+  top: 0.88vh;
+  overflow: hidden;
+}
+.enviar-reporte {
+  color: #f7fafc;
+  text-align: center;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 700;
+  position: absolute;
+  left: -5px;
+  top: 0.00vh;
+  width: 8.96vw;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.astra-index {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
+  font-weight: 700;
+  position: absolute;
+  left: 5.00vw;
+  top: 2.00vh;
+  width: 10.28vw;
+}
+.frame-1 {
+  width: 1.74vw;
+  height: 2.44vh;
+  position: absolute;
+  left: 2.15vw;
+  top: 1.86vh;
+  overflow: hidden;
+  object-fit: cover;
+}
