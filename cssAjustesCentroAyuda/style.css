@@ -1,0 +1,421 @@
+.ajustes-centro-de-ayuda,
+.ajustes-centro-de-ayuda * {
+  box-sizing: border-box;
+}
+.ajustes-centro-de-ayuda {
+  background: #121217;
+  height: 100.00vh;
+  position: relative;
+}
+.depth-3-frame-0 {
+  background: #121217;
+  width: 22.22vw;
+  height: 74.22vh;
+  position: absolute;
+  left: 7.22vw;
+  top: 12.89vh;
+  overflow: hidden;
+}
+.depth-4-frame-0 {
+  background: #121217;
+  padding: 16px;
+  width: 22.22vw;
+  height: 74.22vh;
+  min-height: 68.36vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-5-frame-0 {
+  width: 20.00vw;
+  height: 21.19vh;
+  position: absolute;
+  left: 1.11vw;
+  top: 1.56vh;
+}
+.depth-6-frame-0 {
+  width: 20.00vw;
+  height: 21.19vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-7-frame-0 {
+  border-radius: 12px;
+  padding: 8px 12px 8px 12px;
+  width: 20.00vw;
+  height: 3.61vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-8-frame-0 {
+  width: 4.10vw;
+  height: 2.05vh;
+  position: absolute;
+  left: 0.83vw;
+  top: 0.78vh;
+}
+.cuenta {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 700;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-7-frame-1 {
+  padding: 8px 12px 8px 12px;
+  width: 20.00vw;
+  height: 3.61vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 4.39vh;
+}
+.seguridad {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 700;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-7-frame-2 {
+  padding: 8px 12px 8px 12px;
+  width: 20.00vw;
+  height: 3.61vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 8.79vh;
+}
+.depth-8-frame-02 {
+  width: 3.68vw;
+  height: 2.05vh;
+  position: absolute;
+  left: 0.83vw;
+  top: 0.78vh;
+}
+.privacidad {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 700;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-7-frame-3 {
+  padding: 8px 12px 8px 12px;
+  width: 20.00vw;
+  height: 3.61vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 13.18vh;
+}
+.depth-8-frame-03 {
+  width: 6.32vw;
+  height: 2.05vh;
+  position: absolute;
+  left: 0.83vw;
+  top: 0.78vh;
+}
+.notificaciones {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 700;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-7-frame-4 {
+  background: #e8edf2;
+  border-radius: 12px;
+  padding: 8px 12px 8px 12px;
+  width: 20.00vw;
+  height: 3.61vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 17.58vh;
+}
+.depth-8-frame-04 {
+  width: 5.69vw;
+  height: 2.05vh;
+  position: absolute;
+  left: 0.83vw;
+  top: 0.78vh;
+}
+.centro-de-ayuda {
+  color: #000000;
+  text-align: left;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 700;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-3-frame-1 {
+  width: 63.06vw;
+  height: 74.22vh;
+  max-width: 66.67vw;
+  position: absolute;
+  left: 29.72vw;
+  top: 12.89vh;
+  overflow: hidden;
+}
+.depth-4-frame-02 {
+  padding: 16px;
+  width: 63.06vw;
+  height: 7.03vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-5-frame-02 {
+  width: 20.00vw;
+  height: 3.91vh;
+  min-width: 20.00vw;
+  position: absolute;
+  left: 1.11vw;
+  top: 1.56vh;
+}
+.general {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 2.22vw;
+  line-height: 3.91vh;
+  font-weight: 700;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-5-frame-1 {
+  background: #e8edf2;
+  border-radius: 12px;
+  padding: 0px 16px 0px 16px;
+  width: 5.83vw;
+  height: 3.12vh;
+  min-width: 5.83vw;
+  max-width: 33.33vw;
+  position: absolute;
+  left: 56.11vw;
+  top: 1.56vh;
+  overflow: hidden;
+}
+.depth-6-frame-02 {
+  width: 2.78vw;
+  height: 2.05vh;
+  position: absolute;
+  left: 1.53vw;
+  top: 0.54vh;
+  overflow: hidden;
+}
+.edit {
+  color: #000000;
+  text-align: center;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 700;
+  position: absolute;
+  left: 0.42vw;
+  top: 0.00vh;
+}
+.depth-4-frame-1 {
+  background: rgba(0, 0, 0, 0);
+  padding: 8px 16px 8px 16px;
+  width: 63.06vw;
+  height: 7.03vh;
+  min-height: 7.03vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 7.03vh;
+}
+.depth-5-frame-03 {
+  width: 13.33vw;
+  height: 4.39vh;
+  position: absolute;
+  left: 1.11vw;
+  top: 1.32vh;
+}
+.depth-6-frame-03 {
+  width: 13.26vw;
+  height: 2.34vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+  overflow: hidden;
+}
+.hablar-con-un-asesor {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 1.11vw;
+  line-height: 2.34vh;
+  font-weight: 700;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-6-frame-1 {
+  width: 16.04vw;
+  height: 2.05vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 2.39vh;
+  overflow: hidden;
+}
+.hablar-uno-a-uno-con-un-asesor {
+  color: #4f7396;
+  text-align: left;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 700;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-5-frame-12 {
+  width: 1.94vw;
+  height: 2.73vh;
+  position: absolute;
+  left: 60.00vw;
+  top: 2.15vh;
+}
+.depth-6-frame-04 {
+  width: 1.94vw;
+  height: 2.73vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-7-frame-02 {
+  width: 1.67vw;
+  height: 2.34vh;
+  position: absolute;
+  left: 0.14vw;
+  top: 0.20vh;
+  overflow: hidden;
+}
+.vector-0 {
+  width: 1.67vw;
+  height: 2.34vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+  overflow: visible;
+}
+.depth-8-frame-05 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 0.62vw;
+  height: 1.66vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-4-frame-6 {
+  background: rgba(0, 0, 0, 0);
+  padding: 8px 16px 8px 16px;
+  width: 63.06vw;
+  height: 7.03vh;
+  min-height: 7.03vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 14.06vh;
+}
+.depth-5-frame-04 {
+  width: 23.75vw;
+  height: 4.39vh;
+  position: absolute;
+  left: 1.11vw;
+  top: 1.32vh;
+}
+.depth-6-frame-05 {
+  width: 23.75vw;
+  height: 2.34vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+  overflow: hidden;
+}
+.informar-de-un-problema {
+  color: #ffffff;
+  text-align: left;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 1.11vw;
+  line-height: 2.34vh;
+  font-weight: 700;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.depth-6-frame-12 {
+  width: 23.68vw;
+  height: 2.05vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 2.34vh;
+  overflow: hidden;
+}
+.informar-de-un-bug-etc {
+  color: #4f7396;
+  text-align: left;
+  font-family: "BeVietnamPro-Bold", sans-serif;
+  font-size: 0.97vw;
+  line-height: 2.05vh;
+  font-weight: 700;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+}
+.vector-02 {
+  width: 1.67vw;
+  height: 2.34vh;
+  position: absolute;
+  left: 0.00vw;
+  top: 0.00vh;
+  overflow: visible;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.astra-index {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 1.25vw;
+  line-height: 2.25vh;
+  font-weight: 700;
+  position: absolute;
+  left: 5.00vw;
+  top: 2.00vh;
+  width: 10.28vw;
+}
+.frame-1 {
+  width: 1.74vw;
+  height: 2.44vh;
+  position: absolute;
+  left: 2.15vw;
+  top: 1.86vh;
+  overflow: hidden;
+  object-fit: cover;
+}
