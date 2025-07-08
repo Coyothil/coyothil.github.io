@@ -59,6 +59,10 @@ a.btn,        /* por si tienes enlaces con clase .btn */
   position: absolute;
   left: 59.5vw;
   top: 30.5vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.rectangle-37:hover{
+  background-color: #ffffff;
 }
 .search2 {
   color: #ffffff;
@@ -266,7 +270,12 @@ a.btn,        /* por si tienes enlaces con clase .btn */
   left: 75.25vw;
   top: 67vh;
   overflow: hidden;
+  transition: background-color 0.3s, color 0.3s;
 }
+.depth-8-frame-1:hover{
+  background-color: #ffffff;
+}
+
 .ver-ahora {
   color: #ffffff;
   text-align: center;

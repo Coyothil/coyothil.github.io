@@ -58,6 +58,11 @@ a.btn,        /* por si tienes enlaces con clase .btn */
   position: absolute;
   left: 0.00vw;
   top: 0.00vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.depth-7-frame-0:hover{
+  border-radius: 12px;
+background-color: #e8edf2;
 }
 .depth-8-frame-0 {
   width: 4.10vw;
@@ -86,6 +91,11 @@ a.btn,        /* por si tienes enlaces con clase .btn */
   position: absolute;
   left: 0.00vw;
   top: 4.39vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.depth-7-frame-1:hover{
+  border-radius: 12px;
+  background-color: #e8edf2;
 }
 .seguridad {
   color: #000000;
@@ -105,6 +115,11 @@ a.btn,        /* por si tienes enlaces con clase .btn */
   position: absolute;
   left: 0.00vw;
   top: 8.79vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.depth-7-frame-2:hover{
+  border-radius: 12px;
+  background-color: #e8edf2;
 }
 .depth-8-frame-02 {
   width: 3.68vw;
@@ -131,6 +146,11 @@ a.btn,        /* por si tienes enlaces con clase .btn */
   position: absolute;
   left: 0.00vw;
   top: 13.18vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.depth-7-frame-3:hover{
+  border-radius: 12px;
+  background-color: #e8edf2;
 }
 .depth-8-frame-03 {
   width: 6.32vw;
@@ -157,6 +177,11 @@ a.btn,        /* por si tienes enlaces con clase .btn */
   position: absolute;
   left: 0.00vw;
   top: 17.58vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.depth-7-frame-4:hover{
+  border-radius: 12px;
+  background-color: #e8edf2;
 }
 .depth-8-frame-04 {
   width: 5.69vw;

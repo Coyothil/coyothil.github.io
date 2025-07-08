@@ -520,6 +520,10 @@ a.btn,        /* por si tienes enlaces con clase .btn */
   position: absolute;
   left: 36.94vw;
   top: 13.18vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.rectangle-2:hover{
+  background-color: #ffffff;
 }
 .nueva-publicacion {
   color: #ffffff;

@@ -1,15 +1,4 @@
-button,
-input[type="button"],
-input[type="submit"],
-input[type="reset"],
-a.btn,        /* por si tienes enlaces con clase .btn */
-[class*="btn"] /* cualquier clase que incluya "btn" */
-{
-  cursor: pointer;
-}
-
 .herramientas-del-creador-reels,
-
 .herramientas-del-creador-reels * {
   box-sizing: border-box;
 }
@@ -361,7 +350,12 @@ body{
   position: absolute;
   left: 73.12vw;
   top: 31.15vh;
+  transition: background-color 0.3s, color 0.3s;
 }
+.rectangle-39:hover{
+  background-color: #ffffff;
+}
+
 .editar {
   color: #ffffff;
   text-align: center;
@@ -388,6 +382,10 @@ body{
   position: absolute;
   left: 81.18vw;
   top: 31.15vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.rectangle-392:hover{
+  background-color: #ffffff;
 }
 .eliminar {
   color: #ffffff;
@@ -520,6 +518,10 @@ body{
   position: absolute;
   left: 73.12vw;
   top: 45.12vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.rectangle-393:hover{
+  background-color: #ffffff;
 }
 .editar2 {
   color: #ffffff;
@@ -542,6 +544,10 @@ body{
   position: absolute;
   left: 81.18vw;
   top: 45.12vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+.rectangle-394:hover{
+  background-color: #ffffff;
 }
 .eliminar2 {
   color: #ffffff;

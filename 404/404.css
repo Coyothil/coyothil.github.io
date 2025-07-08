@@ -119,6 +119,10 @@ a.btn,        /* por si tienes enlaces con clase .btn */
   max-width: 480px;
   position: relative;
   overflow: hidden;
+  transition: background-color 0.3s, color 0.3s;
+}
+.depth-5-frame-0:hover{
+  background-color: #ffffff;
 }
 .depth-6-frame-0 {
   display: flex;
