@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/styleMenu.css">
   <link rel="stylesheet" href="./css/styleChats.css">
   <link rel="stylesheet" href="./css/styleChatEjemplo.css">
+  <link rel="stylesheet" href="./css/style-Notificaciones.css">
 
 
   <style>
@@ -36,6 +37,13 @@
        margin: 0;
        padding: 0;
    }
+   
+   #notificaciones-container {
+    min-width: 300px;
+    max-width: 90vw;
+    pointer-events: auto;
+    position: fixed;
+  }
    
    </style>
   <title>Document</title>
@@ -116,6 +124,11 @@
     <a href="index.html"><div class="destacados">Destacados</div></a>
     <div class="explorar">Explorar</div>
   </div>
+  <!-- Botón de notificaciones y contenedor, igual que en index.html, dentro del div principal y en el mismo orden -->
+    <button id="notificaciones-trigger" style="background: none; border: none; cursor: pointer;">
+      <img class="image-3" src="Cursos-Assets/image-30.png" alt="Campana de notificaciones" />
+    </button>
+    <div id="notificaciones-container" style="position: absolute; z-index: 1000; display: none; min-width: 300px; max-width: 90vw; pointer-events: auto;"></div>
   
 <script>
   document.getElementById('menu-trigger').addEventListener('click', function() {
@@ -210,6 +223,64 @@ if (triggerElon) {
       });
   } else {
     chatContainer.innerHTML = '';
+  }
+});
+</script>
+<script>
+document.getElementById('notificaciones-trigger').addEventListener('click', function(event) {
+  event.stopPropagation();
+  const trigger = this;
+  const container = document.getElementById('notificaciones-container');
+  const panelWidth = 350;
+
+  if (container.innerHTML.trim() === "") {
+    fetch('Notificaciones.html')
+      .then(response => response.text())
+      .then(html => {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        const notificacionesDiv = tempDiv.querySelector('.notificaciones');
+        if (notificacionesDiv) {
+          container.innerHTML = '';
+          container.appendChild(notificacionesDiv.cloneNode(true));
+
+          // Centrar el panel justo debajo de la campana
+          const rect = trigger.querySelector('img').getBoundingClientRect();
+          const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+          const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+          container.style.width = panelWidth + 'px';
+          container.style.left = (rect.left + scrollLeft + rect.width / 2 - panelWidth / 2) + 'px';
+          container.style.top = (rect.bottom + scrollTop + 8) + 'px';
+          container.style.position = 'absolute';
+          container.style.display = 'block';
+          container.style.zIndex = 1000;
+
+          // Cerrar notificaciones al hacer clic fuera
+          setTimeout(() => {
+            document.addEventListener('mousedown', closeNotificationsOnClickOutside);
+          }, 0);
+        } else {
+          container.innerHTML = '<div style="padding:20px; color:white;">No hay notificaciones para mostrar.</div>';
+          container.style.display = 'block';
+        }
+      });
+  } else {
+    closeNotifications();
+  }
+
+  function closeNotificationsOnClickOutside(e) {
+    const container = document.getElementById('notificaciones-container');
+    const trigger = document.getElementById('notificaciones-trigger');
+    if (container && !container.contains(e.target) && !trigger.contains(e.target)) {
+      closeNotifications();
+    }
+  }
+
+  function closeNotifications() {
+    const container = document.getElementById('notificaciones-container');
+    container.innerHTML = '';
+    container.style.display = 'none';
+    document.removeEventListener('mousedown', closeNotificationsOnClickOutside);
   }
 });
 </script>
